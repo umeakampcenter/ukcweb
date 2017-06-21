@@ -146,6 +146,42 @@
 
 .fb-feed {
     padding: 60px 0;
+    background: #101010;
+}
+
+.fb-item {
+    float: left;
+    width: 31%;
+    margin: 20px 3.5% 0 0;
+    background: #282828;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.fb-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.fb-time {
+    font-size: 14px;
+    color: #9d9d9d;
+    padding: 2px 0 20px;
+}
+
+.fb-text {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.fb-link  {
+    padding: 0 24px 0 0;
+    background: url(../images/grey_arrow.png) no-repeat right center;
+    display: inline-block;
+    color: #9e9e9e;
+    font-size: 14px;
 }
 
 /* Section page */
