@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use GuzzleHttp\Client;
+use Jenssegers\Date\Date;
 
 class FrontController extends Controller
 {
@@ -30,7 +31,7 @@ class FrontController extends Controller
         foreach ($result["data"] as $i => $rawPost) {
             $posts[$i] = [
                 "message" => $rawPost["message"],
-                "createDateTime" => $rawPost["created_time"],
+                "createDateTime" => new Date($rawPost["created_time"]),
                 "url" => array_key_exists("object_id", $rawPost) ? $rawPost["permalink_url"] : null
             ];
         }
