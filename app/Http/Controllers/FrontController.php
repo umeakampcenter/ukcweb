@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use GuzzleHttp\Client;
 
-class WelcomeController extends Controller
+class FrontController extends Controller
 {
     public function show()
     {
         $response = $this->getFacebook();
-        return view('welcome', ["facebookPosts" => $response]);
+        return view('front', ["facebookPosts" => $response]);
     }
 
     private function getFacebook()
@@ -25,7 +25,7 @@ class WelcomeController extends Controller
             "GET",
             "https://graph.facebook.com/1400036366920241/posts?fields=message,permalink_url,object_id&limit=3",
         );
-
+        return $response;
     }
 }
 

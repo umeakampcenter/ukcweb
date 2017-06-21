@@ -1,0 +1,114 @@
+/* Page */
+#page {
+    width: 100%;
+}
+
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background: #1c1c1c;
+    border-bottom: 6px solid #cd2f2f;
+    height: 85px;
+}
+
+#logo {
+    float:left;
+    margin-top: 10px;
+}
+
+#footer {
+    width: 100%;
+    border-top: 1px solid #4b4b4b;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    background: #101010;
+}
+
+.footer-item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 30px;
+}
+
+.footer-item img{
+    padding: 0 10px;
+}
+
+#footer a,
+#footer a:hover {
+    text-decoration: none;
+}
+
+/* Menu */
+
+.menu {
+    float: right;
+    padding: 25px 0;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0 30px 0 0;
+}
+
+
+/* Frontpage */
+
+.slider {
+    width: 100%;
+    background: url(../images/RploeM.jpg) no-repeat center center;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+}
+
+.slide-text {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 60px;
+    right: 50%;
+    margin-right: -580px;
+    width: 550px;
+    padding: 50px;
+}
+
+.slide-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-item {
+    float: left;
+    width: 30%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.section-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.section-item h2 {
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* Section page */
+
+
+
+/* Schedule */
+
+
+

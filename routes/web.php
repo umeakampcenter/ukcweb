@@ -15,4 +15,4 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'WelcomeController@show');
+Route::get('/', 'FrontController@show');
