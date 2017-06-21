@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use GuzzleHttp\Client;
 
-class WelcomeController extends Controller
+class FrontController extends Controller
 {
     public function show()
     {
-        return view('welcome');
+        return view('front');
     }
 
     private function getFacebook()
