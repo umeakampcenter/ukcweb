@@ -90,8 +90,8 @@
 
 .section-item {
     float: left;
-    width: 25%;
-    margin-right: 12%;
+    width: 23%;
+    margin-right: 15%;
     text-align: center;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .sections {
-    padding: 50px 0;
+    padding: 50px 0 60px;
 }
 
 .section-item h2 {
@@ -130,9 +130,22 @@
     height: 120px;
 }
 
-.time-link {
-    background: url(../images/schemabg.jph) no-repeat left center;
+.time-box {
+    background: #1b1b1b url(../images/schemabg.jpg) no-repeat center center;
     height: 235px;
+}
+
+.time-link {
+    font-size: 36px;
+    font-weight: 800;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding: 10px 70px 10px 0;
+    float: right;
+    margin: 95px 110px 0 0;
+}
+
+.fb-feed {
+    padding: 60px 0;
 }
 
 /* Section page */

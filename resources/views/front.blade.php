@@ -51,7 +51,11 @@
                     </div>
                 </div>
             </div>
-            <div class="time-link"></div>
+            <div class="time-box">
+                <div class="inner">
+                    <div class="time-link">Se våra träningstider här</div>
+                </div>
+            </div>
             <div class="fb-feed">
 
 
