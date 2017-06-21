@@ -28,6 +28,7 @@ return [
         . 'Just nu har vi endast vuxenverksamhet (14+).',
     'kickboxingIntro' => 'Kickboxning går ut på stående kamp med slag & spark.',
     'bjjIntro' => 'Gracie Barra BJJ fokuserar på liggande markteknik och mattkamp.',
-    'readMore' => 'Läs mer'
+    'readMore' => 'Läs mer',
+    'showImages' => 'Visa bilder'
 
 ];

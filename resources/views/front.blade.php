@@ -52,10 +52,20 @@
                 </div>
             </div>
             <div class="time-link"></div>
-            <div class="fb-feed">
-
-
-            </div>
+            @foreach ($facebookPosts as $post)
+                <div class="fb-feed">
+                    <div class="fb-item">
+                        <h5>Umeå Kampcenter</h5>
+                        <div class="fb-time">{{ $post["createDateTime"] }}</div>
+                        <div class="fb-text">{{ $post["message"] }}</div>
+                        <div class="fb-link">
+                            @if ($post["url"])
+                                <a href="{{ $post["url"] }}" target="_blank">@lang('main.showImages')</a>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+            @endforeach
         </div>
 
         <div id="footer">

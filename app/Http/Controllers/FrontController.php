@@ -23,17 +23,18 @@ class FrontController extends Controller
         ]);
         $response = $client->request(
             "GET",
-            "https://graph.facebook.com/1400036366920241/posts?fields=message,permalink_url,object_id&limit=3"
+            "https://graph.facebook.com/1400036366920241/posts?fields=message,permalink_url,object_id,created_time&limit=3"
         );
-        $result = json_decode($response->getBody());
+        $result = json_decode($response->getBody(), true);
         $posts = [];
         foreach ($result["data"] as $i => $rawPost) {
-            $result[$i] = [
+            $posts[$i] = [
                 "message" => $rawPost["message"],
                 "createDateTime" => $rawPost["created_time"],
                 "url" => array_key_exists("object_id", $rawPost) ? $rawPost["permalink_url"] : null
             ];
         }
+//        \Log::info(var_export($posts, true));
         return $posts;
     }
 }
