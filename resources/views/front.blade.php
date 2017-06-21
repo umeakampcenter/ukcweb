@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="header">
-            <div class="inner">
+            <div class="inner clearfix">
                 <div id="logo"><img src="{{ URL::asset('images/logo.png') }}" alt="Umeå Kampcenter"></div>
                 <div class="menu">
                     <a href="">@lang('main.start')</a>
@@ -32,26 +32,32 @@
             </div>
         </div>
         <div id="page">
-            <div class="inner">
-                <div class="sections">
+            <div class="sections clearfix">
+                <div class="inner">
                     <div class="section-item">
                         <h2>@lang('main.jujutsu')</h2>
-                        <p>@lang('main.jujutsuIntro')</p>
+                        <div class="section-text">@lang('main.jujutsuIntro')</div>
                         <a href="">@lang('main.readMore')</a>
                     </div>
                     <div class="section-item">
                         <h2>@lang('main.kickboxing')</h2>
-                        <p>@lang('main.kickboxingIntro')</p>
+                        <div class="section-text">@lang('main.kickboxingIntro')</div>
                         <a href="">@lang('main.readMore')</a>
                     </div>
                     <div class="section-item">
                         <h2>@lang('main.bjj')</h2>
-                        <p>@lang('main.bjjIntro')</p>
+                        <div class="section-text">@lang('main.bjjIntro')</div>
                         <a href="">@lang('main.readMore')</a>
                     </div>
                 </div>
             </div>
+            <div class="time-link"></div>
+            <div class="fb-feed">
+
+
+            </div>
         </div>
+
         <div id="footer">
             <div class="inner">
                 <div class="footer-item">
