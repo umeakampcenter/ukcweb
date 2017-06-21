@@ -1,6 +1,7 @@
 /* Page */
 #page {
     width: 100%;
+    background: #282828;
 }
 
 .inner{
@@ -12,7 +13,7 @@
     width: 100%;
     background: #1c1c1c;
     border-bottom: 6px solid #cd2f2f;
-    height: 85px;
+
 }
 
 #logo {
@@ -48,7 +49,7 @@
 
 .menu {
     float: right;
-    padding: 25px 0;
+    padding: 25px 0 19px;
 }
 
 .menu a {
@@ -89,8 +90,8 @@
 
 .section-item {
     float: left;
-    width: 30%;
-    margin-right: 4%;
+    width: 25%;
+    margin-right: 12%;
     text-align: center;
 }
 
@@ -98,10 +99,40 @@
     margin-right: 0;
 }
 
+.sections {
+    padding: 50px 0;
+}
+
 .section-item h2 {
     font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.section-item a {
+    display: block;
+    background: #a82a2a;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 20px 20px;
+    font-weight: 600;
+}
+
+.section-item a:hover {
+    text-decoration: none;
+    background: #651717;
+}
+
+.section-text{
+    margin-bottom: 30px;
+    height: 120px;
+}
+
+.time-link {
+    background: url(../images/schemabg.jph) no-repeat left center;
+    height: 235px;
 }
 
 /* Section page */
