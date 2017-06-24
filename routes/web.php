@@ -16,3 +16,6 @@
 //});
 
 Route::get('/', 'FrontController@show');
+Route::get('/jujutsu', function () {
+    return view('jujutsu');
+});
