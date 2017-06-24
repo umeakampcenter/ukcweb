@@ -1,3 +1,9 @@
+@php
+
+/**
+ * @var $facebookPosts array[]
+ */
+@endphp
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
@@ -56,6 +62,7 @@
                     <div class="time-link">Se våra träningstider här</div>
                 </div>
             </div>
+            @if ($facebookPosts)
             <div class="fb-feed clearfix">
                 <div class="inner">
                     @foreach ($facebookPosts as $post)
@@ -72,6 +79,7 @@
                     @endforeach
                 </div>
             </div>
+            @endif
         </div>
 
         <div id="footer">

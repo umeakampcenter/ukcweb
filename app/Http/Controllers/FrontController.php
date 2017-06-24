@@ -1,12 +1,24 @@
 <?php
-
 namespace App\Http\Controllers;
 
-use GuzzleHttp\Client;
+use App\Exceptions\Handler;
+use App\Guzzle\GuzzleFactory;
+use GuzzleHttp\Exception\RequestException;
 use Jenssegers\Date\Date;
 
 class FrontController extends Controller
 {
+    /** @var GuzzleFactory */
+    private $guzzleFactory;
+    /** @var Handler */
+    private $exceptionHandler;
+
+    public function __construct(GuzzleFactory $guzzleFactory, Handler $exceptionHandler)
+    {
+        $this->guzzleFactory = $guzzleFactory;
+        $this->exceptionHandler = $exceptionHandler;
+    }
+
     public function show()
     {
         $posts = $this->getLatestFacebookPosts();
@@ -15,17 +27,22 @@ class FrontController extends Controller
 
     private function getLatestFacebookPosts()
     {
-        $client = new Client([
-            "verify" => true,
-            "headers" => [
-                "Accept" => "application/json",
-                "Authorization" => "Bearer " . env("FACEBOOK_TOKEN")
-            ]
-        ]);
-        $response = $client->request(
-            "GET",
-            "https://graph.facebook.com/1400036366920241/posts?fields=message,permalink_url,object_id,created_time&limit=3"
-        );
+        try {
+            $client = $this->guzzleFactory->forFacebook();
+            $response = $client->request(
+                "GET",
+                "https://graph.facebook.com/1400036366920241/posts",
+                [
+                    "query" => [
+                        "fields" => "message,permalink_url,object_id,created_time",
+                        "limit" => 3
+                    ]
+                ]
+            );
+        } catch (RequestException $e) {
+            $this->exceptionHandler->report($e);
+            return [];
+        }
         $result = json_decode($response->getBody(), true);
         $posts = [];
         foreach ($result["data"] as $i => $rawPost) {
