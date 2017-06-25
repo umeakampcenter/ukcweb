@@ -38,6 +38,7 @@
 @if ($facebookPosts)
 <div class="fb-feed clearfix">
     <div class="inner">
+        <h3>Senaste från Facebook</h3>
         @foreach ($facebookPosts as $post)
             <div class="fb-item">
                 <h5>Umeå Kampcenter</h5>

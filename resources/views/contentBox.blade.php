@@ -1,6 +1,6 @@
 <div class="content-box">
-    <div class="inner">
-        <div class="textBox">{{ $textBox }}</div>
-        <div class="imageBox">{{ $imageBox }}</div>
+    <div class="inner clearfix">
+        <div class="text-box">{{ $textBox }}</div>
+        <div class="image-box">{{ $imageBox }}</div>
     </div>
 </div>

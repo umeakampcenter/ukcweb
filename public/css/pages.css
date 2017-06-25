@@ -1,7 +1,8 @@
-/* Page */
+/* Basic Page */
 .inner{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 #header {
@@ -79,7 +80,6 @@
 
 .slide-text h1 {
     font-size: 30px;
-    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -102,9 +102,8 @@
 
 .section-item h2 {
     font-size: 28px;
-    font-weight: 800;
-    text-transform: uppercase;
     margin: 0 0 20px;
+    text-align: center;
 }
 
 .section-item a {
@@ -146,9 +145,17 @@
     background: #101010;
 }
 
+.fb-feed h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
 .fb-item {
     float: left;
     width: 31%;
+    min-height: 310px;
     margin: 20px 3.5% 0 0;
     background: #282828;
     border-radius: 5px 5px 5px 5px;
@@ -158,7 +165,7 @@
     box-sizing: border-box;
 }
 
-.fb-item:nth-child(3n) {
+.fb-item:nth-of-type(3n) {
     margin-right: 0;
 }
 
@@ -183,7 +190,99 @@
 
 /* Section page */
 
+.content-box {
+    background: #3b3b3b;
+    padding: 60px 0;
+}
 
+.content-box:nth-child(2n) {
+    background: #282828;
+}
+
+.text-box {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+}
+
+.image-box {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+}
+
+.content-box:nth-child(2n) .text-box {
+    float: right;
+    margin: 0 0 0 5%;
+}
+
+.content-box:nth-child(2n) .image-box {
+    float: left;
+    margin: 0 5% 0 0;
+}
+
+.content-box h1,
+.content-box h2 {
+    font-size: 32px;
+    margin: 0 0 15px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.content-box h2 {
+    font-size: 26px;
+}
+
+.trainers {
+    background: #101010;
+    padding: 60px 0;
+}
+
+.trainers h2 {
+    margin: 0 0 40px;
+}
+
+.person {
+    width: 22%;
+    margin: 0 4% 30px 0;
+    float: left;
+    text-align: center;
+}
+
+.person:nth-of-type(4n){
+    margin-right: 0;
+}
+
+.person:nth-of-type(4n+1){
+    clear: both;
+}
+
+.person-img img{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.person-name {
+    font-weight: 700;
+}
+
+.person-phone {
+    height: 30px;
+}
+
+.person-belt {
+    background: #000;
+    border: 1px solid #4b4b4b;
+    margin: 20px 25px;
+    color: #ffe200;
+    line-height: 17px;
+    font-family: arial;
+    letter-spacing: 3px;
+    padding: 0 18px 2px 0;
+    text-align: right;
+}
 
 /* Schedule */
 

@@ -14,7 +14,7 @@
     <body>
         <div id="header">
             <div class="inner clearfix">
-                <div id="logo"><img src="{{ URL::asset('images/logo.png') }}" alt="Umeå Kampcenter"></div>
+                <div id="logo"><a href="/"><img src="{{ URL::asset('images/logo.png') }}" alt="Umeå Kampcenter"></a></div>
                 <div class="menu">
                     <a href="/">@lang('main.start')</a>
                     <a href="/jujutsu">@lang('main.jujutsu')</a>
@@ -24,7 +24,9 @@
                 </div>
             </div>
         </div>
+        <div class="content">
         @yield('content')
+        </div>
         <div id="footer">
             <div class="inner">
                 <div class="footer-item">
