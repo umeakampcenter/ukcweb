@@ -7,9 +7,16 @@
 
         <title>Umeå Kampcenter</title>
 
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/schedule.js') }}"></script>
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
         <link rel="stylesheet" href="{{ URL::asset('css/default.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/pages.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/schedule.css') }}">
     </head>
     <body>
         <div id="header">
@@ -20,7 +27,7 @@
                     <a href="/jujutsu">@lang('main.jujutsu')</a>
                     <a href="">@lang('main.kickboxing')</a>
                     <a href="">@lang('main.bjj')</a>
-                    <a href="">@lang('main.schedule')</a>
+                    <a href="/schedule">@lang('main.schedule')</a>
                 </div>
             </div>
         </div>

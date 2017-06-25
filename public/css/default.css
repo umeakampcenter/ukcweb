@@ -1,4 +1,5 @@
 html {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +10,7 @@ body {
     font-family: 'Open sans', Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
+    height: 100%;
     line-height: 1.2em;
     background: #101010;
 }
