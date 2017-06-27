@@ -2,7 +2,7 @@
 
 return [
     "monday" => "måndag",
-    "tisdag" => "tisdag",
+    "tuesday" => "tisdag",
     "wednesday" => "onsdag",
     "thursday" => "torsdag",
     "friday" => "fredag",
