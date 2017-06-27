@@ -89,6 +89,7 @@ Main Components
     }
 
     .cd-schedule .timeline li:nth-of-type(2n) span {
+        /* Don't display half hours */
         display: none;
     }
 }
@@ -98,10 +99,6 @@ Main Components
     top: 0;
     left: 0;
     z-index: 1;
-}
-
-.cd-schedule .events .events-group {
-    margin-bottom: 30px;
 }
 
 .cd-schedule .events .top-info {
@@ -126,15 +123,6 @@ Main Components
     -webkit-overflow-scrolling: touch;
 }
 
-.cd-schedule .events .events-group > ul::after {
-    /* never visible - used to add a right padding to .events-group > ul */
-    display: inline-block;
-    content: '-';
-    width: 1px;
-    opacity: 0;
-    color: transparent;
-}
-
 .cd-schedule .events .single-event {
     /* force them to stay on one line */
     -ms-flex-negative: 0;
@@ -147,16 +135,6 @@ Main Components
     margin-right: 20px;
     -webkit-transition: opacity .2s, background .2s;
     transition: opacity .2s, background .2s;
-}
-
-.cd-schedule .events .single-event:last-of-type {
-    margin-right: 5%;
-}
-
-@media only screen and (min-width: 550px) {
-    .cd-schedule .events .single-event {
-        width: 40%;
-    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -172,10 +150,6 @@ Main Components
         border: 1px solid #EAEAEA;
         /* reset style */
         margin-bottom: 0;
-    }
-
-    .cd-schedule .events .events-group:not(:first-of-type) {
-        border-left-width: 0;
     }
 
     .cd-schedule .events .top-info {
@@ -199,22 +173,10 @@ Main Components
     }
 
     .cd-schedule .events .events-group > ul {
-        /*height: 1200px;*/
         /* reset style */
         display: block;
         overflow: visible;
         padding: 0;
-    }
-
-    .cd-schedule .events .events-group > ul::after {
-        clear: both;
-        content: "";
-        display: block;
-    }
-
-    .cd-schedule .events .events-group > ul::after {
-        /* reset style */
-        display: none;
     }
 
     .cd-schedule .events .single-event {
@@ -230,16 +192,6 @@ Main Components
         height: auto;
         max-width: none;
         margin-right: 0;
-    }
-
-    .cd-schedule .events .single-event:last-of-type {
-        /* reset style */
-        margin-right: 0;
-    }
-
-    .cd-schedule .events .single-event.selected-event {
-        /* the .selected-event class is added when an user select the event */
-        visibility: hidden;
     }
 }
 
@@ -259,56 +211,9 @@ Main Components
 }
 
 .cd-schedule .event-name {
-    font-size: 2.4em;
+    font-size: 2em;
 }
 
-@media only screen and (min-width: 800px) {
-    .cd-schedule .event-name {
-        font-size: 2em;
-    }
-}
-
-.cd-schedule .event-date {
-    /* they are not included in the the HTML but added using JavScript */
-    font-size: 1.4em;
-    opacity: .7;
-    line-height: 1.2;
-    margin-bottom: .2em;
-}
-
-.cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg {
-    /* this is used to set a background color for the event and the modal window */
+.cd-schedule .single-event {
     background: #577F92;
-}
-
-.cd-schedule .single-event[data-event="event-1"]:hover {
-    background: #618da1;
-}
-
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
-    background: #443453;
-}
-
-.cd-schedule .single-event[data-event="event-2"]:hover {
-    background: #513e63;
-}
-
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
-    background: #A2B9B2;
-}
-
-.cd-schedule .single-event[data-event="event-3"]:hover {
-    background: #b1c4be;
-}
-
-.cd-schedule .single-event[data-event="event-4"],
-.cd-schedule [data-event="event-4"] .header-bg {
-    background: #f6b067;
-}
-
-.cd-schedule .single-event[data-event="event-4"]:hover {
-    background: #f7bd7f;
 }
