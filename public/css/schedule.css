@@ -18,10 +18,10 @@ Main Components
 
 -------------------------------- */
 .cd-schedule {
-  background: #fff;
-  color: #222;
-  font-size: 9px;
-  height: 100%;
+  background: #282828;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4em;
   margin: 2em 0;
   position: relative;
 }
@@ -36,7 +36,8 @@ Main Components
   .cd-schedule {
     width: 90%;
     max-width: 1400px;
-    margin: 2em auto;
+    margin: 0 auto;
+    padding: 50px 0;
   }
   .cd-schedule::after {
     clear: both;
@@ -60,7 +61,7 @@ Main Components
     left: 0;
     height: 100%;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .cd-schedule .timeline li {
     position: relative;
@@ -74,7 +75,7 @@ Main Components
     left: 0;
     width: 100%;
     height: 1px;
-    background: #EAEAEA;
+    background: #525252;
   }
   .cd-schedule .timeline li:last-of-type::after {
     display: none;
@@ -180,7 +181,7 @@ Main Components
   .cd-schedule .events .events-group {
     width: 14.28571428571429%;
     float: left;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #525252;
     /* reset style */
     margin-bottom: 0;
   }
@@ -191,7 +192,7 @@ Main Components
     /* vertically center its content */
     display: table;
     height: 50px;
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid #525252;
     /* reset style */
     padding: 0;
   }
@@ -202,15 +203,17 @@ Main Components
     padding: 0 .5em;
     text-align: center;
     /* reset style */
-    font-weight: normal;
+    font-weight: 600;
+    font-size: 1.1em;
     margin-bottom: 0;
   }
   .cd-schedule .events .events-group > ul {
-    height: 950px;
+    height: 1148px;
     /* reset style */
     display: block;
     overflow: visible;
     padding: 0;
+    margin: 0;
   }
   .cd-schedule .events .events-group > ul::after {
     clear: both;
@@ -234,6 +237,7 @@ Main Components
     height: auto;
     max-width: none;
     margin-right: 0;
+    padding: 1.2em;
   }
   .cd-schedule .events .single-event a {
     padding: 1.2em;
@@ -266,18 +270,18 @@ Main Components
 .cd-schedule .event-date {
   display: block;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .cd-schedule .event-name {
-  font-size: 2.4em;
+  font-size: 1.2em;
 }
 
 @media only screen and (min-width: 800px) {
   .cd-schedule .event-name {
-    font-size: 2em;
+    font-size: 1.2em;
   }
 }
 
@@ -292,11 +296,11 @@ Main Components
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #577F92;
+  background: #cd2f2f;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #618da1;
+  background: #8c1b1b;
 }
 
 .cd-schedule .single-event[data-event="event-2"],
