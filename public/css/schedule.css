@@ -95,10 +95,15 @@ Main Components
 }
 
 .cd-schedule .events {
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 1;
+}
+
+@media only screen and (min-width: 800px) {
+    .cd-schedule .events {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 .cd-schedule .events .top-info {
