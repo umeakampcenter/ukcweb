@@ -114,7 +114,7 @@ Route::get('/schedule', function () {
                     "end" => "19:15"
                 ],
                 [
-                    "title" => __("kickboxingOpen"),
+                    "title" => __("schedule.kickboxingOpen"),
                     "start" => "19:30",
                     "end" => "20:30"
                 ]

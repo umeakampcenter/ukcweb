@@ -46,7 +46,7 @@
                 <div class="fb-text">{{ $post["message"] }}</div>
                 <div class="fb-link">
                     @if ($post["url"])
-                        <a href="{{ $post["url"] }}" target="_blank">@lang('main.showImages')</a>
+                        <a href="{{ $post["url"] }}" target="_blank">@lang('main.showPhotos')</a>
                     @endif
                 </div>
             </div>
