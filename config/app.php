@@ -176,10 +176,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ViewComposerServiceProvider::class,
 
         Jenssegers\Date\DateServiceProvider::class,
         ied3vil\LanguageSwitcher\Providers\LanguageSwitcherProvider::class
-
     ],
 
     /*

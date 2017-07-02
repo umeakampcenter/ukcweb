@@ -28,6 +28,11 @@
                     <a href="">@lang('main.kickboxing')</a>
                     <a href="">@lang('main.bjj')</a>
                     <a href="/schedule">@lang('main.schedule')</a>
+                    @if ($isSwedish)
+                        <a href="/lang/en">Switch to english</a>
+                    @else
+                        <a href="/lang/sv">Byt till svenska</a>
+                    @endif
                 </div>
             </div>
         </div>
