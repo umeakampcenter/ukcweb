@@ -25,11 +25,13 @@ return [
         . 'Medlemsavgiften är 1000kr/termin. Självklart får du pröva på några tillfällen innan du betalar!'
         . 'Just nu har vi endast vuxenverksamhet (14+).',
 
-    'jujutsuIntro' => 'Jujutsu är självförsvar med kampmoment som brottning, kast, stående fighting och självskydd. '
-        . '',
+    'jujutsuIntro' => 'Jujutsu är självförsvar med kampmoment som brottning, kast, stående fighting och självskydd. ',
     'kickboxingIntro' => 'Kickboxning går ut på stående kamp med slag & spark.',
     'bjjIntro' => 'Gracie Barra BJJ fokuserar på liggande markteknik och mattkamp.',
     'readMore' => 'Läs mer',
-    'showPhotos' => 'Visa bilder'
+    'seeTrainingSessions' => 'Se våra träningstider här',
+    'latestFromFacebook' => 'Senaste från Facebook',
+    'showPhotos' => 'Visa bilder',
 
+    'allRightsReserved' => 'Alla rättigheter reserverade'
 ];

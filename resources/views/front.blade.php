@@ -32,13 +32,13 @@
 </div>
 <div class="time-box">
     <div class="inner">
-        <div class="time-link">Se våra träningstider här</div>
+        <div class="time-link">@lang('main.seeTrainingSessions')</div>
     </div>
 </div>
 @if ($facebookPosts)
 <div class="fb-feed clearfix">
     <div class="inner">
-        <h3>Senaste från Facebook</h3>
+        <h3>@lang('main.latestFromFacebook')</h3>
         @foreach ($facebookPosts as $post)
             <div class="fb-item">
                 <h5>Umeå Kampcenter</h5>

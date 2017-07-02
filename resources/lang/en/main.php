@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'start' => 'Start',
+    'start' => 'Home',
     'jujutsu' => 'Jujutsu',
     'kickboxing' => 'Kickboxing',
     'bjj' => 'Gracie Barra BJJ',
@@ -30,6 +30,9 @@ return [
     'kickboxingIntro' => 'Kickboxing is standup fighting with punches and kicks.',
     'bjjIntro' => 'Gracie Barra BJJ focuses on ground work and fighting on the ground.',
     'readMore' => 'Read more',
-    'showPhotos' => 'Show photos'
+    'seeTrainingSessions' => 'Look at our training sessions',
+    'latestFromFacebook' => 'Latest from Facebook',
+    'showPhotos' => 'Show photos',
 
+    'allRightsReserved' => 'All rights reserved'
 ];

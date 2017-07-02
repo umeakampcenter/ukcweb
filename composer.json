@@ -9,7 +9,8 @@
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "guzzlehttp/guzzle": "6.2.*",
-        "jenssegers/date": "3.2.*"
+        "jenssegers/date": "3.2.*",
+        "ied3vil/language-switcher": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

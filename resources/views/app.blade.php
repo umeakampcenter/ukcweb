@@ -41,7 +41,7 @@
                         <img src="images/budo_fitness.png" alt="Budo fitness">
                     </a>
                 </div>
-                <div class="footer-item"><p>&copy; 2017 Umeå Kampcenter. Alla rättigheter reserverade.</p></div>
+                <div class="footer-item"><p>&copy; 2017 Umeå Kampcenter. @lang('main.allRightsReserved').</p></div>
                 <div class="footer-item">
                     <a href="http://maps.google.com/" target="_blank">
                         <img src="images/map.png" alt="Hitta hit">
