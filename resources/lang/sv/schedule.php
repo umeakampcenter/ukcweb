@@ -9,16 +9,16 @@ return [
     "saturday" => "lördag",
     "sunday" => "söndag",
 
-    "jujutsu" => "Jujutsu nybörjare/avance (Peter/Arvid)",
+    "jujutsu" => "Jujutsu nybörjare & avance (Peter/Arvid)",
     "kickboxingAdvance" => "Kickboxning avance",
     "kickboxingBeginner" => "Kickboxning nybörjare",
-    "bjjMix" => "BJJ nybörjare/avance",
+    "bjjMix" => "BJJ nybörjare & avance",
     "bjjAdvance" =>"BJJ avance",
     "bjjOpen" => "BJJ öppen matta",
     "bjjComp" => "BJJ tävlingsträning",
     "bjjSw" => "BJJ (SW)",
     "bjjSelfDefence" => "BJJ självförsvar för tjejer",
-    "flexibility" => "Smidighetsträning",
+    "flexibility" => "Smidighets&shy;träning",
     "kickboxingOpen" => "Kickboxning öppen matta"
 ];
 

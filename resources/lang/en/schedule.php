@@ -9,10 +9,10 @@ return [
     "saturday" => "saturday",
     "sunday" => "sunday",
 
-    "jujutsu" => "Jujutsu beginners/advance (Peter/Arvid)",
+    "jujutsu" => "Jujutsu beginners & advance (Peter/Arvid)",
     "kickboxingAdvance" => "Kickboxing advance",
     "kickboxingBeginner" => "Kickboxing beginners",
-    "bjjMix" => "BJJ beginners/advance",
+    "bjjMix" => "BJJ beginners & advance",
     "bjjAdvance" =>"BJJ advance",
     "bjjOpen" => "BJJ open mat",
     "bjjComp" => "BJJ competition training",
