@@ -23,7 +23,7 @@
         @endforeach
         <script type="text/javascript">
             $(document).ready(function () {
-                umeakampcenter.menu.init($("#logo"), $("#header"));
+                umeakampcenter.menu.init($(".mobile-menu-btn"), $("#mobile-menu"));
             });
         </script>
 

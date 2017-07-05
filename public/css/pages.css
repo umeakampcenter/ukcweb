@@ -90,10 +90,12 @@
 
 #mobile-menu {
     display: none;
-    transition: height 0.5s ease;
-    -webkit-transition: height 0.5s ease;
-    -o-transition: height 0.5s ease;
-    -ms-transition: height 0.5s ease;
+}
+
+@media all and (min-width: 960px) {
+    #mobile-menu {
+        display: none !important;
+    }
 }
 
 .mobile-menu-btn {

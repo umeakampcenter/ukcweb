@@ -34,8 +34,6 @@
 
 }
 
-
-
 @media all and (max-width: 959px) {
     /* basic page */
 
@@ -52,7 +50,6 @@
         display: none;
     }
 
-    #mobile-menu,
     .mobile-menu-btn {
         display: block;
     }
