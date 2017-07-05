@@ -25,7 +25,7 @@ class AppViewComposer
         if (App::environment('local')) {
             $stylesheets = $this->minify->getCssFiles();
         } else {
-            $stylesheets = ["css/app.min.css"];
+            $stylesheets = ["css/app.min.css?" . $this->minify->getTimestamp()];
         }
         $view->with("stylesheets", $stylesheets);
     }

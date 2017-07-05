@@ -5,6 +5,14 @@ use MatthiasMullie\Minify\CSS;
 
 class Minify
 {
+    /** @var string */
+    private $configPath;
+
+    public function __construct()
+    {
+        $this->configPath = resource_path("assets/css/minify.json");
+    }
+
     public function run()
     {
         $targetPath = public_path("css") . "/app.min.css";
@@ -13,6 +21,7 @@ class Minify
             $minifier->add(public_path($relativePath));
         }
         $minifier->minify($targetPath);
+        $this->timestampConfig();
     }
 
     public function getCssFiles()
@@ -21,8 +30,21 @@ class Minify
         return $config["cssFiles"];
     }
 
+    public function getTimestamp()
+    {
+        $config = $this->getConfig();
+        return $config["timestamp"];
+    }
+
     private function getConfig()
     {
-        return json_decode(file_get_contents(resource_path("assets/css/minify.json")), true);
+        return json_decode(file_get_contents($this->configPath), true);
+    }
+
+    private function timestampConfig()
+    {
+        $config = $this->getConfig();
+        $config["timestamp"] = time();
+        file_put_contents($this->configPath, json_encode($config, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     }
 }

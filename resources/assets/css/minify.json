@@ -1,11 +1,11 @@
 {
-  "cssFiles": [
-    "css/default.css",
-    "css/pages.css",
-    "css/schedule.css",
-    "css/768.css",
-    "css/480.css",
-    "css/320.css"
-  ],
-  "dateTime": "2017-07-05 08:00"
+    "cssFiles": [
+        "css/default.css",
+        "css/pages.css",
+        "css/schedule.css",
+        "css/768.css",
+        "css/480.css",
+        "css/320.css"
+    ],
+    "timestamp": 1499292340
 }
