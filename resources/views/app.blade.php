@@ -17,6 +17,9 @@
         <link rel="stylesheet" href="{{ URL::asset('css/default.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/pages.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/schedule.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/768.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/480.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/320.css') }}">
     </head>
     <body>
         <div id="header">
@@ -29,9 +32,9 @@
                     <a href="">@lang('main.bjj')</a>
                     <a href="/schedule">@lang('main.schedule')</a>
                     @if ($isSwedish)
-                        <a href="/lang/en">Switch to english</a>
+                        <a href="/lang/en" class="lang-switch en">Switch to english</a>
                     @else
-                        <a href="/lang/sv">Byt till svenska</a>
+                        <a href="/lang/sv" class="lang-switch sv">Byt till svenska</a>
                     @endif
                 </div>
             </div>

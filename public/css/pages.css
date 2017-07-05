@@ -67,6 +67,28 @@
     color: #cd2f2f;
 }
 
+.menu .lang-switch {
+    margin: 7px 0 0;
+    padding: 0;
+    display: inline;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    text-indent: -9000px;
+    overflow: hidden;
+}
+
+.lang-switch.sv {
+    background: url(../images/lan_sv.png) no-repeat center center;
+    background-size: cover;
+}
+
+.lang-switch.en{
+    background: url(../images/lan_en.png) no-repeat center center;
+    background-size: cover;
+}
+
+
 
 /* Frontpage */
 

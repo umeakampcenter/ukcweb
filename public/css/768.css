@@ -1,0 +1,54 @@
+@media all and (max-width: 1270px) {
+
+    /* basic page */
+
+    .inner,
+    .cd-schedule{
+        width: 920px;
+    }
+
+    #logo {
+        width: 236px;
+    }
+
+    .menu {
+        padding: 16px 0 12px;
+    }
+
+    .menu a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    /*schema */
+
+    .cd-schedule .event-date {
+        font-size: 1.2em;
+    }
+
+    .cd-schedule .event-name {
+        font-size: 1.1em;
+    }
+
+}
+
+
+
+@media all and (max-width: 959px) {
+    /* basic page */
+
+    .inner,
+    .cd-schedule{
+        width: 740px;
+    }
+
+    #logo {
+        width: 206px;
+    }
+
+    .menu  {
+        display: none;
+    }
+}
