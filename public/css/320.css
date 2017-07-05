@@ -1,3 +1,23 @@
 @media all and (max-width: 479px) {
 
+    /* basic page */
+
+    #logo {
+        width: 154px;
+        margin-top: 13px;
+    }
+
+    .mobile-menu-btn {
+        height: 47px;
+        margin-top: 6px;
+    }
+
+    /* schedule */
+    .cd-schedule .event-date {
+        font-size: 14px;
+    }
+
+    .cd-schedule .event-name {
+        font-size: 16px;
+    }
 }

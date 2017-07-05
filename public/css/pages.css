@@ -90,6 +90,7 @@
 
 #mobile-menu {
     display: none;
+    border-bottom: 6px solid #cd2f2f;
 }
 
 @media all and (min-width: 960px) {
@@ -100,10 +101,12 @@
 
 .mobile-menu-btn {
     display: none;
-    background: url("../images/mobilmeny.png") no-repeat center center;
-    width: 150px;
-    height: 70px;
+    background: url("../images/mobilmeny.png") no-repeat right center;
+    width: 100px;
+    height: 60px;
     float: right;
+    margin-top: 4px;
+}
 
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -121,7 +124,7 @@
 }
 
 #mobile-menu .lang-switch{
-    background: #444656;
+    background: transparent;
 }
 
 /* Frontpage */
@@ -140,12 +143,12 @@
     bottom: 60px;
     right: 50%;
     margin-right: -580px;
-    width: 550px;
-    padding: 50px;
+    width: 605px;
+    padding: 40px;
 }
 
 .slide-text h1 {
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 20px;
     text-transform: none;
 }

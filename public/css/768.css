@@ -20,6 +20,11 @@
         font-weight: 600;
     }
 
+    /* front */
+
+    .slide-text {
+        margin-right: -463px;
+    }
 
 
     /*schema */
@@ -39,7 +44,7 @@
 
     .inner,
     .cd-schedule{
-        width: 740px;
+        width: 700px;
     }
 
     #logo {

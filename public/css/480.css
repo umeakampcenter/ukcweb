@@ -1,9 +1,21 @@
 @media all and (max-width: 767px) {
 
+    /* basic page */
 
+    .inner{
+        width: 94%;
+    }
 
+    #mobile-menu a {
+        font-size: 14px;
+    }
 
     /* schedule */
+
+    .cd-schedule {
+        width: 100%;
+        padding-left: 3%;
+    }
 
     .cd-schedule ul {
         padding: 0;
@@ -26,4 +38,22 @@
         font-size: 18px;
         font-weight: 600;
     }
+}
+
+
+
+@media all and (max-width: 599px) {
+    /* basic page */
+
+    .inner{
+        width: 90%;
+    }
+
+
+    /* schedule */
+
+    .cd-schedule {
+        padding-left: 5%;
+    }
+
 }
