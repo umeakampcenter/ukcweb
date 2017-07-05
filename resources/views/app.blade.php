@@ -14,9 +14,7 @@
         <script type="text/javascript" src="{{ URL::asset('js/schedule.js') }}"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-        <link rel="stylesheet" href="{{ URL::asset('css/default.css') }}">
-        <link rel="stylesheet" href="{{ URL::asset('css/pages.css') }}">
-        <link rel="stylesheet" href="{{ URL::asset('css/schedule.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/app.min.css') }}">
     </head>
     <body>
         <div id="header">
