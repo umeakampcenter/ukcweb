@@ -1,5 +1,6 @@
 @php
 /**
+ * @var $scripts string[]
  * @var $stylesheets string[]
  * @var $isSwedish bool
  */
@@ -17,7 +18,14 @@
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
-        <script type="text/javascript" src="{{ URL::asset('js/schedule.js') }}"></script>
+        @foreach ($scripts as $script)
+        <script type="text/javascript" src="{{ $script }}"></script>
+        @endforeach
+        <script type="text/javascript">
+            $(document).ready(function () {
+                umeakampcenter.menu.init($("#logo"), $("#header"));
+            });
+        </script>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
         @foreach ($stylesheets as $stylesheet)
