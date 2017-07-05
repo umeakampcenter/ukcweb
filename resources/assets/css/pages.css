@@ -113,6 +113,7 @@
 .slide-text h1 {
     font-size: 30px;
     margin-bottom: 20px;
+    text-transform: none;
 }
 
 .section-item {
@@ -170,7 +171,13 @@
     padding: 10px 70px 10px 0;
     float: right;
     margin: 95px 110px 0 0;
+    display: block;
 }
+
+.time-link:hover {
+    text-decoration: none;
+}
+
 
 .fb-feed {
     padding: 60px 0;
