@@ -32,7 +32,7 @@
 </div>
 <div class="time-box">
     <div class="inner">
-        <div class="time-link">@lang('main.seeTrainingSessions')</div>
+        <a href="/schedule" class="time-link">@lang('main.seeTrainingSessions')</a>
     </div>
 </div>
 @if ($facebookPosts)
