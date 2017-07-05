@@ -33,7 +33,7 @@ Main Components
     display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .cd-schedule {
         width: 100%;
         max-width: 1200px;
@@ -58,7 +58,7 @@ Main Components
     padding: 0 0 0 10px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .cd-schedule .timeline {
         display: block;
         position: absolute;
@@ -175,7 +175,7 @@ Main Components
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .cd-schedule .events {
         float: left;
         width: calc(100% - 30px);
@@ -278,7 +278,7 @@ Main Components
     font-size: 1.2em;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .cd-schedule .event-name {
         font-size: 1.2em;
     }

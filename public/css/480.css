@@ -1,3 +1,29 @@
 @media all and (max-width: 767px) {
 
+
+
+
+    /* schedule */
+
+    .cd-schedule ul {
+        padding: 0;
+    }
+
+    .cd-schedule .events .top-info {
+        padding: 0;
+    }
+
+    .cd-schedule .events .top-info > span {
+        font-size: 16px;
+    }
+
+    .cd-schedule .event-date {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .cd-schedule .event-name {
+        font-size: 18px;
+        font-weight: 600;
+    }
 }

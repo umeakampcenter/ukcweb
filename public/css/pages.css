@@ -88,7 +88,39 @@
     background-size: cover;
 }
 
+#mobile-menu {
+    display: none;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+}
 
+.mobile-menu-btn {
+    display: none;
+    background: url("../images/mobilmeny.png") no-repeat center center;
+    width: 150px;
+    height: 70px;
+    float: right;
+
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .mobile-menu-btn {
+        background-image: url("../images/mobilmeny@2x.png");
+        background-size: 36px 24px;
+    }
+}
+
+#mobile-menu a{
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+#mobile-menu .lang-switch{
+    background: #444656;
+}
 
 /* Frontpage */
 

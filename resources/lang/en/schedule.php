@@ -9,7 +9,7 @@ return [
     "saturday" => "saturday",
     "sunday" => "sunday",
 
-    "jujutsu" => "Jujutsu beginners & advance (Peter/Arvid)",
+    "jujutsu" => "Jujutsu beginners & advance",
     "kickboxingAdvance" => "Kickboxing advance",
     "kickboxingBeginner" => "Kickboxing beginners",
     "bjjMix" => "BJJ beginners & advance",
