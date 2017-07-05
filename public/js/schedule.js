@@ -43,10 +43,6 @@ jQuery(document).ready(function($){
 			this.element.removeClass('js-full loading');
 			this.eventsGroup.children('ul').add(this.singleEvents).removeAttr('style');
 			this.eventsWrapper.children('.grid-line').remove();
-		} else if( mq == 'desktop' && this.element.hasClass('modal-is-open')){
-			//on a mobile version with modal open - need to resize/move modal window
-			this.checkEventModal('desktop');
-			this.element.removeClass('loading');
 		} else {
 			this.element.removeClass('loading');
 		}
@@ -107,15 +103,5 @@ jQuery(document).ready(function($){
 		time = time.replace(/ /g,'');
 		var timeArray = time.split(':');
 		return parseInt(timeArray[0])*60 + parseInt(timeArray[1]);
-	}
-
-	function transformElement(element, value) {
-		element.css({
-		    '-moz-transform': value,
-		    '-webkit-transform': value,
-			'-ms-transform': value,
-			'-o-transform': value,
-			'transform': value
-		});
 	}
 });

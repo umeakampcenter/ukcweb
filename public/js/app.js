@@ -1,5 +1,5 @@
 let umeakampcenter = window.umeakampcenter || {};
-umeakampcenter.menu = (function($) {
+umeakampcenter.menu = (function() {
     let pub = {};
     pub.init = function ($button, $container) {
         console.log($button);
@@ -10,4 +10,4 @@ umeakampcenter.menu = (function($) {
     };
 
     return pub;
-}(jQuery));
+}());
