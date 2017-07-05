@@ -79,12 +79,12 @@
 }
 
 .lang-switch.sv {
-    background: url(../images/lan_sv.png) no-repeat center center;
+    background: url(../../../public/images/lan_sv.png) no-repeat center center;
     background-size: cover;
 }
 
 .lang-switch.en{
-    background: url(../images/lan_en.png) no-repeat center center;
+    background: url(../../../public/images/lan_en.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -94,7 +94,7 @@
 
 .slider {
     width: 100%;
-    background: url(../images/RploeM.jpg) no-repeat center center;
+    background: url(../../../public/images/RploeM.jpg) no-repeat center center;
     background-size: cover;
     height: 580px;
     position: relative;
@@ -159,14 +159,14 @@
 }
 
 .time-box {
-    background: #1b1b1b url(../images/schemabg.jpg) no-repeat center center;
+    background: #1b1b1b url(../../../public/images/schemabg.jpg) no-repeat center center;
     height: 235px;
 }
 
 .time-link {
     font-size: 36px;
     font-weight: 800;
-    background: url(../images/arrow.png) no-repeat right center;
+    background: url(../../../public/images/arrow.png) no-repeat right center;
     padding: 10px 70px 10px 0;
     float: right;
     margin: 95px 110px 0 0;
@@ -214,7 +214,7 @@
 
 .fb-link  {
     padding: 0 24px 0 0;
-    background: url(../images/grey_arrow.png) no-repeat right center;
+    background: url(../../../public/images/grey_arrow.png) no-repeat right center;
     display: inline-block;
     color: #9e9e9e;
     font-size: 14px;
