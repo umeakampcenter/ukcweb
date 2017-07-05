@@ -293,25 +293,19 @@ Main Components
     margin-bottom: .2em;
 }
 
-.cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg {
-    /* this is used to set a background color for the event and the modal window */
+.single-event.jujutsu {
     background: #944646;
 }
 
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
+.single-event.kickboxing {
     background: #907b60;
 }
 
-
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
+.single-event.bjj {
     background: #526371;
 }
 
 
-.cd-schedule .single-event[data-event="event-4"],
-.cd-schedule [data-event="event-4"] .header-bg {
+.single-event.misc {
     background: #776b6b;
 }
