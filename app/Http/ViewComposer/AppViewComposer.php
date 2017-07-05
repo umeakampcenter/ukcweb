@@ -23,10 +23,13 @@ class AppViewComposer
     {
         $view->with("isSwedish", $this->languageSwitcher->getCurrentLanguage() == 'sv');
         if (App::environment('local')) {
+            $scripts = $this->minify->getJsFiles();
             $stylesheets = $this->minify->getCssFiles();
         } else {
+            $scripts = ["js/app.min.js?" . $this->minify->getTimestamp()];
             $stylesheets = ["css/app.min.css?" . $this->minify->getTimestamp()];
         }
+        $view->with("scripts", $scripts);
         $view->with("stylesheets", $stylesheets);
     }
 }

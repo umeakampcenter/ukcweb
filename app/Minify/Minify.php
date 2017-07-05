@@ -1,6 +1,7 @@
 <?php
 namespace App\Minify;
 
+use MatthiasMullie\Minify\JS;
 use MatthiasMullie\Minify\CSS;
 
 class Minify
@@ -15,13 +16,27 @@ class Minify
 
     public function run()
     {
-        $targetPath = public_path("css") . "/app.min.css";
+        $targetPath = public_path("js/app.min.js");
+        $minifier = new JS();
+        foreach ($this->getJsFiles() as $relativePath) {
+            $minifier->add(public_path($relativePath));
+        }
+        $minifier->minify($targetPath);
+
+        $targetPath = public_path("css/app.min.css");
         $minifier = new CSS();
         foreach ($this->getCssFiles() as $relativePath) {
             $minifier->add(public_path($relativePath));
         }
         $minifier->minify($targetPath);
+
         $this->timestampConfig();
+    }
+
+    public function getJsFiles()
+    {
+        $config = $this->getConfig();
+        return $config["jsFiles"];
     }
 
     public function getCssFiles()

@@ -1,4 +1,8 @@
 {
+    "jsFiles" : [
+        "js/app.js",
+        "js/schedule.js"
+    ],
     "cssFiles": [
         "css/default.css",
         "css/pages.css",
