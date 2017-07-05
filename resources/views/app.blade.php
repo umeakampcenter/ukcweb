@@ -20,7 +20,7 @@
         <script type="text/javascript" src="{{ URL::asset('js/schedule.js') }}"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-        @foreach ($stylesheets as $stylesheet):
+        @foreach ($stylesheets as $stylesheet)
         <link rel="stylesheet" href="{{ $stylesheet }}">
         @endforeach
     </head>

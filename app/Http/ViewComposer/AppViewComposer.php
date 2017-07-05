@@ -21,12 +21,11 @@ class AppViewComposer
 
     public function compose(View $view)
     {
-        $this->minify->run();
         $view->with("isSwedish", $this->languageSwitcher->getCurrentLanguage() == 'sv');
         if (App::environment('local')) {
             $stylesheets = $this->minify->getCssFiles();
         } else {
-            $stylesheets = ["app.min.css"];
+            $stylesheets = ["css/app.min.css"];
         }
         $view->with("stylesheets", $stylesheets);
     }
