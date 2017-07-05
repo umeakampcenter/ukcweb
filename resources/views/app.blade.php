@@ -1,3 +1,9 @@
+@php
+/**
+ * @var $stylesheets string[]
+ * @var $isSwedish bool
+ */
+@endphp
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
@@ -14,7 +20,9 @@
         <script type="text/javascript" src="{{ URL::asset('js/schedule.js') }}"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-        <link rel="stylesheet" href="{{ URL::asset('css/app.min.css') }}">
+        @foreach ($stylesheets as $stylesheet):
+        <link rel="stylesheet" href="{{ $stylesheet }}">
+        @endforeach
     </head>
     <body>
         <div id="header">

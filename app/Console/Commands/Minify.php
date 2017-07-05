@@ -1,9 +1,7 @@
 <?php
-
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use MatthiasMullie\Minify\CSS;
 
 class Minify extends Command
 {
@@ -20,15 +18,20 @@ class Minify extends Command
      * @var string
      */
     protected $description = 'Minifies all CSS files in resources/assets/css and creates public/css/app.min.css';
+    /**
+     * @var \App\Minify\Minify
+     */
+    private $minify;
 
     /**
      * Create a new command instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(\App\Minify\Minify $minify)
     {
         parent::__construct();
+        $this->minify = $minify;
     }
 
     /**
@@ -38,13 +41,6 @@ class Minify extends Command
      */
     public function handle()
     {
-        $sourcePath = resource_path("assets/css") . "/*.css";
-        $targetPath = public_path("css") . "/app.min.css";
-        $filePaths = glob($sourcePath);
-        $minifier = new CSS();
-        foreach ($filePaths as $filePath) {
-            $minifier->add($filePath);
-        }
-        $minifier->minify($targetPath);
+        $this->minify->run();
     }
 }
