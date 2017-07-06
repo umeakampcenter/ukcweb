@@ -1,11 +1,4 @@
 jQuery(document).ready(function($){
-	var transitionEnd = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
-	var transitionsSupported = ( $('.csstransitions').length > 0 );
-	//if browser does not support transitions - use a different event to trigger them
-	if( !transitionsSupported ) transitionEnd = 'noTransition';
-	
-	//should add a loding while the events are organized 
-
 	function SchedulePlan( element ) {
 		this.element = element;
 		this.timeline = this.element.find('.timeline');
@@ -68,8 +61,6 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.mq = function(){
-		//get MQ value ('desktop' or 'mobile') 
-		var self = this;
 		return window.getComputedStyle(this.element.get(0), '::before').getPropertyValue('content').replace(/["']/g, '');
 	};
 
