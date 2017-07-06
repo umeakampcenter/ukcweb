@@ -39,8 +39,8 @@
                 <div class="menu">
                     <a href="/">@lang('main.start')</a>
                     <a href="/jujutsu">@lang('main.jujutsu')</a>
-                    <a href="">@lang('main.kickboxing')</a>
-                    <a href="">@lang('main.bjj')</a>
+                    <a href="/kickboxing">@lang('main.kickboxing')</a>
+                    <a href="/bjj">@lang('main.bjj')</a>
                     <a href="/schedule">@lang('main.schedule')</a>
                     @if ($isSwedish)
                         <a href="/lang/en" class="lang-switch en">Switch to english</a>
@@ -54,8 +54,8 @@
         <div id="mobile-menu">
             <a href="/">@lang('main.start')</a>
             <a href="/jujutsu">@lang('main.jujutsu')</a>
-            <a href="">@lang('main.kickboxing')</a>
-            <a href="">@lang('main.bjj')</a>
+            <a href="/kickboxing">@lang('main.kickboxing')</a>
+            <a href="/bjj">@lang('main.bjj')</a>
             <a href="/schedule">@lang('main.schedule')</a>
             @if ($isSwedish)
                 <a href="/lang/en" class="lang-switch en">Switch to english</a>

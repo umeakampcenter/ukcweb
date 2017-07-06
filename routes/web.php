@@ -17,4 +17,12 @@ Route::get('/jujutsu', function () {
     return view('jujutsu');
 });
 
+Route::get('/kickboxing', function () {
+    return view('kickboxing');
+});
+
+Route::get('/bjj', function () {
+    return view('bjj');
+});
+
 Route::get('/schedule', 'ScheduleController@show');
