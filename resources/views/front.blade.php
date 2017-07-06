@@ -6,6 +6,7 @@
 @extends('app')
 @section('content')
 <div class="slider">
+    <div class="slider-img"></div>
     <div class="slide-text">
         <h1>@lang('main.welcomeHeading')</h1>
         <p>@lang('main.welcomeText')</p>

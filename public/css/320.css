@@ -20,4 +20,78 @@
     .cd-schedule .event-name {
         font-size: 16px;
     }
+
+    /* front */
+
+    .time-link {
+        padding: 50px 50px 46px;
+        font-size: 27px;
+        line-height: 1.2em;
+        background-position: center bottom;
+        text-align: center;
+        background-size: 15px auto;
+        max-width: 380px;
+        margin: 0 auto 0;
+        float: none;
+    }
+
+    .fb-feed {
+        padding: 30px 0;
+    }
+
+    /* sektionssida */
+
+    .content-box {
+        padding: 35px 0;
+    }
+
+    .content-box h1, .content-box h2 {
+        font-size: 22px;
+    }
+
+    .trainers {
+        padding: 40px 0;
+    }
+
+
+
+}
+
+@media all and (max-width: 399px) {
+
+    /* front */
+
+    .slide-text {
+        padding: 25px;
+    }
+    .slide-text h1 {
+        font-size: 20px;
+    }
+
+    .time-box {
+        height: 168px;
+    }
+
+    .time-link {
+        padding: 50px 30px 46px;
+        font-size: 20px;
+        max-width: 276px;
+    }
+
+    .fb-feed h3 {
+        font-size: 18px;
+    }
+
+    /* sektionsida */
+
+    .person {
+        width: 100%;
+        margin: 0 0 30px 0;
+        float: none;
+    }
+
+    .person:nth-of-type(4n){
+        margin-right: 0;
+    }
+
 }

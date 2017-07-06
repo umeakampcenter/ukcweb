@@ -10,15 +10,119 @@
         font-size: 14px;
     }
 
+    .footer-item {
+        display: block;
+        padding: 10px 0;
+    }
+
+    /* front */
+
+    .slide-text {
+        bottom: 0;
+        position: relative;
+        width: 100%;
+        right: 0;
+        background: #1c1c1c;
+    }
+
+    .section-item {
+        width: 100%;
+        margin: 0 0 50px;
+        float: none;
+    }
+
+    .section-text {
+        height: auto;
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+
+    .section-item:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+
+    .time-box {
+        height: 200px;
+        background-size: cover;
+    }
+
+    .time-link {
+        margin-right: 0;
+        margin-top: 83px;
+        background-size: 20px auto;
+        padding-right: 50px;
+        font-size: 27px;
+    }
+
+    .fb-item {
+        float: none;
+        width: 100%;
+        min-height: 0;
+        margin: 20px 0 0 0;
+    }
+
+
+    /* sektionssida */
+
+
+    .content-box {
+       padding: 45px 0;
+    }
+
+    .content-box h1,
+    .content-box h2 {
+        font-size: 28px;
+    }
+
+    .image-box,
+    .text-box,
+    .content-box:nth-child(2n) .text-box,
+    .content-box:nth-child(2n) .image-box {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .image-box,
+    .content-box:nth-child(2n) .image-box {
+        margin-top: 30px;
+    }
+
+
+    .person {
+        width: 27%;
+        margin: 0 9% 30px 0;
+        float: left;
+    }
+
+    .person:nth-of-type(4n){
+        margin-right: 9%;
+    }
+    .person:nth-of-type(3n){
+        margin-right: 0;
+    }
+    .person:nth-of-type(4n+1){
+        clear: none;
+    }
+    .person:nth-of-type(3n+1){
+        clear: both;
+    }
+
+
     /* schedule */
 
-    .cd-schedule {
+     .cd-schedule {
         width: 100%;
         padding-left: 3%;
     }
 
     .cd-schedule ul {
         padding: 0;
+    }
+
+    .cd-schedule .events {
+        width: calc(100%);
+        margin-left: 0;
     }
 
     .cd-schedule .events .top-info {
@@ -49,11 +153,34 @@
         width: 90%;
     }
 
+    /* front */
 
-    /* schedule */
+    .slider-img {
+        height: 300px;
+    }
 
-    .cd-schedule {
-        padding-left: 5%;
+
+
+    /* sektionssida */
+
+    .person {
+        width: 46%;
+        margin: 0 6% 30px 0;
+        float: left;
+        text-align: center;
+    }
+
+    .person:nth-of-type(3n){
+        margin-right: 6%;
+    }
+    .person:nth-of-type(2n){
+        margin-right: 0;
+    }
+    .person:nth-of-type(3n+1){
+        clear: none;
+    }
+    .person:nth-of-type(2n+1){
+        clear: both;
     }
 
 }

@@ -131,10 +131,14 @@
 
 .slider {
     width: 100%;
+    position: relative;
+}
+
+.slider-img {
     background: url(../images/RploeM.jpg) no-repeat center center;
     background-size: cover;
     height: 580px;
-    position: relative;
+    width: 100%;
 }
 
 .slide-text {
@@ -184,6 +188,8 @@
     -webkit-border-radius: 5px 5px 5px 5px;
     padding: 20px 20px;
     font-weight: 600;
+    max-width: 270px;
+    margin: 0 auto;
 }
 
 .section-item a:hover {
@@ -207,11 +213,11 @@
     background: url(../images/arrow.png) no-repeat right center;
     padding: 10px 70px 10px 0;
     float: right;
-    margin: 95px 110px 0 0;
+    margin: 100px 110px 0 0;
     display: block;
 }
 
-.time-link:hover {
+a.time-link:hover {
     text-decoration: none;
 }
 
@@ -245,6 +251,10 @@
     margin-right: 0;
 }
 
+.fb-item h5 {
+    font-size: 18px;
+}
+
 .fb-time {
     font-size: 14px;
     color: #9d9d9d;
@@ -276,25 +286,25 @@
 }
 
 .text-box {
-    width: 45%;
-    margin-right: 5%;
+    width: 47%;
+    margin-right: 3%;
     float: left;
 }
 
 .image-box {
-    width: 45%;
-    margin-left: 5%;
+    width: 47%;
+    margin-left: 3%;
     float: left;
 }
 
 .content-box:nth-child(2n) .text-box {
     float: right;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 3%;
 }
 
 .content-box:nth-child(2n) .image-box {
     float: left;
-    margin: 0 5% 0 0;
+    margin: 0 3% 0 0;
 }
 
 .content-box h1,
