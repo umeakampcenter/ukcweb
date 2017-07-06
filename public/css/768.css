@@ -2,9 +2,13 @@
 
     /* basic page */
 
+    body, html {
+        font-size: 16px;
+    }
+
     .inner,
     .cd-schedule{
-        width: 920px;
+        width: 95%;
     }
 
     #logo {
@@ -16,16 +20,34 @@
     }
 
     .menu a {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
     }
 
     /* front */
 
-    .slide-text {
-        margin-right: -463px;
+    .slider-img {
+        height: 500px;
     }
 
+    .slide-text {
+        margin-right: 0;
+        right: 2.5%;
+        bottom: 30px;
+    }
+
+    .section-item {
+        width: 27%;
+        margin-right: 9.5%;
+    }
+
+    .section-item h2 {
+        font-size: 26px;
+    }
+
+    .time-link {
+        margin-right: 58px;
+    }
 
     /*schema */
 
@@ -42,9 +64,13 @@
 @media all and (max-width: 959px) {
     /* basic page */
 
+    body, html {
+        font-size: 14px;
+    }
+
     .inner,
     .cd-schedule{
-        width: 700px;
+        width: 95%;
     }
 
     #logo {
@@ -59,6 +85,63 @@
         display: block;
     }
 
+    .footer-item {
+        padding: 0 10px;
+    }
+
+
+    /*front */
+
+    .slider-img {
+        height: 400px;
+    }
+
+    .slide-text {
+        padding: 30px;
+        width: 488px;
+        bottom: 20px;
+    }
+
+    .slide-text h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .section-item h2 {
+        font-size: 22px;
+    }
+
+    .section-item {
+        width: 29%;
+        margin-right: 6.5%;
+    }
+
+    .section-item a {
+        padding: 15px 20px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .section-text {
+        height: 88px;
+    }
+
+    .time-link {
+        font-size: 30px;
+    }
+
+    .fb-text {
+        font-size: 14px;
+    }
+
+
+    /* sektionsida */
+
+    .person-belt {
+        line-height: 14px;
+    }
+
+
     /* schedule */
     .cd-schedule .event-date {
         font-size: 11px;
@@ -68,6 +151,15 @@
     .cd-schedule .event-name {
         font-size: 12px;
         font-weight: 400;
+    }
+
+    .cd-schedule .timeline ul {
+        padding: 0 0 0 4px;
+    }
+
+    .cd-schedule .events {
+        width: calc(100% - 22px);
+        margin-left: 23px;
     }
 
 }

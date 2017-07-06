@@ -9,7 +9,7 @@
         definitivt att känna igen dig!
         @endslot
         @slot('imageBox')
-        bild
+            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -30,7 +30,7 @@
         och hjälper oss med svartbältesgaderingar.
         @endslot
         @slot('imageBox')
-        bild2
+            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -54,7 +54,7 @@
             </ul>
         @endslot
         @slot('imageBox')
-            bild2
+            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -71,7 +71,7 @@
             allt du har lärt dig under ett par intensiva timmar för att förhoppningsvis förtjäna ett nytt bälte.
         @endslot
         @slot('imageBox')
-            bild2
+            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -83,7 +83,7 @@
             BJJ och Kickboxning.
         @endslot
         @slot('imageBox')
-            bild2
+            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('trainers', ['persons' => [
