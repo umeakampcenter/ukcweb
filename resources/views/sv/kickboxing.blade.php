@@ -9,7 +9,7 @@
         Kickboxningsförbundet kan du deltaga i alla tävlingar som hålls runt om i landet.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/kick3.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -28,7 +28,7 @@
         kickboxare!
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/kick2.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -42,7 +42,7 @@
         tävlingsnära.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/kick1.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -54,7 +54,7 @@
             lära dig självförsvar eller marktekniker.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/kick4.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
 @endsection

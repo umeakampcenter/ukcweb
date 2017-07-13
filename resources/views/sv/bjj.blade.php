@@ -11,7 +11,7 @@
         tekniker mot leder eller hals.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/bjj2.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -32,7 +32,7 @@
         att du kan få tips från eliten first hand.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/bjj5.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -46,7 +46,7 @@
         repetera tekniker om man hellre känner för det.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/bjj3.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -57,7 +57,7 @@
             fungerar bra både som egen stil och som komplement till stående kampsportsformer.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/bjj1.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
 @endsection
