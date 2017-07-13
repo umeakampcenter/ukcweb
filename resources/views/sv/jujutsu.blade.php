@@ -17,11 +17,9 @@
         <h2>Träna med oss</h2>
         Om du aldrig hållit på med någon kampsport tidigare eller känner dig otränad kan du vara lugn. Vi börjar från
         början med korrekt fallteknik och hjälper dig att komma i form. Vi ägnar stor uppmärksamhet åt varje enskild
-        elev så att du får tydliga instruktioner där du behöver.
-
-        Vi tränar i Jujutsudräkter av bomull för att kläderna ska hålla för alla de kraftiga ryck som uppstår i en dojo.
-        Du behöver naturligtvis inte dyka upp med en sådan på första passet utan långbyxor och en t-shirt fungerar bra
-        tills du bestämt dig.
+        elev så att du får tydliga instruktioner där du behöver. Vi tränar i Jujutsudräkter av bomull för att kläderna
+        ska hålla för alla de kraftiga ryck som uppstår i en dojo. Du behöver naturligtvis inte dyka upp med en sådan
+        på första passet utan långbyxor och en t-shirt fungerar bra tills du bestämt dig.
         <br><br>
         <strong>Har du tränat Jujutsu tidigare?</strong><br>
         I Sverige finns många olika stilar av Jujutsu, stora som små. På Umeå Kampcenter har vi valt att ta fram en
@@ -30,7 +28,13 @@
         och hjälper oss med svartbältesgaderingar.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/RploeM.jpg') }}" alt="Umeå Kampcenter">
+            <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/QS31agF4fx8?rel=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
         @endslot
     @endcomponent
     @component('contentBox')

@@ -14,22 +14,18 @@
 Route::get('/', 'FrontController@show')->name('home');
 
 Route::get('/jujutsu', function () {
-    return view('jujutsu');
+    return view(App::getLocale() . '/jujutsu');
 })->name('jujutsu');
 
 Route::get('/kickboxing', function () {
-    return view('kickboxing');
+    return view(App::getLocale() . '/kickboxing');
 })->name('kickboxing');
 
 Route::get('/bjj', function () {
-    return view('bjj');
+    return view(App::getLocale() . '/bjj');
 })->name('bjj');
 
 Route::get('/schedule', 'ScheduleController@show')->name('schedule');
 
 Route::get('/lang/{language}', '\\ied3vil\\LanguageSwitcher\\LanguageSwitcherController@setLanguage')
     ->name('setLanguage');
-
-//Route::name('lang')
-//    ->get('/lang/{language}')
-//    ->uses('\\ied3vil\\LanguageSwitcher\\LanguageSwitcherController@setLanguage');
