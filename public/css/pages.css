@@ -137,9 +137,9 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .slider-img {
-    background: url(../images/RploeM.jpg) no-repeat center center;
+    background: url(../images/front_long.jpg) no-repeat center center;
     background-size: cover;
-    height: 580px;
+    height: 680px;
     width: 100%;
 }
 

@@ -1,3 +1,9 @@
+@media all and (max-width: 1700px) {
+    .slider-img {
+        height: 580px;
+    }
+}
+
 @media all and (max-width: 1270px) {
 
     /* basic page */
