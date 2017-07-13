@@ -177,9 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\ViewComposerServiceProvider::class,
+        App\Providers\LanguageSwitcherProvider::class,
 
-        Jenssegers\Date\DateServiceProvider::class,
-        ied3vil\LanguageSwitcher\Providers\LanguageSwitcherProvider::class
+        Jenssegers\Date\DateServiceProvider::class
     ],
 
     /*

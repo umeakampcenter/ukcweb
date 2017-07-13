@@ -17,23 +17,23 @@
         <div class="section-item">
             <h2>@lang('main.jujutsu')</h2>
             <div class="section-text">@lang('main.jujutsuIntro')</div>
-            <a href="">@lang('main.readMore')</a>
+            <a href="{{ route('jujutsu') }}">@lang('main.readMore')</a>
         </div>
         <div class="section-item">
             <h2>@lang('main.kickboxing')</h2>
             <div class="section-text">@lang('main.kickboxingIntro')</div>
-            <a href="">@lang('main.readMore')</a>
+            <a href="{{ route('kickboxing') }}">@lang('main.readMore')</a>
         </div>
         <div class="section-item">
             <h2>@lang('main.bjj')</h2>
             <div class="section-text">@lang('main.bjjIntro')</div>
-            <a href="">@lang('main.readMore')</a>
+            <a href="{{ route('bjj') }}">@lang('main.readMore')</a>
         </div>
     </div>
 </div>
 <div class="time-box">
     <div class="inner">
-        <a href="/schedule" class="time-link">@lang('main.seeTrainingSessions')</a>
+        <a href="{{ route('schedule') }}" class="time-link">@lang('main.seeTrainingSessions')</a>
     </div>
 </div>
 @if ($facebookPosts)

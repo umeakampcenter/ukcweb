@@ -35,32 +35,40 @@
     <body>
         <div id="header">
             <div class="inner clearfix">
-                <div id="logo"><a href="/"><img src="{{ URL::asset('images/logo.png') }}" alt="Umeå Kampcenter"></a></div>
+                <div id="logo">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ URL::asset('images/logo.png') }}" alt="Umeå Kampcenter">
+                    </a>
+                </div>
                 <div class="menu">
-                    <a href="/">@lang('main.start')</a>
-                    <a href="/jujutsu">@lang('main.jujutsu')</a>
-                    <a href="/kickboxing">@lang('main.kickboxing')</a>
-                    <a href="/bjj">@lang('main.bjj')</a>
-                    <a href="/schedule">@lang('main.schedule')</a>
+                    <a href="{{ route('home') }}">@lang('main.start')</a>
+                    <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
+                    <a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a>
+                    <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
+                    <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
                     @if ($isSwedish)
-                        <a href="/lang/en" class="lang-switch en">Switch to english</a>
+                        <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">
+                            Switch to english
+                        </a>
                     @else
-                        <a href="/lang/sv" class="lang-switch sv">Byt till svenska</a>
+                        <a href="{{ route('setLanguage', ['language' => 'sv']) }}" class="lang-switch sv">
+                            Byt till svenska
+                        </a>
                     @endif
                 </div>
                 <div class="mobile-menu-btn"></div>
             </div>
         </div>
         <div id="mobile-menu">
-            <a href="/">@lang('main.start')</a>
-            <a href="/jujutsu">@lang('main.jujutsu')</a>
-            <a href="/kickboxing">@lang('main.kickboxing')</a>
-            <a href="/bjj">@lang('main.bjj')</a>
-            <a href="/schedule">@lang('main.schedule')</a>
+            <a href="{{ route('home') }}">@lang('main.start')</a>
+            <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
+            <a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a>
+            <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
+            <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
             @if ($isSwedish)
-                <a href="/lang/en" class="lang-switch en">Switch to english</a>
+                <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">Switch to english</a>
             @else
-                <a href="/lang/sv" class="lang-switch sv">Byt till svenska</a>
+                <a href="{{ route('setLanguage', ['language' => 'sv']) }}" class="lang-switch sv">Byt till svenska</a>
             @endif
         </div>
         <div class="content">
