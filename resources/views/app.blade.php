@@ -83,7 +83,7 @@
                 </div>
                 <div class="footer-item"><p>&copy; 2017 Umeå Kampcenter. @lang('main.allRightsReserved').</p></div>
                 <div class="footer-item">
-                    <a href="http://maps.google.com/" target="_blank">
+                    <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">
                         <img src="images/map.png" alt="Hitta hit">
                     </a>
                     <a href="http://www.facebook.com/umeakampcenter/" target="_blank">
