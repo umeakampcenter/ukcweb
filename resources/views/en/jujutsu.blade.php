@@ -80,9 +80,8 @@
     @component('contentBox')
         @slot('textBox')
             <h2>Try for yourself!</h2>
-            You're always welcome to try out our different styles without advance notification. You can train two full
-            weeks before the membership fee is due. As a member you can train all our styles if you wish. Our Jujutsu
-            gives you a solid foundation and is very compatible with our other styles - BJJ and kickboxing.
+            @lang('sub.tryOutText')
+            Our Jujutsu gives you a solid foundation and is very compatible with our other styles - BJJ and kickboxing.
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/juj4.jpg') }}" alt="Umeå Kampcenter">

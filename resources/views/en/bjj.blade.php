@@ -52,9 +52,8 @@
     @component('contentBox')
         @slot('textBox')
             <h2>Try for yourself!</h2>
-            You're always welcome to try out our different styles without advance notification. You can train two full
-            weeks before the membership fee is due. As a member you can train all our styles if you wish. Our BJJ
-            works great on its own or as a complement to our standup arts.
+            @lang('sub.tryOutText')
+            Our BJJ works great on its own or as a complement to our standup arts.
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj1.jpg') }}" alt="Umeå Kampcenter">

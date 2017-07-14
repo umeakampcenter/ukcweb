@@ -46,10 +46,9 @@
     @component('contentBox')
         @slot('textBox')
             <h2>Try for yourself!</h2>
-            You're always welcome to try out our different styles without advance notification. You can train two full
-            weeks before the membership fee is due. As a member you can train all our styles if you wish. Kickboxing
-            is a great foundation for your standup game and can be complemented with our other styles if you'd like
-            to learn self defence or ground fighting.
+            @lang('sub.tryOutText')
+            Kickboxing is a great foundation for your standup game and can be complemented with our other styles if
+            you'd like to learn self defence or ground fighting.
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/kick4.jpg') }}" alt="Umeå Kampcenter">

@@ -53,9 +53,8 @@
     @component('contentBox')
         @slot('textBox')
             <h2>Kom och prova på</h2>
-            Du är alltid välkommen att prova på, ingen föranmälan krävs. På vår klubb får du träna i två veckor innan
-            du behöver betala medlemsavgiften. Som medlem hos oss får du träna alla våra stilar om du önskar. Vår BJJ
-            fungerar bra både som egen stil och som komplement till stående kampsportsformer.
+            @lang('sub.tryOutText')
+            Vår BJJ fungerar bra både som egen stil och som komplement till stående kampsportsformer.
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj1.jpg') }}" alt="Umeå Kampcenter">

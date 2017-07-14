@@ -81,8 +81,7 @@
     @component('contentBox')
         @slot('textBox')
             <h2>Kom och prova på</h2>
-            Du är alltid välkommen att prova på, ingen föranmälan krävs. På vår klubb får du träna i två veckor innan
-            du behöver betala medlemsavgiften. Som medlem hos oss får du träna alla våra stilar om du önskar.
+            @lang('sub.tryOutText')
             Vår Jujutsu ger dig en bra grund att stå på och går väldigt bra ihop med våra andra stilar -
             BJJ och kickboxning.
         @endslot
