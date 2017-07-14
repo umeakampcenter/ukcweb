@@ -23,6 +23,10 @@
 
     /* front */
 
+    .slider-img {
+        height: 230px;
+    }
+
     .time-link {
         padding: 50px 50px 46px;
         font-size: 27px;

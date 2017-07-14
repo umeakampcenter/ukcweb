@@ -17,8 +17,12 @@
 
     /* front */
 
+    .slider-img {
+        background-position: left 36% center;
+    }
+
     .slide-text {
-        bottom: 0;
+        top: 0;
         position: relative;
         width: 100%;
         right: 0;

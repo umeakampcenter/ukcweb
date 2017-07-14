@@ -137,7 +137,7 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .slider-img {
-    background: url(../images/front_long.jpg) no-repeat center center;
+    background: url(../images/front_long2.jpg) no-repeat center center;
     background-size: cover;
     height: 680px;
     width: 100%;
@@ -146,7 +146,7 @@ all and (min-device-pixel-ratio: 2)  {
 .slide-text {
     background: rgba(0,0,0,0.7);
     position: absolute;
-    bottom: 60px;
+    top: 100px;
     right: 50%;
     margin-right: -580px;
     width: 605px;
