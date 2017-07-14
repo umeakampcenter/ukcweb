@@ -34,5 +34,7 @@ return [
     'latestFromFacebook' => 'Latest from Facebook',
     'showPhotos' => 'Show photos',
 
-    'allRightsReserved' => 'All rights reserved'
+    'allRightsReserved' => 'All rights reserved',
+    'findUs' => 'Find us',
+    'email' => 'Send an email to us'
 ];

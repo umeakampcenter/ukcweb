@@ -33,5 +33,7 @@ return [
     'latestFromFacebook' => 'Senaste från Facebook',
     'showPhotos' => 'Visa bilder',
 
-    'allRightsReserved' => 'Alla rättigheter reserverade'
+    'allRightsReserved' => 'Alla rättigheter reserverade',
+    'findUs' => 'Hitta oss',
+    'email' => 'Skicka e-post till oss'
 ];

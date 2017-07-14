@@ -84,10 +84,13 @@
                 <div class="footer-item"><p>&copy; 2017 Umeå Kampcenter. @lang('main.allRightsReserved').</p></div>
                 <div class="footer-item">
                     <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">
-                        <img src="images/map.png" alt="Hitta hit">
+                        <img src="images/map.png" alt="@lang('main.findUs')">
                     </a>
                     <a href="http://www.facebook.com/umeakampcenter/" target="_blank">
                         <img src="images/fb.png" alt="Facebook">
+                    </a>
+                    <a href="mailto:c05psl@gmail.com">
+                        <img src="images/email.png" alt="@lang('main.email')">
                     </a>
                 </div>
             </div>
