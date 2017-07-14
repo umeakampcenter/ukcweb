@@ -37,7 +37,7 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-        <h2>What's a training like?</h2>
+        <h2>What's the training like?</h2>
         Every training sessions starts with a common warm up tailored to the sport we're practicing. This involves
         how to breakfall, pair drills and mobility exercises. After the warm up we split the group in beginners and
         advanced students so the beginners can learn the basics first. The techniques are practiced in pairs with
