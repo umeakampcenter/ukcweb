@@ -50,7 +50,7 @@
         background-size: cover;
     }
 
-    .time-link {
+    a.time-link {
         margin-right: 0;
         margin-top: 83px;
         background-size: 20px auto;
