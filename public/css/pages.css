@@ -60,6 +60,7 @@
     font-weight: 700;
     padding: 10px;
     margin: 0 30px 0 0;
+    color: #fff;
 }
 
 .menu a:hover {
@@ -123,6 +124,7 @@ all and (min-device-pixel-ratio: 2)  {
     display: block;
     padding: 10px 0;
     border-bottom: 1px solid #333;
+    color: #fff;
 }
 
 #mobile-menu .lang-switch{
@@ -192,6 +194,7 @@ all and (min-device-pixel-ratio: 2)  {
     font-weight: 600;
     max-width: 270px;
     margin: 0 auto;
+    color: #fff;
 }
 
 .section-item a:hover {
@@ -209,7 +212,7 @@ all and (min-device-pixel-ratio: 2)  {
     height: 235px;
 }
 
-.time-link {
+a.time-link {
     font-size: 36px;
     font-weight: 800;
     background: url(../images/arrow.png) no-repeat right center;
@@ -217,6 +220,7 @@ all and (min-device-pixel-ratio: 2)  {
     float: right;
     margin: 100px 110px 0 0;
     display: block;
+    color: #fff;
 }
 
 a.time-link:hover {
@@ -274,6 +278,10 @@ a.time-link:hover {
     display: inline-block;
     color: #9e9e9e;
     font-size: 14px;
+}
+
+.fb-link a{
+    color: #fff;
 }
 
 /* Section page */

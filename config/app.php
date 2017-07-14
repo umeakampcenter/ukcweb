@@ -241,8 +241,8 @@ return [
     ],
 
     'beltColors' => [
-        'blue' => '#00F',
-        'purple' => '#8E35EF',
-        'brown' => '#461516'
+        'blue' => '#205ad6',
+        'purple' => '#8749cc',
+        'brown' => '#613218'
     ]
 ];
