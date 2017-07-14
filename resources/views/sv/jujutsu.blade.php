@@ -89,7 +89,7 @@
             <img src="{{ URL::asset('images/juj4.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
-    @component('trainers', ['persons' => [
+    @component('instructors', ['persons' => [
         [
             'imageUrl' =>  URL::asset('images/peter.png'),
             'name' => 'Peter Spegel, Renshi',
@@ -109,6 +109,5 @@
             'belt' => '|'
         ]
     ]])
-
     @endcomponent
 @endsection

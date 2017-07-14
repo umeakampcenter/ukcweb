@@ -1,6 +1,6 @@
-<div class="trainers">
+<div class="instructors">
     <div class="inner clearfix">
-        <h2>Tränare</h2>
+        <h2>@lang('sub.instructors')</h2>
         @foreach ($persons as $person)
         <div class="person">
             <div class="person-img">
@@ -12,9 +12,14 @@
             <div class="person-phone">
                 {{ $person['phone'] }}
             </div>
-            <div class="person-belt">
-                {{ $person['belt'] }}
+            @if ($person['belt'] !== null)
+            <div
+                    class="person-belt"
+                    {!! isset($person['beltColor']) ? 'style="background-color: ' . $person['beltColor'] . '"': '' !!}
+            >
+                &nbsp;{{ $person['belt'] }}
             </div>
+            @endif
         </div>
         @endforeach
     </div>

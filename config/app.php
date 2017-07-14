@@ -233,6 +233,16 @@ return [
 
     'phoneNumbers' => [
         'pspegel' => '+46 70 287 02 97',
-        'aedberg' => '+46 76 815 70 78'
+        'aedberg' => '+46 76 815 70 78',
+        'seriksson' => '+46 73 813 98 27',
+        'msandstrom' => '+46 70 215 96 30',
+        'pnigeus' => '+46 70 392 92 85',
+        'mliljeblad' => '+46 70 520 25 36'
+    ],
+
+    'beltColors' => [
+        'blue' => '#00F',
+        'purple' => '#8E35EF',
+        'brown' => '#461516'
     ]
 ];

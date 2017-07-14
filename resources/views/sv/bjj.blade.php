@@ -60,4 +60,28 @@
             <img src="{{ URL::asset('images/bjj1.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
+    @component('instructors', ['persons' => [
+        [
+            'imageUrl' =>  URL::asset('images/person.png'),
+            'name' => 'Mattias Sandström',
+            'phone' => config('app.phoneNumbers.msandstrom'),
+            'belt' => '',
+            'beltColor' => config('app.beltColors.brown')
+        ],
+        [
+            'imageUrl' => URL::asset('images/person.png'),
+            'name' => 'Piri Nigeus',
+            'phone' => config('app.phoneNumbers.pnigeus'),
+            'belt' => '',
+            'beltColor' => config('app.beltColors.purple')
+        ],
+        [
+            'imageUrl' => URL::asset('images/person.png'),
+            'name' => 'Matte Liljeblad',
+            'phone' => config('app.phoneNumbers.mliljeblad'),
+            'belt' => '',
+            'beltColor' => config('app.beltColors.blue')
+        ]
+    ]])
+    @endcomponent
 @endsection

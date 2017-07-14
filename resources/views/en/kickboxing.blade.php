@@ -54,4 +54,13 @@
             <img src="{{ URL::asset('images/kick4.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
+    @component('instructors', ['persons' => [
+        [
+            'imageUrl' =>  URL::asset('images/person.png'),
+            'name' => 'Stefan Eriksson',
+            'phone' => config('app.phoneNumbers.seriksson'),
+            'belt' => null
+        ]
+    ]])
+    @endcomponent
 @endsection
