@@ -14,16 +14,16 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-        <h2>Träna med oss</h2>
+        <h2>Train with us</h2>
         If you never have been into any martial arts before or if you feel unfit you don't need to worry. We start from
         the ground up with breakfalls and help you get in shape. We devote a lot of attention to each student to make
-        sure you get clear instructions that makes sense to you. We train in kimonos in cotton, clothes that can take
-        the strain. Naturally you don't have to show up in a kimono at the first session, regular training clothes
+        sure you get clear instructions that makes sense to you. We train in cotton kimonos, clothes that withstand
+        the sudden tugs. Naturally you don't have to show up in a kimono at the first session, regular training clothes
         without zippers work fine.
         <br><br>
         <strong>Have you trained Jujutsu before?</strong><br>
         There are many different styles of Jujutsu in Sweden, both large and small ones. We have decided to develop our
-        own blend of Jujutsu. This means that we are in control of the direction we want to take and which techniques
+        own blend of Jujutsu. This means that we are in control of the direction we take and which techniques
         that should be taught. Of course we're part of a national organization with the same open mindset as ourselves,
         which lets us go to inspiring seminars and get help with black belt examinations.
         @endslot
@@ -39,10 +39,10 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>About our blend of Jujutsu</h2>
+            <h2>Our blend of Jujutsu</h2>
             The techniques can be recognized from many other styles. Depending on what you have practiced before, you
             may get more sparring and broaden your skills from what is normally considered Jujutsu techniques. With a
-            short chain of command there's even a possibility of affecting the content of of our training sessions.
+            short chain of command there's even a possibility of affecting the content of our syllabus.
             <br><br>
             <strong>Sparring</strong><br>
             We want our students to gain a deeper understanding of how the techniques work with resistance. To achieve
@@ -68,7 +68,7 @@
             When you go to a seminar this belt signals to the other participants how advanced techniques you can deal
             with. At our academy everyone trains with everybody else, prestigelessly.
             <br><br>
-            We have clear expectations of our students. You will gain access to a curriculum with all the requirements
+            We have clear expectations of our students. You will gain access to a syllabus with all the requirements
             for your next grade. We also put a lot of effort into filming these techniques so you can brush up on them
             before the examination. The examination is a special session where you show all that you have learned during
             a couple of intense hours to hopefully earn a new belt.

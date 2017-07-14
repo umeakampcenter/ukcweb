@@ -3,7 +3,8 @@
     @component('contentBox')
         @slot('textBox')
         <h1>Gracie Barra BJJ</h1>
-        Brasiliansk Jiu-jitsu är en kampsport som fokuserar på markkamp. Vi tillhör organisationen Gracie Barra som är
+        Brasiliansk Jiu-jitsu är en kampsport som fokuserar på markkamp. Vi tillhör organisationen
+        <a href="http://graciebarra.com/" target="_blank">Gracie Barra</a> som är
         ett av de största och mest framgångsrika BJJ-teamen i världen. BJJ är en väldigt populär tävlingsform som växer
         explosionsartat med många framgångsrika utövare från Sverige. Tävlingarna inleds stående där de båda tävlande
         har möjlighet att skaffa sig en bra position genom att kasta eller svepa den andra. Därefter utspelar sig större
