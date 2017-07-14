@@ -231,4 +231,8 @@ return [
 
     ],
 
+    'phoneNumbers' => [
+        'pspegel' => '+46 70 287 02 97',
+        'aedberg' => '+46 76 815 70 78'
+    ]
 ];

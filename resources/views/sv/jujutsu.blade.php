@@ -5,8 +5,8 @@
         <h1>Jujutsu</h1>
         För oss på Umeå Kampcenter är Jujutsu all form av obeväpnad kamp. Vår målsättning är att du som utövare ska
         känna dig trygg oavsett vart fighten äger rum. Därför tränar vi inte bara självförsvar utan även all form av
-        grappling, slag och spark samt nedtagningar. Som utövare av BJJ, Judo, Karate eller liknande kommer du
-        definitivt att känna igen dig!
+        grappling, slag och spark samt nedtagningar. Om du har tränat BJJ, Judo, Karate eller liknande tidigare kommer
+        du definitivt att känna igen dig!
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/juj3.jpg') }}" alt="Umeå Kampcenter">
@@ -47,13 +47,13 @@
             <strong>Sparring</strong><br>
             Vi vill att du som utövare ska få en djup förståelse för hur teknikerna fungerar med motstånd. Därför är
             sparring en stor del av våra träningspass redan tidigt i din Jujutsuresa. Vi ser till att du har de
-            förutsättningar som krävs och skador är extremt sällsynta.
+            förutsättningar som krävs så skador är sällsynta.
             <br><br>
             Ett axplock av våra sparringformer:
             <ul>
                 <li>Självförsvar mot vanliga angrepp som oftast slutar med att angriparen låses fast nere på marken.</li>
                 <li>Kast med olika grader av motstånd (Judo/fristilsbrottning)</li>
-                <li>Stående slag och spark (Karate/Kickboxning)</li>
+                <li>Stående slag och spark (Karate/kickboxning)</li>
                 <li>Knäbrottning (Judo/BJJ)</li>
             </ul>
         @endslot
@@ -84,7 +84,7 @@
             Du är alltid välkommen att prova på, ingen föranmälan krävs. På vår klubb får du träna i två veckor innan
             du behöver betala medlemsavgiften. Som medlem hos oss får du träna alla våra stilar om du önskar.
             Vår Jujutsu ger dig en bra grund att stå på och går väldigt bra ihop med våra andra stilar -
-            BJJ och Kickboxning.
+            BJJ och kickboxning.
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/juj4.jpg') }}" alt="Umeå Kampcenter">
@@ -94,13 +94,13 @@
         [
             'imageUrl' =>  URL::asset('images/peter.png'),
             'name' => 'Peter Spegel, Renshi',
-            'phone' => '070-2870297',
+            'phone' => config('app.phoneNumbers.pspegel'),
             'belt' => '||||'
         ],
         [
             'imageUrl' => URL::asset('images/person.png'),
             'name' => 'Arvid Edberg, Sensei',
-            'phone' => '076-815 70 78',
+            'phone' => config('app.phoneNumbers.aedberg'),
             'belt' => '|'
         ],
         [
