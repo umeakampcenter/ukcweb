@@ -46,16 +46,13 @@
     }
 
     .time-box {
-        height: 200px;
         background-size: cover;
     }
 
-    a.time-link {
-        margin-right: 0;
-        margin-top: 83px;
+    a.time-link span{
         background-size: 20px auto;
-        padding-right: 50px;
-        font-size: 27px;
+        padding: 60px 50px 60px 0;
+        font-size: 24px;
     }
 
     .fb-item {

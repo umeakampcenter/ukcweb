@@ -29,7 +29,8 @@ return [
     'kickboxingIntro' => 'Kickboxning går ut på stående kamp med slag & spark.',
     'bjjIntro' => 'Gracie Barra BJJ fokuserar på liggande markteknik och mattkamp.',
     'readMore' => 'Läs mer',
-    'seeTrainingSessions' => 'Se våra träningstider här',
+    'seeSelfDefence' => 'Självförsvar för tjejer',
+    'seeTrainingSessions' => 'Se våra träningstider',
     'latestFromFacebook' => 'Senaste från Facebook',
     'showPhotos' => 'Visa bilder',
 

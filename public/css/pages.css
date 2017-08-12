@@ -174,7 +174,7 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .sections {
-    background: #282828;
+    background: #1b1b1b;
     padding: 50px 0 60px;
     width: 100%;
 }
@@ -209,19 +209,34 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .time-box {
-    background: #1b1b1b url(../images/schemabg.jpg) no-repeat center center;
-    height: 235px;
+    background: #1b1b1b url(../images/self_bg.gif) no-repeat center top;
+    position: relative;
+}
+
+.bar-defence:hover {
+    background: rgba(255,255,255,0.05)
+}
+.bar-time {
+    background: rgba(0,0,0,0.3);
+}
+.bar-time:hover {
+    background: rgba(255,255,255,0.05)
 }
 
 a.time-link {
-    font-size: 36px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+a.time-link span {
+    font-size: 32px;
     font-weight: 800;
     background: url(../images/arrow.png) no-repeat right center;
-    padding: 10px 70px 10px 0;
-    float: right;
-    margin: 100px 110px 0 0;
-    display: block;
+    padding: 70px 70px 70px 0;
+    display: inline-block;
     color: #fff;
+    text-transform: uppercase;
 }
 
 a.time-link:hover {
@@ -230,7 +245,7 @@ a.time-link:hover {
 
 
 .fb-feed {
-    padding: 60px 0;
+    padding: 40px 0 60px;
     background: #101010;
 }
 
@@ -377,8 +392,9 @@ a.time-link:hover {
     line-height: 17px;
     font-family: arial;
     letter-spacing: 3px;
-    padding: 0 18px 2px 0;
+    padding: 0 18px 4px 0;
     text-align: right;
+    font-weight: 900;
 }
 
 /* Schedule */

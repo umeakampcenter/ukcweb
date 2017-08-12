@@ -52,6 +52,20 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
+            <h2>Självförsvar för tjejer</h2>
+            Varje pass börjar med en gemensam uppvärmning som passar den sport som vi utövar. Det kan t ex röra sig om
+            fallteknik, pardrillar eller mobilitetsövningar. Därefter delar vi upp oss i nybörjare och avancerade så att de
+            som är nya får lära sig grunderna först. Teknikgenomgångar varvas med träning i par så att det både finns chans
+            att ställa frågor och att utforska teknikerna på egen hand. Vi avslutar gärna med lite situationssparring så
+            att du får testa de nya teknikerna med lite motstånd. Därefter finns det utrymme att sparras fritt eller
+            repetera tekniker om man hellre känner för det.
+        @endslot
+        @slot('imageBox')
+            <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
+        @endslot
+    @endcomponent
+    @component('contentBox')
+        @slot('textBox')
             <h2>Kom och prova på</h2>
             @lang('sub.tryOutText')
             Vår BJJ fungerar bra både som egen stil och som komplement till stående kampsportsformer.

@@ -50,6 +50,9 @@
     .section-item h2 {
         font-size: 26px;
     }
+    .time-box .inner{
+        width: 90%;
+    }
 
     a.time-link {
         margin-right: 58px;

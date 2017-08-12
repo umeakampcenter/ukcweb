@@ -33,8 +33,11 @@ a:link, a:visited {
     text-decoration: none;
     color: #f15151;
 }
-a:hover, a:focus {
+a:hover {
     text-decoration: underline;
+}
+a:focus {
+    text-decoration: none;
 }
 
 p a:link {

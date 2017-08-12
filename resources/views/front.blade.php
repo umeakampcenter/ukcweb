@@ -32,9 +32,21 @@
     </div>
 </div>
 <div class="time-box">
-    <div class="inner">
-        <a href="{{ route('schedule') }}" class="time-link">@lang('main.seeTrainingSessions')</a>
-    </div>
+
+       <div class="bar-defence">
+           <div class="inner">
+               <a href="{{ route('bjj') }}" class="time-link">
+                   <span>@lang('main.seeSelfDefence')</span>
+               </a>
+           </div>
+       </div>
+       <div class="bar-time">
+           <div class="inner">
+               <a href="{{ route('schedule') }}" class="time-link">
+                   <span>@lang('main.seeTrainingSessions')</span>
+               </a>
+           </div>
+        </div>
 </div>
 @if ($facebookPosts)
 <div class="fb-feed clearfix">

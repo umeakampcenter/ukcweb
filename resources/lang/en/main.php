@@ -30,6 +30,7 @@ return [
     'kickboxingIntro' => 'Kickboxing is standup fighting with punches and kicks.',
     'bjjIntro' => 'Gracie Barra BJJ focuses on ground work and fighting on the ground.',
     'readMore' => 'Read more',
+    'seeSelfDefence' => 'Self defence for girls',
     'seeTrainingSessions' => 'Look at our training sessions',
     'latestFromFacebook' => 'Latest from Facebook',
     'showPhotos' => 'Show photos',
