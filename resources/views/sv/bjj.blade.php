@@ -10,6 +10,16 @@
         har möjlighet att skaffa sig en bra position genom att kasta eller svepa den andra. Därefter utspelar sig större
         delen av matchen på marken där båda kämpar för att få en dominant position och sedan låsa ut den andra med
         tekniker mot leder eller hals.
+        <ul>
+            <li>
+                We are a part of
+                <a href="http://graciebarra.com/" target="_blank">Gracie Barra Sweden</a>
+            </li>
+            <li>
+                Our Brazilian Jiu-jitsu
+                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebook group</a>
+            </li>
+        </ul>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj2.jpg') }}" alt="Umeå Kampcenter">
