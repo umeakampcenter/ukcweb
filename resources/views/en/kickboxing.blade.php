@@ -7,6 +7,16 @@
         Today it's a training form on its own that borrows techniques from boxing, karate and other contact sports.
         Regardless if you're just looking for physical exercise or if you want to compete you can train with us.
         As members of the national kickboxing association you can compete with other kickboxers throughout the country.
+        <ul>
+            <li>
+                We are part of the
+                <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
+            </li>
+            <li>
+                The Jujutsu section's
+                <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank">Facebook group</a>
+            </li>
+        </ul>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/kick3.jpg') }}" alt="Umeå Kampcenter">

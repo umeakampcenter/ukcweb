@@ -6,7 +6,15 @@
         För oss på Umeå Kampcenter är Jujutsu all form av obeväpnad kamp. Vår målsättning är att du som utövare ska
         känna dig trygg oavsett vart fighten äger rum. Därför tränar vi inte bara självförsvar utan även all form av
         grappling, slag och spark samt nedtagningar. Om du har tränat BJJ, Judo, Karate eller liknande tidigare kommer
-        du definitivt att känna igen dig!
+        du definitivt att känna igen dig!<br>
+        <ul>
+            <li>
+                Vi tillhör <a href="http://www.stjf.net" target="_blank">Svenska Taijutsu / Jujutsu Förbundet</a>
+            </li>
+            <li>
+                Jujutsu-sektionens <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank">Facebookgrupp</a>
+            </li>
+        </ul>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/juj3.jpg') }}" alt="Umeå Kampcenter">

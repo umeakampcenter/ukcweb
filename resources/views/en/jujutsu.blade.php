@@ -7,6 +7,16 @@
         feel confident wherever the fight takes place. With that goal in mind, we train not only self defence but all
         forms of grappling, striking and takedowns. If you've practiced BJJ, Judo, Karate or similar styles earlier you
         will definitively recognize yourself.
+        <ul>
+            <li>
+                We are part of the
+                <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
+            </li>
+            <li>
+                The Jujutsu section's
+                <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank">Facebook group</a>
+            </li>
+        </ul>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/juj3.jpg') }}" alt="Umeå Kampcenter">

@@ -311,6 +311,10 @@ a.time-link:hover {
     background: #282828;
 }
 
+.sec-logo {
+    padding: 20px 0;
+}
+
 .text-box {
     width: 47%;
     margin-right: 3%;
