@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var $femaleSelfDefenceId string
+ */
+ ?>
 @extends('app')
 @section('content')
     @component('contentBox')
@@ -12,12 +17,12 @@
         tekniker mot leder eller hals.
         <ul>
             <li>
-                We are a part of
+                Vi tillhör
                 <a href="http://graciebarra.com/" target="_blank">Gracie Barra Sweden</a>
             </li>
             <li>
-                Our Brazilian Jiu-jitsu
-                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebook group</a>
+                BJJ-sektionens
+                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebookgrupp</a>
             </li>
         </ul>
         @endslot
@@ -62,7 +67,7 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>Självförsvar för tjejer</h2>
+            <h2 id="female-self-defence">Självförsvar för tjejer</h2>
             Varje söndag erbjuder vi kostnadsfri självförsvarsträning för tjejer från 14 år och uppåt. Vi lär ut
             välbeprövade tekniker hämtade från bland annat Brasiliansk Jiu-jitsu som du kan använda för att försvara
             dig mot en fysiskt starkare person. Träningen består till stor del av parövningar där du lär dig skydda dig
