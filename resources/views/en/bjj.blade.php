@@ -10,6 +10,16 @@
         the players have an opportunity to gain a good position by throwing or sweeping the opponent. The remainder of
         the match takes part mostly on the ground where both players fight to gain a dominant position before submitting
         the opponent with a joint lock or choke.
+        <ul>
+            <li>
+                Vi tillhör
+                <a href="http://graciebarra.com/" target="_blank">Gracie Barra Sweden</a>
+            </li>
+            <li>
+                BJJ-sektionens
+                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebookgrupp</a>
+            </li>
+        </ul>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj2.jpg') }}" alt="Umeå Kampcenter">

@@ -9,12 +9,12 @@
         As members of the national kickboxing association you can compete with other kickboxers throughout the country.
         <ul>
             <li>
-                We are part of the
-                <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
+                We are a part of
+                <a href="http://www.swedenkickboxing.se" target="_blank">Sweden kickboxing</a>
             </li>
             <li>
-                The Jujutsu section's
-                <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank">Facebook group</a>
+                Our kickboxing
+                <a href="https://www.facebook.com/groups/383422005110541" target="_blank">Facebook group</a>
             </li>
         </ul>
         @endslot

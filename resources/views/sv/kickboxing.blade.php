@@ -7,6 +7,16 @@
         och tävla mot varandra. Idag är det en egen träningsform som lånar tekniker från boxning, karate och andra
         kontaktsporter. Hos oss kan du träna både som motionär och som tävlingsintresserad. Som medlemmar i Svenska
         Kickboxningsförbundet kan du deltaga i alla tävlingar som hålls runt om i landet.
+        <ul>
+            <li>
+                Vi tillhör
+                <a href="http://www.swedenkickboxing.se" target="_blank">Svenska kickboxingsförbundet</a>
+            </li>
+            <li>
+                Kickboxningssektionens
+                <a href="https://www.facebook.com/groups/383422005110541" target="_blank">Facebookgrupp</a>
+            </li>
+        </ul>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/kick3.jpg') }}" alt="Umeå Kampcenter">
