@@ -51,6 +51,19 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
+        <h2>Female self defence</h2>
+        We offer free self defence courses every sunday afternoon for women that are 14 years or older. We mostly teach
+        well proven techniques from Brazilian Jiu-jitsu that you can use to defend yourself against a physically
+        stronger assailant. The training consists mainly of pair exercises where you learn to defend yourself and get
+        out of different scenarios. To get the most out of your training you may even try the techniques against
+        seasoned opponents if you wish.
+        @endslot
+        @slot('imageBox')
+            <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
+        @endslot
+    @endcomponent
+    @component('contentBox')
+        @slot('textBox')
             <h2>Try for yourself!</h2>
             @lang('sub.tryOutText')
             Our BJJ works great on its own or as a complement to our standup arts.
