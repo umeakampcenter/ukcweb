@@ -35,7 +35,7 @@
 
        <div class="bar-defence">
            <div class="inner">
-               <a href="{{ route('bjj') }}" class="time-link">
+               <a href="{{ route('bjj') }}#female-self-defence" class="time-link">
                    <span>@lang('main.seeSelfDefence')</span>
                </a>
            </div>
