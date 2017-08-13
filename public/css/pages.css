@@ -249,6 +249,10 @@ a.time-link:hover {
     background: #101010;
 }
 
+.fb-feed a{
+    color: #fff;
+}
+
 .fb-feed h3 {
     text-transform: uppercase;
     font-weight: 800;
@@ -309,6 +313,16 @@ a.time-link:hover {
 
 .content-box:nth-child(2n) {
     background: #282828;
+}
+
+.content-box ul {
+    margin: 20px 0 0;
+    padding: 0 0 0 20px;
+    list-style: square;
+}
+
+.content-box li {
+    padding: 2px 0;
 }
 
 .sec-logo {

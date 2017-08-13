@@ -54,7 +54,7 @@
         <h3>@lang('main.latestFromFacebook')</h3>
         @foreach ($facebookPosts as $post)
             <div class="fb-item">
-                <h5>Umeå Kampcenter</h5>
+                <a href="https://www.facebook.com/umeakampcenter/" target="_blank"><h5>Umeå Kampcenter</h5></a>
                 <div class="fb-time">{{ $post["createDateTime"]->format('j F Y H:i') }}</div>
                 <div class="fb-text">{{ $post["message"] }}</div>
                 <div class="fb-link">
