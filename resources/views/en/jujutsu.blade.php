@@ -100,7 +100,7 @@
     @endcomponent
     @component('instructors', ['persons' => [
         [
-            'imageUrl' =>  URL::asset('images/peter.png'),
+            'imageUrl' =>  URL::asset('images/person.png'),
             'name' => 'Peter Spegel, Renshi',
             'phone' => config('app.phoneNumbers.pspegel'),
             'belt' => '||||'
