@@ -204,8 +204,12 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .section-text{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     height: 120px;
+}
+
+.section-text-start {
+    margin-bottom: 30px;
 }
 
 .time-box {
