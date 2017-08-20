@@ -11,6 +11,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="image_src" href="http://umeakampcenter.se/images/front_long2.jpg">
+        <meta property="description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
+        <meta property="og:description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
+        <meta property=”og:image” content=”http://umeakampcenter.se/images/front_long2.jpg” />
+        <meta property=”og:title” content=”Umeå Kampcenter” />
 
         <title>Umeå Kampcenter</title>
 
