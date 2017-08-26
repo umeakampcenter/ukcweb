@@ -22,7 +22,7 @@
             </li>
             <li>
                 BJJ-sektionens
-                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebookgrupp</a>
+                <a href="https://www.facebook.com/GracieBarraUmea" target="_blank">Facebookgrupp</a>
             </li>
         </ul>
         @endslot

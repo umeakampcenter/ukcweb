@@ -22,7 +22,7 @@
             </li>
             <li>
                 Our Brazilian Jiu-jitsu
-                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebook group</a>
+                <a href="https://www.facebook.com/GracieBarraUmea" target="_blank">Facebook group</a>
             </li>
         </ul>
         @endslot
