@@ -30,6 +30,12 @@ class ScheduleController extends Controller
                 ],
                 __("schedule.tuesday") => [
                     [
+                        "title" => __("schedule.booked"),
+                        "start" => "11:30",
+                        "end" => "12:15",
+                        "class" => "misc"
+                    ],
+                    [
                         "title" => __("schedule.bjjMix"),
                         "start" => "18:30",
                         "end" => "20:00",

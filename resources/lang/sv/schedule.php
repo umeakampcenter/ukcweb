@@ -12,6 +12,7 @@ return [
     "jujutsu" => "Jujutsu nybörjare & avance",
     "kickboxingAdvance" => "Kickboxning avance",
     "kickboxingBeginner" => "Kickboxning nybörjare",
+    "booked" => "Lokalen uthyrd",
     "bjjMix" => "BJJ nybörjare & avance",
     "bjjAdvance" =>"BJJ avance",
     "bjjOpen" => "BJJ öppen matta",

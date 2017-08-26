@@ -12,6 +12,7 @@ return [
     "jujutsu" => "Jujutsu beginners & advance",
     "kickboxingAdvance" => "Kickboxing advance",
     "kickboxingBeginner" => "Kickboxing beginners",
+    "booked" => "Rented out",
     "bjjMix" => "BJJ beginners & advance",
     "bjjAdvance" =>"BJJ advance",
     "bjjOpen" => "BJJ open mat",
