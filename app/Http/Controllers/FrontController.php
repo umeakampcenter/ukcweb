@@ -35,7 +35,7 @@ class FrontController extends Controller
                 [
                     "query" => [
                         "fields" => "message,permalink_url,object_id,created_time",
-                        "limit" => 3
+                        "limit" => 6
                     ]
                 ]
             );
@@ -49,11 +49,14 @@ class FrontController extends Controller
             if (!isset($rawPost["message"])) {
                 continue;
             }
-            $posts[$i] = [
+            $posts []= [
                 "message" => $rawPost["message"],
                 "createDateTime" => new Date($rawPost["created_time"]),
                 "url" => array_key_exists("object_id", $rawPost) ? $rawPost["permalink_url"] : null
             ];
+            if (count($posts) > 2) {
+                break;
+            }
         }
 //        \Log::info(var_export($posts, true));
         return $posts;
