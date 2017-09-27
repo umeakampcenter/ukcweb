@@ -46,6 +46,9 @@ class FrontController extends Controller
         $result = json_decode($response->getBody(), true);
         $posts = [];
         foreach ($result["data"] as $i => $rawPost) {
+            if (!isset($rawPost["message"])) {
+                continue;
+            }
             $posts[$i] = [
                 "message" => $rawPost["message"],
                 "createDateTime" => new Date($rawPost["created_time"]),
