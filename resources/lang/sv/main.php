@@ -21,7 +21,7 @@ return [
 
     'welcomeHeading' => 'Välkommen till Umeå Kampcenter',
     'welcomeText' => 'Umeå Kampcenter erbjuder tre kompletta kampsportsstilar: Jujutsu, Kickboxning och '
-        . 'Gracie Barra Brazilian Jiu-Jitsu. Alla dessa kampsporter kompletterar varandra och som medlem får du får '
+        . 'Gracie Barra Brazilian Jiu-Jitsu. Alla dessa kampsporter kompletterar varandra och som medlem får du '
         . 'träna alla tre! '
         . 'Medlemsavgiften är 1000kr/termin. Självklart får du pröva på några tillfällen innan du betalar! '
         . 'Just nu har vi endast vuxenverksamhet (14+).',

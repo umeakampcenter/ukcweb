@@ -22,7 +22,7 @@
             </li>
             <li>
                 Our Brazilian Jiu-jitsu
-                <a href="https://www.facebook.com/groups/117989221552157" target="_blank">Facebook group</a>
+                <a href="https://www.facebook.com/GracieBarraUmea" target="_blank">Facebook group</a>
             </li>
         </ul>
         @endslot
@@ -89,21 +89,21 @@
     @endcomponent
     @component('instructors', ['persons' => [
         [
-            'imageUrl' =>  URL::asset('images/person.png'),
+            'imageUrl' =>  URL::asset('images/instructors/mattias.jpg'),
             'name' => 'Mattias Sandström',
             'phone' => config('app.phoneNumbers.msandstrom'),
             'belt' => '',
             'beltColor' => config('app.beltColors.brown')
         ],
         [
-            'imageUrl' => URL::asset('images/person.png'),
+            'imageUrl' => URL::asset('images/instructors/piri.jpg'),
             'name' => 'Piri Nigeus',
             'phone' => config('app.phoneNumbers.pnigeus'),
             'belt' => '',
             'beltColor' => config('app.beltColors.purple')
         ],
         [
-            'imageUrl' => URL::asset('images/person.png'),
+            'imageUrl' => URL::asset('images/instructors/matte.jpg'),
             'name' => 'Matte Liljeblad',
             'phone' => config('app.phoneNumbers.mliljeblad'),
             'belt' => '',

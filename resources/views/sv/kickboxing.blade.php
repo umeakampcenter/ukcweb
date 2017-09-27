@@ -68,7 +68,7 @@
     @endcomponent
     @component('instructors', ['persons' => [
         [
-            'imageUrl' =>  URL::asset('images/person.png'),
+            'imageUrl' =>  URL::asset('images/instructors/stefan.jpg'),
             'name' => 'Stefan Eriksson',
             'phone' => config('app.phoneNumbers.seriksson'),
             'belt' => null
