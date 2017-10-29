@@ -34,6 +34,8 @@
         egen Jujutsustil. Det innebär att vi själva styr över inriktningen och vilka tekniker som ska finnas med.
         Självklart är vi uppbackade av ett stilobundet och ideellt förbund som låter oss åka på inspirerande läger
         och hjälper oss med svartbältesgaderingar.
+        <br><br>
+        @lang('main.membershipFee')
         @endslot
         @slot('imageBox')
             <iframe

@@ -46,6 +46,8 @@
         tidigare kommer du att känna igen tänket men det är sannolikt att du kommer att få lära dig att jobba från nya
         positioner och grepp. Genom våra kontakter i Europa och USA strävar vi efter att hålla Norrlands bästa läger så
         att du kan få tips från eliten first hand.
+        <br><br>
+        @lang('main.membershipFee')
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj5.jpg') }}" alt="Umeå Kampcenter">

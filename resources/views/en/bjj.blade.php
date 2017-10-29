@@ -45,6 +45,8 @@
         before you will recognize yourself but it's likely that you'll learn to work from new positions and grips.
         Through our contacts in Europe and the US we strive to put together the best seminars in northern Sweden so you
         can learn from the elite first hand.
+        <br><br>
+        @lang('main.membershipFee')
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj5.jpg') }}" alt="Umeå Kampcenter">

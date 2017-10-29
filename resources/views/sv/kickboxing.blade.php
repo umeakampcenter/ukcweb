@@ -36,6 +36,8 @@
         kommer du att lära dig att justera din gard för att skydda dig på bästa sätt. Alternativt om du kört boxning
         tidigare kommer sparkar snart att vävas in i de kombinationer du redan kan så att du kan bli en komplett
         kickboxare!
+        <br><br>
+        @lang('main.membershipFee')
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/kick2.jpg') }}" alt="Umeå Kampcenter">

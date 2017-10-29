@@ -34,6 +34,8 @@
         many other striking arts. If you've trained a style where head punches are not allowed you will learn to adjust
         your guard to protect yourself in a good way. Alternatively, if you've trained boxing before you will soon learn
         to incorporate kicks into your arsenal to become a complete kickboxer!
+        <br><br>
+        @lang('main.membershipFee')
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/kick2.jpg') }}" alt="Umeå Kampcenter">

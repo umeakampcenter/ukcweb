@@ -10,6 +10,7 @@ return [
     "sunday" => "sunday",
 
     "jujutsu" => "Jujutsu beginners & advance",
+    "jujutsuBjjOpen" => "Jujutsu & BJJ open mat",
     "kickboxingAdvance" => "Kickboxing advance",
     "kickboxingBeginner" => "Kickboxing beginners",
     "booked" => "Rented out",

@@ -36,6 +36,8 @@
         own blend of Jujutsu. This means that we are in control of the direction we take and which techniques
         that should be taught. Of course we're part of a national organization with the same open mindset as ourselves,
         which lets us go to inspiring seminars and get help with black belt examinations.
+        <br><br>
+        @lang('main.membershipFee')
         @endslot
         @slot('imageBox')
             <iframe

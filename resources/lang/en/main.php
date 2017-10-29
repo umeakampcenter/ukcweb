@@ -40,5 +40,7 @@ return [
 
     'allRightsReserved' => 'All rights reserved',
     'findUs' => 'Find us',
-    'email' => 'Send an email to us'
+    'email' => 'Send an email to us',
+
+    'membershipFee' => 'The membership fee is 1000 SEK per semester. Members have access to all our styles!'
 ];

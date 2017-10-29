@@ -40,5 +40,7 @@ return [
 
     'allRightsReserved' => 'Alla rättigheter reserverade',
     'findUs' => 'Hitta oss',
-    'email' => 'Skicka e-post till oss'
+    'email' => 'Skicka e-post till oss',
+
+    'membershipFee' => 'Medlemsavgiften är 1000kr/termin. Som medlem får du träna alla våra stilar!'
 ];
