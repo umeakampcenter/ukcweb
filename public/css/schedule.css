@@ -23,7 +23,7 @@ Main Components
     font-size: 12px;
     line-height: 1.4em;
     margin: 0;
-    padding: 50px 0;
+    padding: 56px 0;
     position: relative;
 }
 
@@ -38,7 +38,7 @@ Main Components
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
-        padding: 50px 0;
+        padding: 56px 0;
     }
     .cd-schedule::after {
         clear: both;
@@ -66,12 +66,12 @@ Main Components
         left: 0;
         height: 100%;
         width: 100%;
-        padding-top: 100px;
+        padding-top: 112px;
     }
 
     .cd-schedule .timeline li {
         position: relative;
-        height: 50px;
+        height: 56px;
     }
 
     .cd-schedule .timeline li::after {
@@ -195,7 +195,7 @@ Main Components
     .cd-schedule .events .top-info {
         /* vertically center its content */
         display: table;
-        height: 50px;
+        height: 56px;
         border-bottom: 1px solid #525252;
         /* reset style */
         padding: 0;
@@ -212,7 +212,7 @@ Main Components
         margin-bottom: 0;
     }
     .cd-schedule .events .events-group > ul {
-        height: 1148px;
+        height: 1286px;
         /* reset style */
         display: block;
         overflow: visible;
