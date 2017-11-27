@@ -96,14 +96,14 @@
             'name' => 'Mattias Sandström',
             'phone' => config('app.phoneNumbers.msandstrom'),
             'belt' => '',
-            'beltColor' => config('app.beltColors.brown')
+            'beltColor' => config('app.beltColors.black')
         ],
         [
             'imageUrl' => URL::asset('images/instructors/piri.jpg'),
             'name' => 'Piri Nigeus',
             'phone' => config('app.phoneNumbers.pnigeus'),
             'belt' => '',
-            'beltColor' => config('app.beltColors.purple')
+            'beltColor' => config('app.beltColors.brown')
         ],
         [
             'imageUrl' => URL::asset('images/instructors/matte.jpg'),

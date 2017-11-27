@@ -110,6 +110,10 @@
     margin-top: 4px;
 }
 
+body.lang-en .mobile-menu-btn {
+    background: url("../images/mobilmenu.png") no-repeat right center;
+}
+
 @media all and (min--moz-device-pixel-ratio: 2),
 all and (-o-min-device-pixel-ratio: 2/1),
 all and (-webkit-min-device-pixel-ratio: 2),
@@ -117,6 +121,10 @@ all and (min-device-pixel-ratio: 2)  {
     .mobile-menu-btn {
         background-image: url("../images/mobilmeny@2x.png");
         background-size: 68px 15px;
+    }
+
+    body.lang-en .mobile-menu-btn {
+        background: url("../images/mobilmenu@2x.png") no-repeat right center;
     }
 }
 
