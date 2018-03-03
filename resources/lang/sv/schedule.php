@@ -9,8 +9,8 @@ return [
     "saturday" => "lördag",
     "sunday" => "söndag",
 
-    "jujutsu" => "Jujutsu",
-    "jujutsuBjjOpen" => "Jujutsu (17:15) & BJJ öppen matta",
+    "jujutsu" => "Jujutsu nybörjare & avance",
+    "jujutsuBjjOpen" => "Jujutsu nybörjare & avance (17:15) / BJJ öppen matta",
     "kickboxingAdvance" => "Kickboxning avance",
     "kickboxingBeginner" => "Kickboxning nybörjare",
     "booked" => "Lokalen uthyrd",

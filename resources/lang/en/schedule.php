@@ -9,8 +9,8 @@ return [
     "saturday" => "saturday",
     "sunday" => "sunday",
 
-    "jujutsu" => "Jujutsu",
-    "jujutsuBjjOpen" => "Jujutsu (17:15) & BJJ open mat",
+    "jujutsu" => "Jujutsu beginners & advance",
+    "jujutsuBjjOpen" => "Jujutsu beginners & advance (17:15) / BJJ open mat",
     "kickboxingAdvance" => "Kickboxing advance",
     "kickboxingBeginner" => "Kickboxing beginners",
     "booked" => "Rented out",
