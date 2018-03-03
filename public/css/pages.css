@@ -302,6 +302,7 @@ a.time-link:hover {
 .fb-text {
     font-size: 16px;
     padding-bottom: 10px;
+    word-wrap: break-word;
 }
 
 .fb-link  {

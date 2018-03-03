@@ -59,7 +59,7 @@
             <div class="fb-item">
                 <a href="https://www.facebook.com/umeakampcenter/" target="_blank"><h5>Umeå Kampcenter</h5></a>
                 <div class="fb-time">{{ $post["createDateTime"]->format('j F Y H:i') }}</div>
-                <div class="fb-text">{{ $post["message"] }}</div>
+                <div class="fb-text">{!! nl2br($post["message"]) !!}</div>
                 <div class="fb-link">
                     @if ($post["url"])
                         <a href="{{ $post["url"] }}" target="_blank">@lang('main.showPhotos')</a>
