@@ -354,6 +354,10 @@ a.time-link:hover {
     float: left;
 }
 
+.image-box iframe:first-child {
+    margin-bottom: 1em;
+}
+
 .content-box:nth-child(2n) .text-box {
     float: right;
     margin: 0 0 0 3%;
