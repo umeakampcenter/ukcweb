@@ -110,7 +110,7 @@
             'name' => 'Matte Liljeblad',
             'phone' => config('app.phoneNumbers.mliljeblad'),
             'belt' => '',
-            'beltColor' => config('app.beltColors.blue')
+            'beltColor' => config('app.beltColors.purple')
         ]
     ]])
     @endcomponent
