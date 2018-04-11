@@ -19,7 +19,7 @@ return [
     "bjjIntermediate" => "BJJ fortsättare",
     "bjjBegin" => "BJJ nybörjare",
     "bjjIntermediateAdvance" => "BJJ fortsättare & avance",
-    "bjjSpecific" => "Spec. sparring",
+    "bjjSpecific" => "Sit. sparring",
     "bjjComp" => "BJJ tävlings&shy;träning",
     "bjjSw" => "BJJ nogi (SW)",
     "bjjSelfDefence" => "BJJ självförsvar för tjejer",

@@ -19,7 +19,7 @@ return [
     "bjjIntermediate" => "BJJ intermediate",
     "bjjBegin" => "BJJ beginners",
     "bjjIntermediateAdvance" => "BJJ intermediate & advance",
-    "bjjSpecific" => "Spec. sparring",
+    "bjjSpecific" => "Sit. sparring",
     "bjjComp" => "BJJ competition training",
     "bjjSw" => "BJJ nogi (SW)",
     "bjjSelfDefence" => "BJJ self defence for women",
