@@ -119,13 +119,13 @@
             'imageUrl' => URL::asset('images/instructors/arvid.jpg'),
             'name' => 'Arvid Edberg, Sensei',
             'phone' => config('app.phoneNumbers.aedberg'),
-            'belt' => '|'
+            'belt' => '||'
         ],
         [
             'imageUrl' => URL::asset('images/instructors/john.jpg'),
             'name' => 'John Nilsson, Sensei',
             'phone' => '',
-            'belt' => '|'
+            'belt' => '||'
         ]
     ]])
     @endcomponent
