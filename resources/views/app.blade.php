@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="{{ $stylesheet }}">
         @endforeach
     </head>
-    <body class="lang-{{ app()->getLocale() }}">
+    <body>
         <div id="header">
             <div class="inner clearfix">
                 <div id="logo">

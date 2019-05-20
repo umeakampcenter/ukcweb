@@ -60,7 +60,7 @@
         advanced students so the beginners can learn the basics first. The techniques are practiced in pairs with
         possibilities to ask questions and explore the moves on your own. We like to end the session with
         situational sparring so you get to try out the new moves with a little resistance. After the session we have
-        open mat where you can spar or repeat the techniques you've learned.
+        free training where you can spar or repeat the techniques you've learned.
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj3.jpg') }}" alt="Umeå Kampcenter">
@@ -74,6 +74,8 @@
         stronger assailant. The training consists mainly of pair exercises where you learn to defend yourself and get
         out of different scenarios. To get the most out of your training you may even try the techniques against
         seasoned opponents if you wish.
+        <br><br>
+        <a href="https://www.facebook.com/gbumeasjalvforsvar/" target="_blank">Självförsvar för tjejer</a>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
@@ -105,11 +107,11 @@
             'beltColor' => config('app.beltColors.brown')
         ],
         [
-            'imageUrl' => URL::asset('images/instructors/matte.jpg'),
-            'name' => 'Matte Liljeblad',
-            'phone' => config('app.phoneNumbers.mliljeblad'),
+            'imageUrl' => URL::asset('images/person.png'),
+            'name' => 'Moa Carlsson Gustafsson',
+            'phone' => '',
             'belt' => '',
-            'beltColor' => config('app.beltColors.purple')
+            'beltColor' => config('app.beltColors.blue')
         ]
     ]])
     @endcomponent

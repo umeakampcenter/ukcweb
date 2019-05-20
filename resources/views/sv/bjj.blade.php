@@ -75,6 +75,8 @@
             dig mot en fysiskt starkare person. Träningen består till stor del av parövningar där du lär dig skydda dig
             och ta dig undan i olika scenarion. För att du ska få en så realistisk träning som möjligt kan du även få
             testa teknikerna mot erfarna motståndare om du vill.
+            <br><br>
+            <a href="https://www.facebook.com/gbumeasjalvforsvar/" target="_blank">Självförsvar för tjejer</a>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
@@ -106,11 +108,11 @@
             'beltColor' => config('app.beltColors.brown')
         ],
         [
-            'imageUrl' => URL::asset('images/instructors/matte.jpg'),
-            'name' => 'Matte Liljeblad',
-            'phone' => config('app.phoneNumbers.mliljeblad'),
+            'imageUrl' => URL::asset('images/person.png'),
+            'name' => 'Moa Carlsson Gustafsson',
+            'phone' => '',
             'belt' => '',
-            'beltColor' => config('app.beltColors.purple')
+            'beltColor' => config('app.beltColors.blue')
         ]
     ]])
     @endcomponent
