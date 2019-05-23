@@ -19,6 +19,11 @@
 
         <title>Umeå Kampcenter</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        @foreach ($stylesheets as $stylesheet)
+            <link rel="stylesheet" href="{{ $stylesheet }}">
+        @endforeach
+
         <script
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -31,11 +36,6 @@
                 umeakampcenter.menu.init($(".mobile-menu-btn"), $("#mobile-menu"));
             });
         </script>
-
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-        @foreach ($stylesheets as $stylesheet)
-        <link rel="stylesheet" href="{{ $stylesheet }}">
-        @endforeach
     </head>
     <body>
         <div id="header">
