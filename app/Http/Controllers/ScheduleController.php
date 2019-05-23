@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers;
 
+//use Illuminate\Support\Facades\Log;
+
 class ScheduleController extends Controller
 {
     public function show()
     {
+//        $laravel = app();
+//        $version = $laravel::VERSION;
+//        Log::error($version);
         return view('schedule', [
             "events" => [
                 __("schedule.monday") => [
