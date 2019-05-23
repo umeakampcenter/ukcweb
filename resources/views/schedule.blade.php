@@ -38,7 +38,7 @@
                 <ul>
                     @foreach ($events[$day] as $event)
                     <li class="single-event {{ $event['class'] }}" data-start="{{ $event['start'] }}" data-end="{{ $event['end'] }}" data-content="event-abs-circuit">
-                        <em class="event-name">{{ $event['title'] }}</em>
+                        <em class="event-name">{!! $event['title'] !!}</em>
                     </li>
                     @endforeach
                 </ul>
