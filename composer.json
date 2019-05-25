@@ -1,16 +1,16 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "umeakampcenter/ukcweb",
+    "description": "Website for Umeå Kampcenter",
+    "keywords": ["laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": "7.2.*",
-        "fideloper/proxy": "^4.1",
+        "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "6.3.3",
         "ied3vil/language-switcher": "dev-master",
         "jenssegers/date": "3.5.0",
-        "laravel/framework": "5.6.*"
+        "laravel/framework": "5.8.*"
     },
     "require-dev": {
         "matthiasmullie/minify": "1.3.*"
@@ -21,11 +21,15 @@
         }
     },
     "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
         "post-root-package-install": [
-            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "php artisan key:generate"
+            "@php artisan key:generate --ansi"
         ]
     },
     "config": {
