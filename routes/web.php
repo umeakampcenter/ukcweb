@@ -29,7 +29,10 @@ Route::get('/self-defence', function () {
     return view(App::getLocale() . '/selfDefence');
 })->name('selfDefence');
 
-Route::get('/board', null)->name('board');
+Route::get('/board', function () {
+    return view(App::getLocale() . '/board');
+})->name('board');
+
 Route::get('/findUs', null)->name('findUs');
 
 Route::get('/schedule', 'ScheduleController@show')->name('schedule');

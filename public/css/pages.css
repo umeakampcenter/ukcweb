@@ -398,6 +398,7 @@ a.time-link:hover {
     width: 47%;
     margin-left: 3%;
     float: left;
+    text-align: center;
 }
 
 .image-box iframe:first-child {
@@ -478,4 +479,6 @@ a.time-link:hover {
     font-weight: 900;
 }
 
-
+.board-image {
+    width: 400px;
+}
