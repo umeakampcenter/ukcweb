@@ -29,6 +29,9 @@ Route::get('/self-defence', function () {
     return view(App::getLocale() . '/selfDefence');
 })->name('selfDefence');
 
+Route::get('/board', null)->name('board');
+Route::get('/findUs', null)->name('findUs');
+
 Route::get('/schedule', 'ScheduleController@show')->name('schedule');
 
 Route::get('/lang/{language}', '\\ied3vil\\LanguageSwitcher\\LanguageSwitcherController@setLanguage')

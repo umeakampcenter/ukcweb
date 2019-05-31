@@ -14,9 +14,12 @@ return [
     */
 
     'start' => 'Home',
+    'train' => 'Train with us',
     'jujutsu' => 'Jujutsu',
     'kickboxing' => 'Kickboxing',
     'bjj' => 'Gracie Barra BJJ',
+    'selfDefence' => 'Self-defence for women',
+    'board' => 'Board',
     'schedule' => 'Schedule',
 
     'welcomeHeading' => 'Welcome to Umeå Kampcenter',

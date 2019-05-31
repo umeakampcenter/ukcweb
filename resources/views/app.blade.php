@@ -47,10 +47,18 @@
                 </div>
                 <div class="menu">
                     <a href="{{ route('home') }}">@lang('main.start')</a>
-                    <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
-                    <a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a>
-                    <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
+                    <div class="menu-item">
+                        <span class="menu-activator">@lang('main.train')</span>
+                        <ul>
+                            <li><a href="{{ route('bjj') }}">@lang('main.bjj')</a></li>
+                            <li><a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a></li>
+                            <li><a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a></li>
+                            <li><a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a></li>
+                        </ul>
+                    </div>
+                    <a href="{{ route('board') }}">@lang('main.board')</a>
                     <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
+                    <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
                     @if ($isSwedish)
                         <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">
                             Switch to english
