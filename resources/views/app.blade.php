@@ -78,7 +78,10 @@
             <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
             <a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a>
             <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
+            <a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a>
+            <a href="{{ route('board') }}">@lang('main.board')</a>
             <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
+            <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
             @if ($isSwedish)
                 <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">Switch to english</a>
             @else

@@ -31,25 +31,17 @@
 
     .section-item {
         width: 100%;
-        margin: 0 0 50px;
-        float: none;
     }
 
     .section-text {
-        height: auto;
-        max-width: 400px;
         margin: 0 auto 20px;
-    }
-
-    .section-item:nth-of-type(3) {
-        margin-bottom: 0;
     }
 
     .time-box {
         background-size: cover;
     }
 
-    a.time-link span{
+    a.time-link {
         background-size: 20px auto;
         line-height: 1.2em;
         padding: 60px 50px 60px 0;

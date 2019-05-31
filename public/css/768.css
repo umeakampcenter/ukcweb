@@ -22,10 +22,18 @@
     }
 
     .menu {
-        padding: 16px 0 12px;
+        padding: 16px 0 0;
     }
 
-    .menu a {
+    .menu a, .menu-item {
+        padding-bottom: 24px;
+    }
+
+    .menu-item ul {
+        top: 57px;
+    }
+
+    .menu a, .menu-item span {
         font-size: 15px;
         font-weight: 600;
     }
@@ -42,9 +50,13 @@
         top: 60px;
     }
 
+    .sections {
+        padding-bottom: 0;
+    }
+
     .section-item {
-        width: 27%;
-        margin-right: 9.5%;
+        margin-bottom: 60px;
+        width: 48%;
     }
 
     .section-item h2 {
@@ -119,19 +131,9 @@
         font-size: 22px;
     }
 
-    .section-item {
-        width: 29%;
-        margin-right: 6.5%;
-    }
-
     .section-item a {
         padding: 15px 20px;
-        max-width: 200px;
         margin: 0 auto;
-    }
-
-    .section-text {
-        height: 88px;
     }
 
     a.time-link {

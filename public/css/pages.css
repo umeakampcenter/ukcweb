@@ -65,10 +65,22 @@
     padding: 0;
     left: -13px;
     margin-top: 0;
-    top: 65px;
+    top: 63px;
     border-top: 6px solid #cd2f2f;
     z-index: 1;
     background: #1b1b1b;
+}
+
+.menu-item ul:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #cd2f2f;
+    position: absolute;
+    top: -16px;
+    left: 62px;
 }
 
 .menu-item li a {
@@ -91,7 +103,7 @@
     display: block;
     font-size: 18px;
     font-weight: 700;
-    padding: 10px 10px 30px;
+    padding: 10px 10px 28px;
     margin: 0 30px 0 0;
     color: #fff;
 }
@@ -215,6 +227,7 @@ all and (min-device-pixel-ratio: 2)  {
 .sections .inner {
     align-items: stretch;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -225,6 +238,10 @@ all and (min-device-pixel-ratio: 2)  {
     font-size: 16px;
     text-align: center;
     width: 23%;
+}
+
+.section-item * {
+    max-width: 300px;
 }
 
 .section-item h2 {
@@ -277,7 +294,7 @@ a.time-link {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
-    transition: 0.2s ease;
+    transition: transform 0.2s ease;
 }
 
 a.time-link:hover {
@@ -460,8 +477,5 @@ a.time-link:hover {
     text-align: right;
     font-weight: 900;
 }
-
-/* Schedule */
-
 
 
