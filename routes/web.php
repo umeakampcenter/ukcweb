@@ -33,7 +33,9 @@ Route::get('/board', function () {
     return view(App::getLocale() . '/board');
 })->name('board');
 
-Route::get('/findUs', null)->name('findUs');
+Route::get('/findUs', function () {
+    return view(App::getLocale() . '/findUs');
+})->name('findUs');
 
 Route::get('/schedule', 'ScheduleController@show')->name('schedule');
 
