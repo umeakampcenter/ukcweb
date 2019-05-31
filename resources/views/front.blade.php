@@ -12,7 +12,7 @@
         <p>@lang('main.welcomeText')</p>
     </div>
 </div>
-<div class="sections clearfix">
+<div class="sections">
     <div class="inner">
         <div class="section-item">
             <h2>@lang('main.jujutsu')</h2>
@@ -31,6 +31,12 @@
             <div class="section-text">@lang('main.bjjIntro')</div>
             <div class="section-text-start">@lang('main.bjjStart')</div>
             <a href="{{ route('bjj') }}">@lang('main.readMore')</a>
+        </div>
+        <div class="section-item">
+            <h2>@lang('main.selfDefenceWithLineBreak')</h2>
+            <div class="section-text">@lang('main.selfDefenceIntro')</div>
+            <div class="section-text-start">@lang('main.selfDefenceStart')</div>
+            <a href="{{ route('selfDefence') }}">@lang('main.readMore')</a>
         </div>
     </div>
 </div>

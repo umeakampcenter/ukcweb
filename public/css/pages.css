@@ -206,27 +206,30 @@ all and (min-device-pixel-ratio: 2)  {
     text-transform: none;
 }
 
-.section-item {
-    float: left;
-    width: 23%;
-    margin-right: 15%;
-    text-align: center;
-}
-
-.section-item:nth-child(3n) {
-    margin-right: 0;
-}
-
 .sections {
     background: #1b1b1b;
     padding: 50px 0 60px;
     width: 100%;
 }
 
-.section-item h2 {
-    font-size: 28px;
-    margin: 0 0 20px;
+.sections .inner {
+    align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
     text-align: center;
+    width: 23%;
+}
+
+.section-item h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
 }
 
 .section-item a {
@@ -235,9 +238,9 @@ all and (min-device-pixel-ratio: 2)  {
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
-    padding: 20px 20px;
+    padding: 13px 20px;
     font-weight: 600;
-    max-width: 270px;
+    width: 170px;
     margin: 0 auto;
     color: #fff;
 }
@@ -248,12 +251,12 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .section-text{
-    margin-bottom: 0px;
-    height: 120px;
+    margin-bottom: 0;
 }
 
 .section-text-start {
-    margin-bottom: 30px;
+    flex-grow: 1;
+    margin-bottom: 50px;
 }
 
 .time-box {
