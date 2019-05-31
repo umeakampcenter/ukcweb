@@ -264,30 +264,20 @@ all and (min-device-pixel-ratio: 2)  {
     position: relative;
 }
 
-.bar-defence:hover {
-    background: rgba(255,255,255,0.05)
-}
-.bar-time {
-    background: rgba(0,0,0,0.3);
-}
-.bar-time:hover {
-    background: rgba(255,255,255,0.05)
+.bar-time a:hover {
+    transform: scale3d(1.09375, 1.09375, 1);
 }
 
 a.time-link {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-a.time-link span {
     font-size: 32px;
     font-weight: 800;
     background: url(../images/arrow.png) no-repeat right center;
-    padding: 70px 70px 70px 0;
+    padding: 40px 70px 40px 0;
+    margin: 70px 0;
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
+    transition: 0.2s ease;
 }
 
 a.time-link:hover {

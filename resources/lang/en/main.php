@@ -39,7 +39,6 @@ return [
     'bjjStart' => '',
     'selfDefenceStart' => '',
     'readMore' => 'Read more',
-    'seeSelfDefence' => 'Female self defence',
     'seeTrainingSessions' => 'Look at our training sessions',
     'latestFromFacebook' => 'Latest from Facebook',
     'showPhotos' => 'Show photos',

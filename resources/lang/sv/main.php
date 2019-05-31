@@ -39,7 +39,6 @@ return [
     'bjjStart' => '',
     'selfDefenceStart' => '',
     'readMore' => 'Läs mer',
-    'seeSelfDefence' => 'Självförsvar för tjejer',
     'seeTrainingSessions' => 'Se våra träningstider',
     'latestFromFacebook' => 'Senaste från Facebook',
     'showPhotos' => 'Visa bilder',
