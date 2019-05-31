@@ -102,7 +102,7 @@
                     <a href="http://www.facebook.com/umeakampcenter/" target="_blank">
                         <img src="images/fb.png" alt="Facebook">
                     </a>
-                    <a href="mailto:c05psl@gmail.com">
+                    <a href="mailto:umeakampcenterif@gmail.com">
                         <img src="images/email.png" alt="@lang('main.email')">
                     </a>
                 </div>
