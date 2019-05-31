@@ -14,7 +14,7 @@
         </ul>
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/selfdef1.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -33,7 +33,7 @@
         tycker är väldigt viktigt.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/selfdef2.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
