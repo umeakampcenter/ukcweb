@@ -1,8 +1,3 @@
-<?php
-/**
- * @var $femaleSelfDefenceId string
- */
- ?>
 @extends('app')
 @section('content')
     @component('contentBox')
@@ -65,21 +60,6 @@
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/bjj3.jpg') }}" alt="Umeå Kampcenter">
-        @endslot
-    @endcomponent
-    @component('contentBox')
-        @slot('textBox')
-            <h2 id="female-self-defence">Självförsvar för tjejer</h2>
-            Varje söndag erbjuder vi kostnadsfri självförsvarsträning för tjejer från 14 år och uppåt. Vi lär ut
-            välbeprövade tekniker hämtade från bland annat Brasiliansk Jiu-jitsu som du kan använda för att försvara
-            dig mot en fysiskt starkare person. Träningen består till stor del av parövningar där du lär dig skydda dig
-            och ta dig undan i olika scenarion. För att du ska få en så realistisk träning som möjligt kan du även få
-            testa teknikerna mot erfarna motståndare om du vill.
-            <br><br>
-            <a href="https://www.facebook.com/gbumeasjalvforsvar/" target="_blank">Självförsvar för tjejer</a>
-        @endslot
-        @slot('imageBox')
-            <img src="{{ URL::asset('images/selfdef.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')

@@ -25,6 +25,10 @@ Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');
 })->name('bjj');
 
+Route::get('/self-defence', function () {
+    return view(App::getLocale() . '/selfDefence');
+})->name('selfDefence');
+
 Route::get('/schedule', 'ScheduleController@show')->name('schedule');
 
 Route::get('/lang/{language}', '\\ied3vil\\LanguageSwitcher\\LanguageSwitcherController@setLanguage')
