@@ -5,6 +5,7 @@ use App\Minify\Minify;
 use ied3vil\LanguageSwitcher\LanguageSwitcher;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\App;
+use Jenssegers\Date\Date;
 
 class AppViewComposer
 {
@@ -31,5 +32,10 @@ class AppViewComposer
         }
         $view->with("scripts", $scripts);
         $view->with("stylesheets", $stylesheets);
+
+        $globals = new Globals();
+        $globals->year = Date::now()->format('Y');
+
+        $view->with("global", $globals);
     }
 }

@@ -3,6 +3,7 @@
  * @var $scripts string[]
  * @var $stylesheets string[]
  * @var $isSwedish bool
+ * @var $global \App\Http\ViewComposer\Globals
  */
 @endphp
 <!doctype html>
@@ -94,7 +95,7 @@
                         <img src="images/budo_fitness.png" alt="Budo fitness">
                     </a>
                 </div>
-                <div class="footer-item"><p>&copy; 2017 Umeå Kampcenter. @lang('main.allRightsReserved').</p></div>
+                <div class="footer-item"><p>&copy; {{ $global->year }} Umeå Kampcenter. @lang('main.allRightsReserved').</p></div>
                 <div class="footer-item">
                     <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">
                         <img src="images/map.png" alt="@lang('main.findUs')">
