@@ -3,9 +3,10 @@
     @component('contentBox')
         @slot('textBox')
         <h1>Självförsvar för tjejer</h1>
-        Vår vision är att alla tjejer ska känna sig trygga, överallt! Denna vision når vi bland annat genom att träna in
-        effektiva och tillförlitliga tekniker som gör att du kan skydda dig mot och känna igen hotfulla situationer. Vi
-        vill även lyfta frågan om vad självförsvar är samt hur vi kan backa och lyfta varandra likväl som oss själva.
+        Vår vision är att alla tjejer och transpersoner ska känna sig trygga, överallt!
+        Denna vision når vi bland annat genom att träna in effektiva och tillförlitliga tekniker som gör att du kan
+        skydda dig mot och känna igen hotfulla situationer.
+        Vi vill även lyfta frågan om vad självförsvar är samt hur vi kan backa och lyfta varandra likväl som oss själva.
         <ul>
             <li>
                 Självförsvar för tjejers

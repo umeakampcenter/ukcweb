@@ -3,10 +3,11 @@
     @component('contentBox')
         @slot('textBox')
         <h1>Self-defence for women</h1>
-        Our goal is that all women can feel safe, everywhere! One way to reach this goal is to teach you how to protect
-        yourself and recognise threatening situations which we do by training different techniques that are efficient and
-        trustworthy. During these sessions we also want to lift questions about self-defence, what it can be and how we
-        can support each other as well as our self.
+        Our goal is that all women and transsexuals can feel safe, everywhere!
+        One way to reach this goal is to teach you how to protect yourself and recognise threatening situations which we
+        do by training different techniques that are efficient and trustworthy.
+        During these sessions we also want to lift questions about self-defence, what it can be and how we can support
+        each other as well as our self.
         <ul>
             <li>
                 Self-defence for women

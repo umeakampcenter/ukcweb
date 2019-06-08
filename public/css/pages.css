@@ -272,8 +272,11 @@ all and (min-device-pixel-ratio: 2)  {
 }
 
 .section-text-start {
+    align-items: flex-end;
+    display: flex;
     flex-grow: 1;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .time-box {

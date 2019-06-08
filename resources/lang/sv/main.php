@@ -26,17 +26,17 @@ return [
     'welcomeHeading' => 'Välkommen till Umeå Kampcenter',
     'welcomeText' => 'Umeå Kampcenter erbjuder tre kompletta kampsportsstilar: Jujutsu, Kickboxning och '
         . 'Gracie Barra Brazilian Jiu-Jitsu. Dessutom har vi gratis självförsvar för tjejer på söndagar! '
-        . 'Som medlem (1000kr/termin) får du träna alla våra stilar. Självklart får du testa på några tillfällen '
+        . 'Som medlem (1100kr/termin) får du träna alla våra stilar. Självklart får du testa på några tillfällen '
         . 'innan du betalar! '
         . 'För att träna hos oss måste du vara minst 14 år gammal.',
 
     'jujutsuIntro' => 'Jujutsu är självförsvar med kampmoment som brottning, kast, stående fighting och självskydd.',
     'kickboxingIntro' => 'Kickboxning går ut på stående kamp med slag & spark.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu fokuserar på liggande markteknik och mattkamp.',
-    'selfDefenceIntro' => 'Gratis självförsvar för tjejer.',
-    'jujutsuStart' => '',
-    'kickboxingStart' => '',
-    'bjjStart' => '',
+    'selfDefenceIntro' => 'Gratis självförsvar för tjejer och transpersoner.',
+    'jujutsuStart' => 'Terminsstart 26/8',
+    'kickboxingStart' => 'Terminsstart 26/8',
+    'bjjStart' => 'Terminsstart 27/8',
     'selfDefenceStart' => '',
     'readMore' => 'Läs mer',
     'seeTrainingSessions' => 'Se våra träningstider',
@@ -47,5 +47,5 @@ return [
     'findUs' => 'Hitta oss',
     'email' => 'Skicka e-post till oss',
 
-    'membershipFee' => 'Medlemsavgiften är 1000kr/termin. Som medlem får du träna alla våra stilar!'
+    'membershipFee' => 'Medlemsavgiften är 1100kr/termin. Som medlem får du träna alla våra stilar!'
 ];

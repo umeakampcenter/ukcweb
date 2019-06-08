@@ -26,17 +26,17 @@ return [
     'welcomeHeading' => 'Welcome to Umeå Kampcenter',
     'welcomeText' => 'Umeå Kampcenter offers three complete martial arts styles: Jujutsu, Kickboxing and '
         . 'Gracie Barra Brazilian Jiu-Jitsu. We also offer free self-defence for women on sundays! '
-        . 'As a member (1000 SEK per semester) you can train all our styles. Trying out our classes are free. '
+        . 'As a member (1100 SEK per semester) you can train all our styles. Trying out our classes are free. '
         . 'We accept students that are 14 years or older.',
 
     'jujutsuIntro' => 'Jujutsu is self defence with elements such as ground work, throws, standup fighting and joint '
         . 'locks.',
     'kickboxingIntro' => 'Kickboxing is standup fighting with punches and kicks.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu focuses on ground work and fighting on the ground.',
-    'selfDefenceIntro' => 'Free self-defence for women.',
-    'jujutsuStart' => '',
-    'kickboxingStart' => '',
-    'bjjStart' => '',
+    'selfDefenceIntro' => 'Free self-defence for women and transsexuals.',
+    'jujutsuStart' => 'Semester starts 26 aug',
+    'kickboxingStart' => 'Semester starts 26 aug',
+    'bjjStart' => 'Semester starts 27 aug',
     'selfDefenceStart' => '',
     'readMore' => 'Read more',
     'seeTrainingSessions' => 'Look at our training sessions',
@@ -47,5 +47,5 @@ return [
     'findUs' => 'Find us',
     'email' => 'Send an email to us',
 
-    'membershipFee' => 'The membership fee is 1000 SEK per semester. Members have access to all our styles!'
+    'membershipFee' => 'The membership fee is 1100 SEK per semester. Members have access to all our styles!'
 ];
