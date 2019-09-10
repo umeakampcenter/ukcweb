@@ -38,7 +38,7 @@ class ScheduleController extends Controller
                         "title" => __("schedule.jujutsuBjjOpen"),
                         "start" => "17:15",
                         "end" => "18:30",
-                        "class" => "jujutsu"
+                        "class" => "bjjAndJujutsu"
                     ],
                     [
                         "title" => __("schedule.bjjBegin"),
@@ -101,15 +101,15 @@ class ScheduleController extends Controller
                 ],
                 __("schedule.friday") => [
                     [
-                        "title" => __("schedule.bjjOpen"),
+                        "title" => __("schedule.bjjSw"),
                         "start" => "17:30",
-                        "end" => "19:30",
+                        "end" => "19:00",
                         "class" => "bjj"
                     ]
                 ],
                 __("schedule.saturday") => [
                     [
-                        "title" => __("schedule.bjjOpen"),
+                        "title" => __("schedule.bjjComp"),
                         "start" => "11:00",
                         "end" => "12:30",
                         "class" => "bjj"

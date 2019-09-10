@@ -309,3 +309,7 @@ Main Components
 .single-event.misc {
     background: #776b6b;
 }
+
+.single-event.bjjAndJujutsu {
+    background: linear-gradient(to right bottom, #944646 50%, #526371 50%);
+}
