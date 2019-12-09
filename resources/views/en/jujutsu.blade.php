@@ -6,17 +6,12 @@
         To us, Jujutsu is a combination of all unarmed martial arts styles. Our goal is that you as a student should
         feel confident wherever the fight takes place. With that goal in mind, we train not only self defence but all
         forms of grappling, striking and takedowns. If you've practiced BJJ, Judo, Karate or similar styles earlier you
-        will definitively recognize yourself.
-        <ul>
-            <li>
-                We are a part of the
-                <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
-            </li>
-            <li>
-                Our Jujutsu
-                <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank">Facebook group</a>
-            </li>
-        </ul>
+        will definitively recognize yourself.<br>
+        <br>
+        We are a part of the <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
+
+        <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank" class="external-link"><div><img src="images/fb.png" /></div><span>Facebook group</span></a>
+        <a href="https://www.instagram.com/jujutsu.umea" target="_blank" class="external-link"><div><img src="images/instagram.png" /></div><span>Instagram</span></a>
         @endslot
         @slot('imageBox')
             <img src="{{ URL::asset('images/juj3.jpg') }}" alt="Umeå Kampcenter">
