@@ -29,14 +29,13 @@ return [
         . 'As a member (1100 SEK per semester) you can train all our styles. Trying out our classes are free. '
         . 'We accept students that are 14 years or older.',
 
-    'jujutsuIntro' => 'Jujutsu is self defence with elements such as ground work, throws, standup fighting and joint '
-        . 'locks.',
+    'jujutsuIntro' => 'Jujutsu is self defence with grappling, striking and takedowns.',
     'kickboxingIntro' => 'Kickboxing is standup fighting with punches and kicks.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu focuses on ground work and fighting on the ground.',
     'selfDefenceIntro' => 'Free self-defence for women and transsexuals.',
-    'jujutsuStart' => 'Semester starts 26 aug',
-    'kickboxingStart' => 'Semester starts 26 aug',
-    'bjjStart' => 'Semester starts 27 aug',
+    'jujutsuStart' => 'Semester starts 13 jan',
+    'kickboxingStart' => 'Semester starts 13 jan',
+    'bjjStart' => 'Semester prel. starts 14 jan',
     'selfDefenceStart' => '',
     'readMore' => 'Read more',
     'seeTrainingSessions' => 'Look at our training sessions',

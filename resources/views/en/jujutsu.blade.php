@@ -3,10 +3,10 @@
     @component('contentBox')
         @slot('textBox')
         <h1>Jujutsu</h1>
-        To us, Jujutsu is a combination of all unarmed martial arts styles. Our goal is that you as a student should
-        feel confident wherever the fight takes place. With that goal in mind, we train not only self defence but all
-        forms of grappling, striking and takedowns. If you've practiced BJJ, Judo, Karate or similar styles earlier you
-        will definitively recognize yourself.<br>
+        We train a modern style of Jujutsu that combines self-defence with grappling, striking and takedowns.
+        As a beginner you will learn breakfalls and how to protect yourself against strikes and simple holds.
+        Most exercises are performed in pairs to get a feeling for how the techniques work with resistance.
+        The strength of Jujutsu is that it's a complete martial art, standing and on the ground.<br>
         <br>
         We are a part of the <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
 
@@ -14,23 +14,22 @@
         <a href="https://www.instagram.com/jujutsu.umea" target="_blank" class="external-link"><div><img src="images/instagram.png" /></div><span>Instagram</span></a>
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj3.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny1.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
         @slot('textBox')
         <h2>Train with us</h2>
-        If you never have been into any martial arts before or if you feel unfit you don't need to worry. We start from
-        the ground up with breakfalls and help you get in shape. We devote a lot of attention to each student to make
-        sure you get clear instructions that makes sense to you. We train in cotton kimonos, clothes that withstand
-        the sudden tugs. Naturally you don't have to show up in a kimono at the first session, regular training clothes
-        without zippers work fine.
+        Even if you've never trained martial arts before or if you're feeling out of shape, don't worry. In the
+        beginning we spend a lot of time on basic movement, breakfalls and protecting yourself. You will gradually
+        improve your strength and endurance in a fun way with body weight excersises. We train in Jujutsu suits made of
+        cotton that can withstand the tugging motions in a dojo. Of course you don't have to turn up in one of those
+        on your first session. Regular training clothes work fine in the beginning.
         <br><br>
         <strong>Have you trained Jujutsu before?</strong><br>
-        There are many different styles of Jujutsu in Sweden, both large and small ones. We have decided to develop our
-        own blend of Jujutsu. This means that we are in control of the direction we take and which techniques
-        that should be taught. Of course we're part of a national organization with the same open mindset as ourselves,
-        which lets us go to inspiring seminars and get help with black belt examinations.
+        There are many different styles of Jujutsu in Sweden, both large and small ones. The main difference between
+        these is the direction that they've chosen. We have stronger ties to Judo, BJJ and Karate than most styles.
+        We belong to a federation of many small styles that meet regularly to share ideas with one another.
         <br><br>
         @lang('main.membershipFee')
         @endslot
@@ -38,15 +37,7 @@
             <iframe
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/YYu3HEyhYHc?rel=0&amp;showinfo=0"
-                    frameborder="0"
-                    allowfullscreen
-            >
-            </iframe>
-            <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/Iip1XU9mrdE?rel=0&amp;showinfo=0"
+                    src="https://www.youtube.com/embed/NFSAuNPZpOY?rel=0&amp;showinfo=0"
                     frameborder="0"
                     allowfullscreen
             >
@@ -55,52 +46,36 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>Our blend of Jujutsu</h2>
-            The techniques can be recognized from many other styles. Depending on what you have practiced before, you
-            may get more sparring and broaden your skills from what is normally considered Jujutsu techniques. With a
-            short chain of command there's even a possibility of affecting the content of our syllabus.
-            <br><br>
-            <strong>Sparring</strong><br>
-            We want our students to gain a deeper understanding of how the techniques work with resistance. To achieve
-            this we include live sparring early in our training programme. We make sure you have the tools needed so
-            injuries are rare.
-            <br><br>
-            Some of our sparring forms:
-            <ul>
-                <li>Self defence against common attacks which usually ends with the opponent being pinned on the ground.</li>
-                <li>Throws with varying degrees of resistance (Judo/wrestling)</li>
-                <li>Standup fighting (Karate/kickboxing)</li>
-                <li>Ground fighting (Judo/BJJ)</li>
-            </ul>
+            <h2>How does Jujutsu relate to BJJ?</h2>
+            Brazilian Jiu-jitsu mainly focuses on groundwork where at least on person is on the ground. This is called
+            Ne waza in Jujutsu and it's something that we also put a lot of effort into, both as technique training and
+            as form of sparring. Out Jujutsu fits very well together with BJJ since we devote a lot of time to takedowns
+            which is important in BJJ as well. Several of our instructors train BJJ too.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj6.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny3.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>Examinations and the belt system</h2>
-            By wearing a belt around your waist its colour will tell your training partners what to expect from you.
-            When you go to a seminar this belt signals to the other participants how advanced techniques you can deal
-            with. At our academy everyone trains with everybody else, prestigelessly.
-            <br><br>
-            We have clear expectations of our students. You will gain access to a syllabus with all the requirements
-            for your next grade. We also put a lot of effort into filming these techniques so you can brush up on them
-            before the examination. The examination is a special session where you show all that you have learned during
-            a couple of intense hours to hopefully earn a new belt.
+            <h2>How does Jujutsu relate to Kickboxing?</h2>
+            Kickboxing is a striking art that focuses on punching, kicking and how to defend against those. We think
+            that it's also a vital part of a modern self-defence so we spend a lot of time on developing these skills.
+            Everything from punching and kicking techniques to sparring, when the basics are in place. Our Jujutsu
+            gives you the opportunity to expand your kickboxing to self-defence.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj5.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
         @slot('textBox')
             <h2>Try for yourself!</h2>
             @lang('sub.tryOutText')
-            Our Jujutsu gives you a solid foundation and is very compatible with our other styles - BJJ and kickboxing.
+            Our Jujutsu gives you a solid foundation regardless of what you're looking for in a martial art.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj4.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny4.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('instructors', ['persons' => [

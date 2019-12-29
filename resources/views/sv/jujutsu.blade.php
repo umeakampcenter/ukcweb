@@ -3,10 +3,10 @@
     @component('contentBox')
         @slot('textBox')
         <h1>Jujutsu</h1>
-        För oss på Umeå Kampcenter är Jujutsu all form av obeväpnad kamp. Vår målsättning är att du som utövare ska
-        känna dig trygg oavsett vart fighten äger rum. Därför tränar vi inte bara självförsvar utan även all form av
-        grappling, slag och spark samt nedtagningar. Om du har tränat BJJ, Judo, Karate eller liknande tidigare kommer
-        du definitivt att känna igen dig!<br>
+        Vi tränar en modern Jujutsustil som kombinerar självförsvar med grappling, slag/spark och nedtagningar.
+        Som nybörjare kommer du att lära dig fallteknik samt skydda dig mot slag, sparkar och enkla grepp.
+        De flesta övningarna utförs i par för att du ska få känna på hur teknikerna fungerar med motstånd.
+        Styrkan i Jujutsu är att det är en komplett kampsport, stående och på marken.<br>
         <br>
         Vi tillhör <a href="http://www.stjf.net" target="_blank">Svenska Taijutsu / Jujutsu Förbundet</a>
 
@@ -14,23 +14,23 @@
         <a href="https://www.instagram.com/jujutsu.umea" target="_blank" class="external-link"><div><img src="images/instagram.png" /></div><span>Instagram</span></a>
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj3.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny1.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
         @slot('textBox')
         <h2>Träna med oss</h2>
-        Om du aldrig hållit på med någon kampsport tidigare eller känner dig otränad kan du vara lugn. Vi börjar från
-        början med korrekt fallteknik och hjälper dig att komma i form. Vi ägnar stor uppmärksamhet åt varje enskild
-        elev så att du får tydliga instruktioner där du behöver. Vi tränar i Jujutsudräkter av bomull för att kläderna
-        ska hålla för alla de kraftiga ryck som uppstår i en dojo. Du behöver naturligtvis inte dyka upp med en sådan
-        på första passet utan långbyxor och en t-shirt fungerar bra tills du bestämt dig.
+        Även om du aldrig hållit på med kampsport tidigare eller känner dig otränad kan du vara lugn. I början lägger
+        vi mycket tid på grundrörelser, fallteknik och att skydda sig själv. Med hjälp av kroppsvikten som motstånd bygger
+        du successivt upp din styrka och kondition på ett roligt sätt. Vi tränar i Jujutsudräkter av bomull för att
+        kläderna ska hålla för alla de kraftiga ryck som uppstår i en dojo. Du behöver naturligtvis inte dyka upp med en
+        sådan på första passet utan mjukisbyxor och en t-shirt fungerar bra i början.
         <br><br>
         <strong>Har du tränat Jujutsu tidigare?</strong><br>
-        I Sverige finns många olika stilar av Jujutsu, stora som små. På Umeå Kampcenter har vi valt att ta fram en
-        egen Jujutsustil. Det innebär att vi själva styr över inriktningen och vilka tekniker som ska finnas med.
-        Självklart är vi uppbackade av ett stilobundet och ideellt förbund som låter oss åka på inspirerande läger
-        och hjälper oss med svartbältesgaderingar.
+        I Sverige finns många olika stilar av Jujutsu, stora som små. Den främsta skillnaden mellan dessa är vart man
+        har valt att lägga sitt fokus. Jämfört med många andra stilar har vi en starkare koppling till Judo, BJJ och
+        Karate. Vi är med i ett förbund som består av tiotals mindre stilar som träffas regelbundet och tar inspiration
+        av varandra.
         <br><br>
         @lang('main.membershipFee')
         @endslot
@@ -38,15 +38,7 @@
             <iframe
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/YYu3HEyhYHc?rel=0&amp;showinfo=0"
-                    frameborder="0"
-                    allowfullscreen
-            >
-            </iframe>
-            <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/Iip1XU9mrdE?rel=0&amp;showinfo=0"
+                    src="https://www.youtube.com/embed/NFSAuNPZpOY?rel=0&amp;showinfo=0"
                     frameborder="0"
                     allowfullscreen
             >
@@ -55,54 +47,37 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>Om vår stil</h2>
-            Teknikmässigt kommer du att känna igen dig en hel del från andra stilar. Beroende på vart du har tränat
-            tidigare kommer du att få sparras mer och bredda dina kunskaper utanför det som traditionellt betraktas
-            som Jujutsu. Med en kort beslutskedja finns det även möjlighet att vara med och påverka träningens innehåll.
-            <br><br>
-            <strong>Sparring</strong><br>
-            Vi vill att du som utövare ska få en djup förståelse för hur teknikerna fungerar med motstånd. Därför är
-            sparring en stor del av våra träningspass redan tidigt i din Jujutsuresa. Vi ser till att du har de
-            förutsättningar som krävs så skador är sällsynta.
-            <br><br>
-            Ett axplock av våra sparringformer:
-            <ul>
-                <li>Självförsvar mot vanliga angrepp som oftast slutar med att angriparen låses fast nere på marken.</li>
-                <li>Kast med olika grader av motstånd (Judo/fristilsbrottning)</li>
-                <li>Stående slag och spark (Karate/kickboxning)</li>
-                <li>Knäbrottning (Judo/BJJ)</li>
-            </ul>
+            <h2>Hur relaterar Jujutsu till BJJ?</h2>
+            Brasiliansk Jiu-jitsu fokuserar till största delen på mattbrottning där åtminstone en av personerna
+            befinner sig på marken. I Jujutsu kallar vi detta för Ne waza och det är något som vi också lägger
+            stor vikt vid, både som teknikträning och som sparringform. Vår Jujutsu kompletterar BJJ väldigt bra
+            eftersom vi lägger mycket tid på nedtagningar, som också är viktigt för BJJ. Flera av våra instruktörer
+            tränar även BJJ.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj6.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny3.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>Gradering och bältessystemet</h2>
-            För att det ska vara tydligt för dina träningskamrater vad du behärskar kommer du att bära ett bälte.
-            När vi åker på läger signalerar detta bälte hur avancerade tekniker du kan hantera för någon som inte
-            känner dig. Hemma på klubben tränar alla med varandra helt prestigelöst så att erfarenheter delas på
-            bästa sätt.
-            <br><br>
-            Vi är tydlig med förväntningarna på våra elever. Hos oss får du tillgång till ett kompendie med alla
-            tekniker som du ska kunna till nästa bältesgrad. Vi filmar även alla våra tekniker ifall du behöver
-            fräscha upp minnet inför graderingen. Själva graderingen är en speciell företeelse där du visar upp
-            allt du har lärt dig under ett par intensiva timmar för att förhoppningsvis förtjäna ett nytt bälte.
+            <h2>Hur relaterar Jujutsu till Kickboxning?</h2>
+            I Kickboxning tränar man slag och sparkar samt hur man försvarar sig mot dessa. Vi tycker att även detta
+            är en viktig komponent i ett modernt självförsvar så vi ägnar mycket tid åt detta område. Allt från
+            korrekt slag- och sparkteknik till sparring, när grunderna finns på plats. Vår Jujutsu ger dig möjlighet
+            att utvidga din kickboxning till självförsvar.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj5.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('contentBox')
         @slot('textBox')
             <h2>Kom och prova på</h2>
             @lang('sub.tryOutText')
-            Vår Jujutsu ger dig en bra grund att stå på och går väldigt bra ihop med våra andra stilar -
-            BJJ och kickboxning.
+            Vår Jujutsu ger dig en solid grund att stå på oavsett vad du söker i kampsportsväg.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juj4.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny4.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('instructors', ['persons' => [

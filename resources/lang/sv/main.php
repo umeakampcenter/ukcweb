@@ -30,13 +30,13 @@ return [
         . 'innan du betalar! '
         . 'För att träna hos oss måste du vara minst 14 år gammal.',
 
-    'jujutsuIntro' => 'Jujutsu är självförsvar med kampmoment som brottning, kast, stående fighting och självskydd.',
+    'jujutsuIntro' => 'Jujutsu är självförsvar med grappling, slag/spark och nedtagningar.',
     'kickboxingIntro' => 'Kickboxning går ut på stående kamp med slag & spark.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu fokuserar på liggande markteknik och mattkamp.',
     'selfDefenceIntro' => 'Gratis självförsvar för tjejer och transpersoner.',
-    'jujutsuStart' => 'Terminsstart 26/8',
-    'kickboxingStart' => 'Terminsstart 26/8',
-    'bjjStart' => 'Terminsstart 27/8',
+    'jujutsuStart' => 'Terminsstart 13/1',
+    'kickboxingStart' => 'Terminsstart 13/1',
+    'bjjStart' => 'Terminsstart prel. 14/1',
     'selfDefenceStart' => '',
     'readMore' => 'Läs mer',
     'seeTrainingSessions' => 'Se våra träningstider',
