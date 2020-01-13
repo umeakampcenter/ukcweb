@@ -1,4 +1,5 @@
 @extends('app')
+@section('title', 'Jujutsu')
 @section('content')
     @component('contentBox')
         @slot('textBox')

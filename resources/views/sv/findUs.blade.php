@@ -1,4 +1,5 @@
 @extends('app')
+@section('title', 'Hitta till oss')
 @section('content')
     @component('contentBox')
         @slot('textBox')

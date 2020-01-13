@@ -1,4 +1,5 @@
 @extends('app')
+@section('title', 'Schema')
 @section('content')
 <div class="cd-schedule loading">
     <div class="timeline">

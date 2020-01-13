@@ -1,4 +1,5 @@
 @extends('app')
+@section('title', 'Jujutsu')
 @section('content')
     @component('contentBox')
         @slot('textBox')
@@ -14,7 +15,7 @@
         <a href="https://www.instagram.com/jujutsu.umea" target="_blank" class="external-link"><div><img src="images/instagram.png" /></div><span>Instagram</span></a>
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny1.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny1.jpg') }}" alt="Jujutsu - hiji gatame">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -55,7 +56,7 @@
             tränar även BJJ.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny3.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny3.jpg') }}" alt="Jujutsu och bjj går bra ihop på bild Juji gatame ">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -67,7 +68,7 @@
             att utvidga din kickboxning till självförsvar.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Jujutsu och kickboxning fungerar bra ihop">
         @endslot
     @endcomponent
     @component('contentBox')
@@ -77,7 +78,7 @@
             Vår Jujutsu ger dig en solid grund att stå på oavsett vad du söker i kampsportsväg.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny4.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny4.jpg') }}" alt="Jujutsu - Hiza geri">
         @endslot
     @endcomponent
     @component('instructors', ['persons' => [

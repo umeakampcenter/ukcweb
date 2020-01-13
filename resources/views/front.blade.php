@@ -4,6 +4,7 @@
  */
 @endphp
 @extends('app')
+@section('title', 'Start')
 @section('content')
 <div class="slider">
     <div class="slider-img"></div>

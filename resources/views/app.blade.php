@@ -12,13 +12,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#b91d47">
+		<meta name="theme-color" content="#bc2e2e">
+		
         <link rel="image_src" href="http://umeakampcenter.se/images/front_long2.jpg">
+		<meta name="description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
         <meta property="description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
         <meta property="og:description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
         <meta property=”og:image” content=”http://umeakampcenter.se/images/front_long2.jpg” />
         <meta property=”og:title” content=”Umeå Kampcenter” />
 
-        <title>Umeå Kampcenter</title>
+        <title>Umeå Kampcenter - @yield('title', '')</title>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
         @foreach ($stylesheets as $stylesheet)
@@ -37,6 +48,15 @@
                 umeakampcenter.menu.init($(".mobile-menu-btn"), $("#mobile-menu"));
             });
         </script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155150976-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-155150976-1');
+		</script>
     </head>
     <body>
         <div id="header">
