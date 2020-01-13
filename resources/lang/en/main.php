@@ -35,7 +35,7 @@ return [
     'selfDefenceIntro' => 'Free self-defence for women and transsexuals.',
     'jujutsuStart' => 'Semester starts 13 jan',
     'kickboxingStart' => 'Semester starts 13 jan',
-    'bjjStart' => 'Semester prel. starts 14 jan',
+    'bjjStart' => 'Semester starts 14 jan',
     'selfDefenceStart' => '',
     'readMore' => 'Read more',
     'seeTrainingSessions' => 'Look at our training sessions',

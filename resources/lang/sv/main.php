@@ -36,7 +36,7 @@ return [
     'selfDefenceIntro' => 'Gratis självförsvar för tjejer och transpersoner.',
     'jujutsuStart' => 'Terminsstart 13/1',
     'kickboxingStart' => 'Terminsstart 13/1',
-    'bjjStart' => 'Terminsstart prel. 14/1',
+    'bjjStart' => 'Terminsstart 14/1',
     'selfDefenceStart' => '',
     'readMore' => 'Läs mer',
     'seeTrainingSessions' => 'Se våra träningstider',

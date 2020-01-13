@@ -13,17 +13,17 @@ return [
     "jujutsuBjjOpen" => "Jujutsu beginners & advance / BJJ free training",
     "kickboxingAdvance" => "Kickboxing advance",
     "kickboxingBeginner" => "Kickboxing beginners",
-    "booked" => "Rented out",
+    "kickboxing" => "Kickboxing",
     "bjjOpen" => "BJJ free training",
     "bjjBeginAdvance" => "BJJ beginners & advance",
+    "bjjAdvance" => "BJJ advance",
     "bjjIntermediate" => "BJJ intermediate",
     "bjjBegin" => "BJJ beginners",
     "bjjIntermediateAdvance" => "BJJ intermediate & advance",
     "bjjSpecific" => "BJJ drilling",
     "bjjComp" => "BJJ competition training",
     "bjjSw" => "BJJ no-gi/SW",
-    "bjjSelfDefence" => "BJJ self defence for women",
-    "flexibility" => "Flexibility training",
+    "selfDefence" => "Self defence for women and transgenders",
     "kickboxingOpen" => "Kickboxing open mat"
 ];
 

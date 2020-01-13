@@ -47,7 +47,7 @@ class ScheduleController extends Controller
                         "class" => "bjj"
                     ],
                     [
-                        "title" => __("schedule.bjjIntermediateAdvance"),
+                        "title" => __("schedule.bjjAdvance"),
                         "start" => "19:45",
                         "end" => "21:00",
                         "class" => "bjj"
@@ -57,19 +57,19 @@ class ScheduleController extends Controller
                     [
                         "title" => __("schedule.bjjBegin"),
                         "start" => "17:30",
-                        "end" => "19:00",
+                        "end" => "18:45",
                         "class" => "bjj"
                     ],
                     [
-                        "title" => __("schedule.kickboxingAdvance"),
-                        "start" => "19:15",
-                        "end" => "20:30",
-                        "class" => "kickboxing"
+                        "title" => __("schedule.bjjIntermediate"),
+                        "start" => "18:45",
+                        "end" => "20:00",
+                        "class" => "bjj"
                     ],
                     [
-                        "title" => __("schedule.kickboxingBeginner"),
-                        "start" => "20:30",
-                        "end" => "21:45",
+                        "title" => __("schedule.kickboxing"),
+                        "start" => "20:00",
+                        "end" => "21:30",
                         "class" => "kickboxing"
                     ]
                 ],
@@ -123,7 +123,7 @@ class ScheduleController extends Controller
                         "class" => "bjj"
                     ],
                     [
-                        "title" => __("schedule.bjjSelfDefence"),
+                        "title" => __("schedule.selfDefence"),
                         "start" => "16:00",
                         "end" => "17:30",
                         "class" => "misc"
