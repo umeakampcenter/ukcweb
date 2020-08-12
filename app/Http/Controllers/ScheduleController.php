@@ -35,10 +35,10 @@ class ScheduleController extends Controller
                 ],
                 __("schedule.tuesday") => [
                     [
-                        "title" => __("schedule.jujutsuBjjOpen"),
+                        "title" => __("schedule.jujutsu"),
                         "start" => "17:15",
                         "end" => "18:30",
-                        "class" => "bjjAndJujutsu"
+                        "class" => "jujutsu"
                     ],
                     [
                         "title" => __("schedule.bjjBegin"),

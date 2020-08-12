@@ -9,6 +9,8 @@
         Most exercises are performed in pairs to get a feeling for how the techniques work with resistance.
         The strength of Jujutsu is that it's a complete martial art, standing and on the ground.<br>
         <br>
+        Our style is called Kagami Ryu Jujutsu.<br>
+        <br>
         We are a part of the <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
 
         <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank" class="external-link"><div><img src="images/fb.png" /></div><span>Facebook group</span></a>
@@ -29,8 +31,8 @@
         <br><br>
         <strong>Have you trained Jujutsu before?</strong><br>
         There are many different styles of Jujutsu in Sweden, both large and small ones. The main difference between
-        these is the direction that they've chosen. We have stronger ties to Judo, BJJ and Karate than most styles.
-        We belong to a federation of many small styles that meet regularly to share ideas with one another.
+        these is the direction that they've chosen. Kagami Ryu Jujutsu have stronger ties to Judo, BJJ and Karate than
+        most styles. We belong to a federation of many small styles that meet regularly to share ideas with one another.
         <br><br>
         @lang('main.membershipFee')
         @endslot

@@ -9,6 +9,8 @@
         De flesta övningarna utförs i par för att du ska få känna på hur teknikerna fungerar med motstånd.
         Styrkan i Jujutsu är att det är en komplett kampsport, stående och på marken.<br>
         <br>
+        Vi tränar en stil som heter Kagami Ryu Jujutsu.<br>
+        <br>
         Vi tillhör <a href="http://www.stjf.net" target="_blank">Svenska Taijutsu / Jujutsu Förbundet</a>
 
         <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank" class="external-link"><div><img src="images/fb.png" /></div><span>Facebookgrupp</span></a>
@@ -29,9 +31,9 @@
         <br><br>
         <strong>Har du tränat Jujutsu tidigare?</strong><br>
         I Sverige finns många olika stilar av Jujutsu, stora som små. Den främsta skillnaden mellan dessa är vart man
-        har valt att lägga sitt fokus. Jämfört med många andra stilar har vi en starkare koppling till Judo, BJJ och
-        Karate. Vi är med i ett förbund som består av tiotals mindre stilar som träffas regelbundet och tar inspiration
-        av varandra.
+        har valt att lägga sitt fokus. Jämfört med många andra stilar har Kagami Ryu Jujutsu en starkare koppling till
+        Judo, BJJ och Karate. Vi är med i ett förbund som består av ett trettiotal mindre stilar som träffas regelbundet
+        och tar inspiration av varandra.
         <br><br>
         @lang('main.membershipFee')
         @endslot
