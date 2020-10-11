@@ -50,6 +50,24 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
+        <h2>Sparring</h2>
+        Kagami Ryu Jujutsu har sju former av sparring. Vi börjar tidigt med mattbrottning (Ne waza) och Jutsu randori (självförsvar).
+        När du behärskar fallteknik, blockeringar och andra grundläggande tekniker introducerar vi fler sparringformer. Vissa av
+        sparringformerna kräver skydd av olika slag men det är inget du behöver införskaffa första året.
+        @endslot
+        @slot('imageBox')
+            <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/O2TI7xZ4TK8?rel=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+            >
+            </iframe>
+        @endslot
+    @endcomponent
+    @component('contentBox')
+        @slot('textBox')
             <h2>Hur relaterar Jujutsu till BJJ?</h2>
             Brasiliansk Jiu-jitsu fokuserar till största delen på mattbrottning där åtminstone en av personerna
             befinner sig på marken. I Jujutsu kallar vi detta för Ne waza och det är något som vi också lägger

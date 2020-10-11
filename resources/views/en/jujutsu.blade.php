@@ -49,6 +49,25 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
+        <h2>Sparring</h2>
+        Kagami Ryu Jujutsu has seven forms of sparring. You will be introduced to ground fighting (Ne waza) and self-defence
+        sparring (Jutsu randori) early on. More advanced forms of sparring are added when you have learned to fall properly
+        and protect yourself. Some of these sparring forms require protection (gloves, shin pads, etc.) but you don't have
+        to get these your first year of training with us.
+        @endslot
+        @slot('imageBox')
+            <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/O2TI7xZ4TK8?rel=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+            >
+            </iframe>
+        @endslot
+    @endcomponent
+    @component('contentBox')
+        @slot('textBox')
             <h2>How does Jujutsu relate to BJJ?</h2>
             Brazilian Jiu-jitsu mainly focuses on groundwork where at least on person is on the ground. This is called
             Ne waza in Jujutsu and it's something that we also put a lot of effort into, both as technique training and
