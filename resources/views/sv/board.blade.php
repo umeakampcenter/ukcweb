@@ -21,7 +21,7 @@
                 </li>
                 <li>
                     <strong>Kassör</strong><br>
-                    Johan Lorentzon
+                    Peter Spegel
                 </li>
                 <li>
                     <strong>Ledamot</strong><br>
@@ -29,11 +29,7 @@
                 </li>
                 <li>
                     <strong>Ledamot</strong><br>
-                    Peter Spegel
-                </li>
-                <li>
-                    <strong>Ledamot</strong><br>
-                    Mimmi Larsson
+                    Ville Nordin
                 </li>
                 <li>
                     <strong>Suppleant</strong><br>

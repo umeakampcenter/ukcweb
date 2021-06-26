@@ -16,7 +16,6 @@ return [
     'start' => 'Start',
     'train' => 'Träna hos oss',
     'jujutsu' => 'Jujutsu',
-    'kickboxing' => 'Kickboxning',
     'bjj' => 'Gracie Barra BJJ',
     'selfDefence' => 'Självförsvar för tjejer',
     'selfDefenceWithLineBreak' => 'Självförsvar<br>för tjejer',
@@ -24,18 +23,16 @@ return [
     'schedule' => 'Schema',
 
     'welcomeHeading' => 'Välkommen till Umeå Kampcenter',
-    'welcomeText' => 'Umeå Kampcenter erbjuder tre kompletta kampsportsstilar: Jujutsu, Kickboxning och '
+    'welcomeText' => 'Umeå Kampcenter erbjuder Kagami Ryu Jujutsu och '
         . 'Gracie Barra Brazilian Jiu-Jitsu. Dessutom har vi gratis självförsvar för tjejer på söndagar! '
         . 'Som medlem (1100kr/termin) får du träna alla våra stilar. Självklart får du testa på några tillfällen '
         . 'innan du betalar! '
         . 'För att träna hos oss måste du vara minst 14 år gammal.',
 
     'jujutsuIntro' => 'Jujutsu är självförsvar med grappling, slag/spark och nedtagningar.',
-    'kickboxingIntro' => 'Kickboxning går ut på stående kamp med slag & spark.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu fokuserar på liggande markteknik och mattkamp.',
     'selfDefenceIntro' => 'Gratis självförsvar för tjejer och transpersoner.',
     'jujutsuStart' => '',
-    'kickboxingStart' => '',
     'bjjStart' => '',
     'selfDefenceStart' => '',
     'readMore' => 'Läs mer',

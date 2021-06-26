@@ -80,24 +80,12 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>How does Jujutsu relate to Kickboxing?</h2>
-            Kickboxing is a striking art that focuses on punching, kicking and how to defend against those. We think
-            that it's also a vital part of a modern self-defence so we spend a lot of time on developing these skills.
-            Everything from punching and kicking techniques to sparring, when the basics are in place. Our Jujutsu
-            gives you the opportunity to expand your kickboxing to self-defence.
-        @endslot
-        @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Umeå Kampcenter">
-        @endslot
-    @endcomponent
-    @component('contentBox')
-        @slot('textBox')
             <h2>Try for yourself!</h2>
             @lang('sub.tryOutText')
             Our Jujutsu gives you a solid foundation regardless of what you're looking for in a martial art.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny4.jpg') }}" alt="Umeå Kampcenter">
+            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
     @component('instructors', ['persons' => [

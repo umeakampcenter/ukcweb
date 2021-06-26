@@ -21,7 +21,7 @@
                 </li>
                 <li>
                     <strong>Cashier</strong><br>
-                    Johan Lorentzon
+                    Peter Spegel
                 </li>
                 <li>
                     <strong>Board member</strong><br>
@@ -29,11 +29,7 @@
                 </li>
                 <li>
                     <strong>Board member</strong><br>
-                    Peter Spegel
-                </li>
-                <li>
-                    <strong>Board member</strong><br>
-                    Mimmi Larsson
+                    Ville Nordin
                 </li>
                 <li>
                     <strong>Alternate member</strong><br>
