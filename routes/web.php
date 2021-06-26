@@ -17,10 +17,6 @@ Route::get('/jujutsu', function () {
     return view(App::getLocale() . '/jujutsu');
 })->name('jujutsu');
 
-Route::get('/kickboxing', function () {
-    return view(App::getLocale() . '/kickboxing');
-})->name('kickboxing');
-
 Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');
 })->name('bjj');

@@ -23,11 +23,11 @@
 		<meta name="theme-color" content="#bc2e2e">
 		
         <link rel="image_src" href="http://umeakampcenter.se/images/front_long2.jpg">
-		<meta name="description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
-        <meta property="description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
-        <meta property="og:description" content="Umeå Kampcenter samlar stilarna Jujutsu, BJJ och Kickboxning under ett tak! Centralt i Umeå vid Bågenhuset." />
-        <meta property=”og:image” content=”http://umeakampcenter.se/images/front_long2.jpg” />
-        <meta property=”og:title” content=”Umeå Kampcenter” />
+		<meta name="description" content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
+        <meta property="description" content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
+        <meta property="og:description" content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
+        <meta property="og:image" content="http://umeakampcenter.se/images/front_long2.jpg" />
+        <meta property="og:title" content="Umeå Kampcenter" />
 
         <title>Umeå Kampcenter - @yield('title', '')</title>
 
@@ -73,7 +73,6 @@
                         <ul>
                             <li><a href="{{ route('bjj') }}">@lang('main.bjj')</a></li>
                             <li><a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a></li>
-                            <li><a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a></li>
                             <li><a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a></li>
                         </ul>
                     </div>
@@ -96,7 +95,6 @@
         <div id="mobile-menu">
             <a href="{{ route('home') }}">@lang('main.start')</a>
             <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
-            <a href="{{ route('kickboxing') }}">@lang('main.kickboxing')</a>
             <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
             <a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a>
             <a href="{{ route('board') }}">@lang('main.board')</a>

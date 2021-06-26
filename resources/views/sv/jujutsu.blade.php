@@ -81,24 +81,12 @@
     @endcomponent
     @component('contentBox')
         @slot('textBox')
-            <h2>Hur relaterar Jujutsu till Kickboxning?</h2>
-            I Kickboxning tränar man slag och sparkar samt hur man försvarar sig mot dessa. Vi tycker att även detta
-            är en viktig komponent i ett modernt självförsvar så vi ägnar mycket tid åt detta område. Allt från
-            korrekt slag- och sparkteknik till sparring, när grunderna finns på plats. Vår Jujutsu ger dig möjlighet
-            att utvidga din kickboxning till självförsvar.
-        @endslot
-        @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Jujutsu och kickboxning fungerar bra ihop">
-        @endslot
-    @endcomponent
-    @component('contentBox')
-        @slot('textBox')
             <h2>Kom och prova på</h2>
             @lang('sub.tryOutText')
             Vår Jujutsu ger dig en solid grund att stå på oavsett vad du söker i kampsportsväg.
         @endslot
         @slot('imageBox')
-            <img src="{{ URL::asset('images/juju_ny4.jpg') }}" alt="Jujutsu - Hiza geri">
+            <img src="{{ URL::asset('images/juju_ny2.jpg') }}" alt="Jujutsu - Hiza geri">
         @endslot
     @endcomponent
     @component('instructors', ['persons' => [

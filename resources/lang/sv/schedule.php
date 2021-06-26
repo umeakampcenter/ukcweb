@@ -11,9 +11,7 @@ return [
 
     "jujutsu" => "Jujutsu nybörjare & avance",
     "jujutsuBjjOpen" => "Jujutsu nybörjare & avance / BJJ friträning",
-    "kickboxingAdvance" => "Kickboxning avance",
-    "kickboxingBeginner" => "Kickboxning nybörjare",
-    "kickboxing" => "Kickboxning",
+    "booked" => "Bokat",
     "bjjOpen" => "BJJ friträning",
     "bjjBeginAdvance" => "BJJ nybörjare & avance",
     "bjjAdvance" => "BJJ avance",
@@ -23,8 +21,7 @@ return [
     "bjjSpecific" => "BJJ drillpass",
     "bjjComp" => "BJJ tävlings&shy;träning",
     "bjjSw" => "BJJ no-gi/SW",
-    "selfDefence" => "Självförsvar för tjejer och transpersoner",
-    "kickboxingOpen" => "Kickboxning öppen matta"
+    "selfDefence" => "Självförsvar för tjejer och transpersoner"
 ];
 
 

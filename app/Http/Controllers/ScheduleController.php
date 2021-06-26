@@ -21,16 +21,16 @@ class ScheduleController extends Controller
                         "class" => "jujutsu"
                     ],
                     [
-                        "title" => __("schedule.kickboxingAdvance"),
+                        "title" => __("schedule.booked"),
                         "start" => "19:15",
                         "end" => "20:20",
-                        "class" => "kickboxing"
+                        "class" => "misc"
                     ],
                     [
-                        "title" => __("schedule.kickboxingBeginner"),
+                        "title" => __("schedule.booked"),
                         "start" => "20:40",
                         "end" => "21:45",
-                        "class" => "kickboxing"
+                        "class" => "misc"
                     ]
                 ],
                 __("schedule.tuesday") => [
@@ -67,10 +67,10 @@ class ScheduleController extends Controller
                         "class" => "bjj"
                     ],
                     [
-                        "title" => __("schedule.kickboxing"),
+                        "title" => __("schedule.booked"),
                         "start" => "20:10",
                         "end" => "21:30",
-                        "class" => "kickboxing"
+                        "class" => "misc"
                     ]
                 ],
                 __("schedule.thursday") => [
@@ -127,12 +127,6 @@ class ScheduleController extends Controller
                         "start" => "16:00",
                         "end" => "17:30",
                         "class" => "misc"
-                    ],
-                    [
-                        "title" => __("schedule.kickboxingOpen"),
-                        "start" => "19:30",
-                        "end" => "20:30",
-                        "class" => "kickboxing"
                     ]
                 ]
             ]
