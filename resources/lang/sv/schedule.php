@@ -9,7 +9,8 @@ return [
     "saturday" => "lördag",
     "sunday" => "söndag",
 
-    "jujutsu" => "Jujutsu nybörjare & avance",
+    "jujutsuBegin" => "Jujutsu nybörjare",
+    "jujutsuAdvance" => "Jujutsu avance",
     "jujutsuBjjOpen" => "Jujutsu nybörjare & avance / BJJ friträning",
     "booked" => "Bokat",
     "bjjOpen" => "BJJ friträning",
@@ -20,8 +21,9 @@ return [
     "bjjIntermediateAdvance" => "BJJ fortsättare & avance",
     "bjjSpecific" => "BJJ drillpass",
     "bjjComp" => "BJJ tävlings&shy;träning",
-    "bjjSw" => "BJJ no-gi/SW",
-    "selfDefence" => "Självförsvar för tjejer och transpersoner"
+    "bjjSw" => "BJJ no-gi",
+    "selfDefence" => "Självförsvar för tjejer och transpersoner",
+    "open" => "Öppen matta"
 ];
 
 

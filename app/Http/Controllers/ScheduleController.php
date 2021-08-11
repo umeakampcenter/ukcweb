@@ -15,113 +15,107 @@ class ScheduleController extends Controller
             "events" => [
                 __("schedule.monday") => [
                     [
-                        "title" => __("schedule.jujutsu"),
-                        "start" => "17:30",
-                        "end" => "18:55",
+                        "title" => __("schedule.bjjSw"),
+                        "start" => "17:45",
+                        "end" => "19:00",
+                        "class" => "bjj"
+                    ],
+                    [
+                        "title" => __("schedule.jujutsuBegin"),
+                        "start" => "19:15",
+                        "end" => "20:30",
                         "class" => "jujutsu"
                     ],
                     [
-                        "title" => __("schedule.booked"),
-                        "start" => "19:15",
-                        "end" => "20:20",
-                        "class" => "misc"
-                    ],
-                    [
-                        "title" => __("schedule.booked"),
-                        "start" => "20:40",
+                        "title" => __("schedule.jujutsuAdvance"),
+                        "start" => "20:45",
                         "end" => "21:45",
-                        "class" => "misc"
+                        "class" => "jujutsu"
                     ]
                 ],
                 __("schedule.tuesday") => [
                     [
-                        "title" => __("schedule.jujutsu"),
-                        "start" => "17:15",
-                        "end" => "18:20",
-                        "class" => "jujutsu"
-                    ],
-                    [
                         "title" => __("schedule.bjjBegin"),
-                        "start" => "18:40",
-                        "end" => "19:40",
+                        "start" => "18:00",
+                        "end" => "19:15",
                         "class" => "bjj"
                     ],
                     [
                         "title" => __("schedule.bjjIntermediateAdvance"),
-                        "start" => "20:00",
-                        "end" => "21:00",
+                        "start" => "19:30",
+                        "end" => "20:45",
                         "class" => "bjj"
+                    ],
+                    [
+                        "title" => __("schedule.open"),
+                        "start" => "21:00",
+                        "end" => "21:45",
+                        "class" => "misc"
                     ]
                 ],
                 __("schedule.wednesday") => [
                     [
-                        "title" => __("schedule.bjjBegin"),
-                        "start" => "17:30",
-                        "end" => "18:30",
-                        "class" => "bjj"
+                        "title" => __("schedule.jujutsuBegin"),
+                        "start" => "17:45",
+                        "end" => "19:00",
+                        "class" => "jujutsu"
                     ],
                     [
-                        "title" => __("schedule.bjjIntermediateAdvance"),
-                        "start" => "18:50",
-                        "end" => "19:50",
-                        "class" => "bjj"
+                        "title" => __("schedule.jujutsuAdvance"),
+                        "start" => "19:15",
+                        "end" => "20:30",
+                        "class" => "jujutsu"
                     ],
                     [
-                        "title" => __("schedule.booked"),
-                        "start" => "20:10",
+                        "title" => __("schedule.open"),
+                        "start" => "20:45",
                         "end" => "21:30",
                         "class" => "misc"
                     ]
                 ],
                 __("schedule.thursday") => [
                     [
-                        "title" => __("schedule.jujutsu"),
-                        "start" => "17:15",
-                        "end" => "18:20",
-                        "class" => "jujutsu"
-                    ],
-                    [
-                        "title" => __("schedule.bjjIntermediateAdvance"),
-                        "start" => "18:40",
-                        "end" => "20:00",
+                        "title" => __("schedule.bjjBegin"),
+                        "start" => "18:00",
+                        "end" => "19:15",
                         "class" => "bjj"
                     ],
                     [
                         "title" => __("schedule.bjjIntermediateAdvance"),
-                        "start" => "20:20",
-                        "end" => "21:20",
+                        "start" => "19:30",
+                        "end" => "20:45",
                         "class" => "bjj"
+                    ],
+                    [
+                        "title" => __("schedule.open"),
+                        "start" => "21:00",
+                        "end" => "21:45",
+                        "class" => "misc"
                     ]
                 ],
                 __("schedule.friday") => [
                     [
-                        "title" => __("schedule.bjjIntermediateAdvance"),
-                        "start" => "17:30",
-                        "end" => "18:40",
+                        "title" => __("schedule.bjjSw"),
+                        "start" => "17:45",
+                        "end" => "19:00",
                         "class" => "bjj"
                     ],
                     [
-                        "title" => __("schedule.bjjIntermediateAdvance"),
-                        "start" => "19:00",
+                        "title" => __("schedule.open"),
+                        "start" => "19:15",
                         "end" => "20:00",
-                        "class" => "bjj"
+                        "class" => "misc"
                     ]
                 ],
                 __("schedule.saturday") => [
                     [
-                        "title" => __("schedule.bjjOpen"),
-                        "start" => "17:30",
-                        "end" => "18:40",
+                        "title" => __("schedule.bjjComp"),
+                        "start" => "11:00",
+                        "end" => "13:00",
                         "class" => "bjj"
                     ]
                 ],
                 __("schedule.sunday") => [
-                    [
-                        "title" => __("schedule.bjjOpen"),
-                        "start" => "13:00",
-                        "end" => "14:30",
-                        "class" => "bjj"
-                    ],
                     [
                         "title" => __("schedule.selfDefence"),
                         "start" => "16:00",
