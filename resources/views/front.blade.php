@@ -33,6 +33,12 @@
             <div class="section-text-start">@lang('main.selfDefenceStart')</div>
             <a href="{{ route('selfDefence') }}">@lang('main.readMore')</a>
         </div>
+        <div class="section-item">
+            <h2>@lang('main.bjjChildren')</h2>
+            <div class="section-text">@lang('main.bjjChildrenIntro')</div>
+            <div class="section-text-start">@lang('main.bjjChildrenStart')</div>
+            <a href="{{ route('bjjChildren') }}">@lang('main.readMore')</a>
+        </div>
     </div>
 </div>
 <div class="time-box">
@@ -42,23 +48,4 @@
        </div>
     </div>
 </div>
-@if ($facebookPosts)
-<div class="fb-feed clearfix">
-    <div class="inner">
-        <h3>@lang('main.latestFromFacebook')</h3>
-        @foreach ($facebookPosts as $post)
-            <div class="fb-item">
-                <a href="https://www.facebook.com/umeakampcenter/" target="_blank"><h5>Umeå Kampcenter</h5></a>
-                <div class="fb-time">{{ $post["createDateTime"]->format('j F Y H:i') }}</div>
-                <div class="fb-text">{!! nl2br($post["message"]) !!}</div>
-                <div class="fb-link">
-                    @if ($post["url"])
-                        <a href="{{ $post["url"] }}" target="_blank">@lang('main.showPhotos')</a>
-                    @endif
-                </div>
-            </div>
-        @endforeach
-    </div>
-</div>
-@endif
 @endsection

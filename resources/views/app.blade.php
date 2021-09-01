@@ -74,10 +74,12 @@
                             <li><a href="{{ route('bjj') }}">@lang('main.bjj')</a></li>
                             <li><a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a></li>
                             <li><a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a></li>
+                            <li><a href="{{ route('bjjChildren') }}">@lang('main.bjjChildren')</a></li>
                         </ul>
                     </div>
                     <a href="{{ route('board') }}">@lang('main.board')</a>
                     <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
+                    <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
                     <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
                     @if ($isSwedish)
                         <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">
@@ -97,8 +99,10 @@
             <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
             <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
             <a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a>
+            <a href="{{ route('bjjChildren') }}">@lang('main.bjjChildren')</a>
             <a href="{{ route('board') }}">@lang('main.board')</a>
             <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
+            <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
             <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
             @if ($isSwedish)
                 <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">Switch to english</a>
