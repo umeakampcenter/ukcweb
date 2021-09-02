@@ -117,6 +117,12 @@ class ScheduleController extends Controller
                 ],
                 __("schedule.sunday") => [
                     [
+                        "title" => __("schedule.bjjChildren"),
+                        "start" => "14:00",
+                        "end" => "15:00",
+                        "class" => "bjj"
+                    ],
+                    [
                         "title" => __("schedule.selfDefence"),
                         "start" => "16:00",
                         "end" => "17:30",

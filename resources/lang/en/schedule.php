@@ -22,6 +22,7 @@ return [
     "bjjSpecific" => "BJJ drilling",
     "bjjComp" => "BJJ competition training",
     "bjjSw" => "BJJ no-gi",
+    "bjjChildren" => "BJJ children",
     "selfDefence" => "Self defence for women and transgenders",
     "open" => "Open mat"
 ];
