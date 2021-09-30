@@ -32,7 +32,9 @@
         <strong>Har du tränat Jujutsu tidigare?</strong><br>
         I Sverige finns många olika stilar av Jujutsu, stora som små. Den främsta skillnaden mellan dessa är vart man
         har valt att lägga sitt fokus. Jämfört med många andra stilar har Kagami Ryu Jujutsu en starkare koppling till
-        Judo, BJJ och Karate. Vi är med i ett förbund som består av ett trettiotal mindre stilar som träffas regelbundet
+        Judo, BJJ och Karate. Självklart får du behålla din bältesgrad när du tränar med oss!
+        <br><br>
+        Vi är med i ett förbund som består av ett trettiotal mindre stilar som träffas regelbundet
         och tar inspiration av varandra.
         <br><br>
         @lang('main.membershipFee')
@@ -53,7 +55,8 @@
         <h2>Sparring</h2>
         Kagami Ryu Jujutsu har sju former av sparring. Vi börjar tidigt med mattbrottning (Ne waza) och Jutsu randori (självförsvar).
         När du behärskar fallteknik, blockeringar och andra grundläggande tekniker introducerar vi fler sparringformer. Vissa av
-        sparringformerna kräver skydd av olika slag men det är inget du behöver införskaffa första året.
+        sparringformerna kräver skydd av olika slag men det är inget du behöver införskaffa första året. Vi har ett pass i veckan som
+        är dedikerat till stående sparring där vi framför allt övar på nedtagningar eller slag och spark.
         @endslot
         @slot('imageBox')
             <iframe

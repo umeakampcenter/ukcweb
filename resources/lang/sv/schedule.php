@@ -11,7 +11,8 @@ return [
 
     "jujutsuBegin" => "Jujutsu nybörjare",
     "jujutsuAdvance" => "Jujutsu avance",
-    "jujutsuBjjOpen" => "Jujutsu nybörjare & avance / BJJ friträning",
+    "jujutsu" => "Jujutsu nybörjare & avance",
+    "jujutsuSparring" => "Jujutsu stående sparring",
     "booked" => "Bokat",
     "bjjOpen" => "BJJ friträning",
     "bjjBeginAdvance" => "BJJ nybörjare & avance",

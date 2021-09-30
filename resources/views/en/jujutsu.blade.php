@@ -32,7 +32,9 @@
         <strong>Have you trained Jujutsu before?</strong><br>
         There are many different styles of Jujutsu in Sweden, both large and small ones. The main difference between
         these is the direction that they've chosen. Kagami Ryu Jujutsu have stronger ties to Judo, BJJ and Karate than
-        most styles. We belong to a federation of many small styles that meet regularly to share ideas with one another.
+        most styles. You are free to keep your current belt rank when you train with us!
+        <br><br>
+        We belong to a federation of many small styles that meet regularly to share ideas with one another.
         <br><br>
         @lang('main.membershipFee')
         @endslot
@@ -53,7 +55,8 @@
         Kagami Ryu Jujutsu has seven forms of sparring. You will be introduced to ground fighting (Ne waza) and self-defence
         sparring (Jutsu randori) early on. More advanced forms of sparring are added when you have learned to fall properly
         and protect yourself. Some of these sparring forms require protection (gloves, shin pads, etc.) but you don't have
-        to get these your first year of training with us.
+        to get these your first year of training with us. One class each week is dedicated to standup sparring where we
+        mostly work on takedowns and striking.
         @endslot
         @slot('imageBox')
             <iframe

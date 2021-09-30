@@ -11,7 +11,8 @@ return [
 
     "jujutsuBegin" => "Jujutsu beginners",
     "jujutsuAdvance" => "Jujutsu advance",
-    "jujutsuBjjOpen" => "Jujutsu beginners & advance / BJJ free training",
+    "jujutsu" => "Jujutsu beginners & advance",
+    "jujutsuSparring" => "Jujutsu standup sparring",
     "booked" => "Booked",
     "bjjOpen" => "BJJ free training",
     "bjjBeginAdvance" => "BJJ beginners & advance",
