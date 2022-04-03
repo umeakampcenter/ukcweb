@@ -23,7 +23,9 @@ return [
     "bjjSpecific" => "BJJ drillpass",
     "bjjComp" => "BJJ tävlings&shy;träning",
     "bjjSw" => "BJJ no-gi",
+    "bjjDrill" => "BJJ drill",
     "bjjChildren" => "BJJ barnträning",
+    "bjjSparring" => "BJJ sparring",
     "selfDefence" => "Självförsvar för tjejer och transpersoner",
     "open" => "Öppen matta"
 ];

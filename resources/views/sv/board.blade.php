@@ -17,11 +17,7 @@
                 </li>
                 <li>
                     <strong>Sekreterare</strong><br>
-                    Birgith Stenbäck
-                </li>
-                <li>
-                    <strong>Kassör</strong><br>
-                    Peter Spegel
+                    Arvid Edberg
                 </li>
                 <li>
                     <strong>Ledamot</strong><br>
@@ -29,20 +25,28 @@
                 </li>
                 <li>
                     <strong>Ledamot</strong><br>
+                    Peter Spegel
+                </li>
+                <li>
+                    <strong>Ledamot</strong><br>
                     Ville Nordin
                 </li>
                 <li>
-                    <strong>Suppleant</strong><br>
-                    Arvid Edberg
+                    <strong>Ledamot</strong><br>
+                    Lina Öststorm
                 </li>
                 <li>
                     <strong>Suppleant</strong><br>
-                    Stefan Eriksson
+                    Simon Wennberg
                 </li>
-                <li>
-                    <strong>Suppleant</strong><br>
-                    Moa Carlsson Gustafsson
-                </li>
+            </ul>
+            <br><br><br>
+            <h2>Hedersmedlemmar</h2>
+            <p>För lång och trogen tjänst.</p>
+            <ul>
+                <li>Lasse Häggblom</li>
+                <li>Cathrine Häggblom</li>
+                <li>Birgith Stenbäck</li>
             </ul>
         @endslot
         @slot('imageBox')

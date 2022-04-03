@@ -17,11 +17,7 @@
                 </li>
                 <li>
                     <strong>Secretary</strong><br>
-                    Birgith Stenbäck
-                </li>
-                <li>
-                    <strong>Cashier</strong><br>
-                    Peter Spegel
+                    Arvid Edberg
                 </li>
                 <li>
                     <strong>Board member</strong><br>
@@ -29,20 +25,28 @@
                 </li>
                 <li>
                     <strong>Board member</strong><br>
+                    Peter Spegel
+                </li>
+                <li>
+                    <strong>Board member</strong><br>
                     Ville Nordin
                 </li>
                 <li>
-                    <strong>Alternate member</strong><br>
-                    Arvid Edberg
+                    <strong>Board member</strong><br>
+                    Lina Öststorm
                 </li>
                 <li>
                     <strong>Alternate member</strong><br>
-                    Stefan Eriksson
+                    Simon Wennberg
                 </li>
-                <li>
-                    <strong>Alternate member</strong><br>
-                    Moa Carlsson Gustafsson
-                </li>
+            </ul>
+            <br><br><br>
+            <h2>Honorary members</h2>
+            <p>For many years of service.</p>
+            <ul>
+                <li>Lasse Häggblom</li>
+                <li>Cathrine Häggblom</li>
+                <li>Birgith Stenbäck</li>
             </ul>
         @endslot
         @slot('imageBox')

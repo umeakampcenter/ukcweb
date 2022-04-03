@@ -11,7 +11,7 @@
         <br>
         Our style is called Kagami Ryu Jujutsu.<br>
         <br>
-        We are a part of the <a href="http://www.stjf.net" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
+        We are a part of the <a href="https://www.stjf.se/" target="_blank">Swedish Taijutsu / Jujutsu Federation</a>
 
         <a href="https://www.facebook.com/groups/ukcjutsu/" target="_blank" class="external-link"><div><img src="images/fb.png" /></div><span>Facebook group</span></a>
         <a href="https://www.instagram.com/jujutsu.umea" target="_blank" class="external-link"><div><img src="images/instagram.png" /></div><span>Instagram</span></a>
@@ -96,7 +96,7 @@
             'imageUrl' =>  URL::asset('images/instructors/peter.jpg'),
             'name' => 'Peter Spegel, Renshi',
             'phone' => config('app.phoneNumbers.pspegel'),
-            'belt' => '||||'
+            'belt' => '|||||'
         ],
         [
             'imageUrl' => URL::asset('images/instructors/arvid.jpg'),
