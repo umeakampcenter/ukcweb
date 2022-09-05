@@ -28,16 +28,16 @@ return [
     'welcomeText' => 'Umeå Kampcenter offers Kagami Ryu Jujutsu and Gracie Barra Brazilian Jiu-Jitsu. '
         . 'We also offer free self-defence for women on sundays! '
         . 'As a member you can train all our styles. Trying out our classes are free. '
-        . 'We accept students that are 14 years or older.',
+        . 'Adult classes are for age 14 and up.',
 
     'jujutsuIntro' => 'Jujutsu is self defence with grappling, striking and takedowns.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu focuses on ground work and fighting on the ground.',
     'selfDefenceIntro' => 'Free self-defence for women and transsexuals.',
     'bjjChildrenIntro' => 'The children classes combine the fundamentals of BJJ with play and fun. For ages 7-10.',
-    'jujutsuStart' => 'Accepting new members',
-    'bjjStart' => 'Accepting new members',
-    'selfDefenceStart' => 'Accepting new members',
-    'bjjChildrenStart' => 'Accepting new members',
+    'jujutsuStart' => 'Begins 29th aug',
+    'bjjStart' => 'Begins 29th aug',
+    'selfDefenceStart' => 'Begins 4th sep',
+    'bjjChildrenStart' => 'Begins 4th sep',
     'readMore' => 'Read more',
     'seeTrainingSessions' => 'Look at our training sessions',
     'latestFromFacebook' => 'Latest from Facebook',

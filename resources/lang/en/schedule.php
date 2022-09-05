@@ -22,10 +22,12 @@ return [
     "bjjIntermediateAdvance" => "BJJ intermediate & advance",
     "bjjSpecific" => "BJJ drilling",
     "bjjComp" => "BJJ competition training",
-    "bjjSw" => "BJJ no-gi",
+    "bjjNogi" => "BJJ no-gi",
     "bjjDrill" => "BJJ drill",
     "bjjChildren" => "BJJ children",
     "bjjSparring" => "BJJ sparring",
+    "bjjTech" => "BJJ technique",
+    "sw" => "Submission wrestling",
     "selfDefence" => "Self defence for women and transgenders",
     "open" => "Open mat"
 ];

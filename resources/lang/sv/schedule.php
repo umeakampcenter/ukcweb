@@ -22,10 +22,12 @@ return [
     "bjjIntermediateAdvance" => "BJJ fortsättare & avance",
     "bjjSpecific" => "BJJ drillpass",
     "bjjComp" => "BJJ tävlings&shy;träning",
-    "bjjSw" => "BJJ no-gi",
+    "bjjNogi" => "BJJ no-gi",
     "bjjDrill" => "BJJ drill",
     "bjjChildren" => "BJJ barnträning",
     "bjjSparring" => "BJJ sparring",
+    "bjjTech" => "BJJ teknik",
+    "sw" => "Submission wrestling",
     "selfDefence" => "Självförsvar för tjejer och transpersoner",
     "open" => "Öppen matta"
 ];

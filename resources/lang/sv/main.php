@@ -29,16 +29,16 @@ return [
         . 'Gracie Barra Brazilian Jiu-Jitsu. Dessutom har vi gratis självförsvar för tjejer på söndagar! '
         . 'Som medlem får du träna alla våra stilar. Självklart får du testa på några tillfällen '
         . 'innan du betalar! '
-        . 'För att träna hos oss måste du vara minst 14 år gammal.',
+        . 'För att träna på våra vuxenpass måste du vara minst 14 år gammal.',
 
     'jujutsuIntro' => 'Jujutsu är självförsvar med grappling, slag/spark och nedtagningar.',
     'bjjIntro' => 'Gracie Barra Brazilian Jiu-Jitsu fokuserar på liggande markteknik och mattkamp.',
     'selfDefenceIntro' => 'Gratis självförsvar för tjejer och transpersoner.',
     'bjjChildrenIntro' => 'Här kombinerar vi grunderna i BJJ med lek och skoj. Ålder 7-10 år.',
-    'jujutsuStart' => 'Öppet intag',
-    'bjjStart' => 'Öppet intag',
-    'selfDefenceStart' => 'Öppet intag',
-    'bjjChildrenStart' => 'Öppet intag',
+    'jujutsuStart' => 'Start 29/8',
+    'bjjStart' => 'Start 29/8',
+    'selfDefenceStart' => 'Start 4/9',
+    'bjjChildrenStart' => 'Start 4/9',
     'readMore' => 'Läs mer',
     'seeTrainingSessions' => 'Se våra träningstider',
     'latestFromFacebook' => 'Senaste från Facebook',
