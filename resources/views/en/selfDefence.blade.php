@@ -12,7 +12,7 @@
         <ul>
             <li>
                 Self-defence for women
-                <a href="https://www.facebook.com/gbumeasjalvforsvar/" target="_blank">Facebook group</a>
+                <a href="https://www.facebook.com/umeasjalvforsvar" target="_blank">Facebook group</a>
             </li>
         </ul>
         @endslot
@@ -50,20 +50,26 @@
     @endcomponent
     @component('instructors', ['persons' => [
         [
-            'imageUrl' =>  URL::asset('images/person.png'),
+            'imageUrl' =>  URL::asset('images/instructors/mattias.jpg'),
             'name' => 'Mattias Sandström',
+            'phone' => '',
+            'belt' => null,
+        ],
+        [
+            'imageUrl' => URL::asset('images/instructors/mimmi.jpg'),
+            'name' => 'Mimmi Larsson',
+            'phone' => '',
+            'belt' => null,
+        ],
+        [
+            'imageUrl' => URL::asset('images/instructors/hanna.jpg'),
+            'name' => 'Hanna Johansson',
             'phone' => '',
             'belt' => null,
         ],
         [
             'imageUrl' => URL::asset('images/person.png'),
             'name' => 'Moa Carlsson Gustafsson',
-            'phone' => '',
-            'belt' => null,
-        ],
-        [
-            'imageUrl' => URL::asset('images/person.png'),
-            'name' => 'Mimmi Larsson',
             'phone' => '',
             'belt' => null,
         ],

@@ -82,13 +82,6 @@
             'beltColor' => config('app.beltColors.black')
         ],
         [
-            'imageUrl' => URL::asset('images/instructors/piri.jpg'),
-            'name' => 'Piri Nigeus',
-            'phone' => config('app.phoneNumbers.pnigeus'),
-            'belt' => '',
-            'beltColor' => config('app.beltColors.brown')
-        ],
-        [
             'imageUrl' => URL::asset('images/person.png'),
             'name' => 'Moa Carlsson Gustafsson',
             'phone' => '',

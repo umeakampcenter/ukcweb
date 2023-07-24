@@ -13,15 +13,15 @@
             <ul>
                 <li>
                     <strong>Ordförande</strong><br>
-                    Henrik Vincent
+                    Jörgen Lindström
                 </li>
                 <li>
                     <strong>Sekreterare</strong><br>
-                    Arvid Edberg
+                    
                 </li>
                 <li>
                     <strong>Ledamot</strong><br>
-                    Mattias Liljeblad
+                    Mathias Liljeblad
                 </li>
                 <li>
                     <strong>Ledamot</strong><br>
@@ -37,7 +37,11 @@
                 </li>
                 <li>
                     <strong>Suppleant</strong><br>
-                    Simon Wennberg
+                    Jens Ottander
+                </li>
+                <li>
+                    <strong>Suppleant</strong><br>
+                    Linus Bergström
                 </li>
             </ul>
             <br><br><br>

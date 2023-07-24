@@ -13,15 +13,15 @@
             <ul>
                 <li>
                     <strong>Head of the board</strong><br>
-                    Henrik Vincent
+                    Jörgen Lindström
                 </li>
                 <li>
                     <strong>Secretary</strong><br>
-                    Arvid Edberg
+                    
                 </li>
                 <li>
                     <strong>Board member</strong><br>
-                    Mattias Liljeblad
+                    Mathias Liljeblad
                 </li>
                 <li>
                     <strong>Board member</strong><br>
@@ -37,7 +37,11 @@
                 </li>
                 <li>
                     <strong>Alternate member</strong><br>
-                    Simon Wennberg
+                    Jens Ottander
+                </li>
+                <li>
+                    <strong>Alternate member</strong><br>
+                    Linus Bergström
                 </li>
             </ul>
             <br><br><br>

@@ -4,7 +4,7 @@
     @component('contentBox')
         @slot('textBox')
         <h1>BJJ barnträning</h1>
-        Vi erbjuder barnträning inom Brasiliansk Jiu-Jitsu för åldrarna 7-10 år. Här kombinerar vi grunderna i BJJ med lek och skoj.<br>
+        Vi erbjuder barnträning inom Brasiliansk Jiu-Jitsu för åldrarna 6-13 år. Barnpasset kombinerar grunderna i BJJ med lek och skoj. Ungdomspasset är för de äldre barnen som vill träna mer teknik och sparras. Åldersgränserna är ungefärliga då vi i första hand tar hänsyn till mognad, ambition och storlek.<br>
         <br>
         Målet är att hitta glädje i träningen! Anmälan sker via vår Facebook eller vår <a href="mailto:umeakampcenterif@gmail.com">mejl</a> och kostar 700 kr/termin.
         @endslot
@@ -21,18 +21,19 @@
             'beltColor' => config('app.beltColors.black')
         ],
         [
-            'imageUrl' => URL::asset('images/person.png'),
+            'imageUrl' => URL::asset('images/instructors/mimmi.jpg'),
             'name' => 'Mimmi Larsson',
             'phone' => '',
             'belt' => '',
-            'beltColor' => config('app.beltColors.blue')
+            'beltColor' => config('app.beltColors.blue'),
         ],
         [
-            'imageUrl' => URL::asset('images/person.png'),
+            'imageUrl' => URL::asset('images/instructors/hanna.jpg'),
             'name' => 'Hanna Johansson',
             'phone' => '',
-            'belt' => null
-        ]
+            'belt' => '',
+            'beltColor' => config('app.beltColors.blue'),
+        ],
     ]])
     @endcomponent
 @endsection
