@@ -6,9 +6,9 @@
     "type": "project",
     "require": {
         "php": "8.2.*",
-        "guzzlehttp/guzzle": "^7.2",
+        "area17/twill": "3.0.2",
+        "guzzlehttp/guzzle": "7.7.0",
         "ied3vil/language-switcher": "^1.1",
-        "jenssegers/date": "4.0.0",
         "laravel/framework": "10.15.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8"
