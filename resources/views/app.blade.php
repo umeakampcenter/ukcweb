@@ -53,7 +53,7 @@
         <div class="inner clearfix">
             <div id="logo">
                 <a href="{{ route('home') }}">
-                    <img src="{{ URL::asset('images/logo.png') }}" alt="Umeå Kampcenter">
+                    <img src="{{ Vite::asset('resources/images/logo.png') }}" alt="Umeå Kampcenter">
                 </a>
             </div>
             <div class="menu">

@@ -130,12 +130,12 @@
 }
 
 .lang-switch.sv {
-  background: url(../images/lan_sv.png) no-repeat center center;
+  background: url(/resources/images/lan_sv.png) no-repeat center center;
   background-size: cover;
 }
 
 .lang-switch.en {
-  background: url(../images/lan_en.png) no-repeat center center;
+  background: url(/resources/images/lan_en.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -152,7 +152,7 @@
 
 .mobile-menu-btn {
   display: none;
-  background: url("../images/mobilmeny.png") no-repeat right center;
+  background: url("/resources/images/mobilmeny.png") no-repeat right center;
   width: 100px;
   height: 60px;
   float: right;
@@ -160,7 +160,7 @@
 }
 
 body.lang-en .mobile-menu-btn {
-  background: url("../images/mobilmenu.png") no-repeat right center;
+  background: url("/resources/images/mobilmenu.png") no-repeat right center;
 }
 
 @media all and (min--moz-device-pixel-ratio: 2),
@@ -168,12 +168,12 @@ body.lang-en .mobile-menu-btn {
   all and (-webkit-min-device-pixel-ratio: 2),
   all and (min-device-pixel-ratio: 2) {
   .mobile-menu-btn {
-    background-image: url("../images/mobilmeny@2x.png");
+    background-image: url("/resources/images/mobilmeny@2x.png");
     background-size: 68px 15px;
   }
 
   body.lang-en .mobile-menu-btn {
-    background: url("../images/mobilmenu@2x.png") no-repeat right center;
+    background: url("/resources/images/mobilmenu@2x.png") no-repeat right center;
   }
 }
 
@@ -197,7 +197,7 @@ body.lang-en .mobile-menu-btn {
 }
 
 .slider-img {
-  background: url(../images/front_long2.jpg) no-repeat center center;
+  background: url(/resources/images/front_long2.jpg) no-repeat center center;
   background-size: cover;
   height: 680px;
   width: 100%;
@@ -281,7 +281,7 @@ body.lang-en .mobile-menu-btn {
 }
 
 .time-box {
-  background: #282828 url(../images/self_bg.gif) no-repeat center top;
+  background: #282828 url(/resources/images/self_bg.gif) no-repeat center top;
   position: relative;
 }
 
@@ -292,7 +292,7 @@ body.lang-en .mobile-menu-btn {
 a.time-link {
   font-size: 32px;
   font-weight: 800;
-  background: url(../images/arrow.png) no-repeat right center;
+  background: url(/resources/images/arrow.png) no-repeat right center;
   padding: 40px 70px 40px 0;
   margin: 70px 0;
   display: inline-block;
@@ -356,7 +356,7 @@ a.time-link:hover {
 
 .fb-link {
   padding: 0 24px 0 0;
-  background: url(../images/grey_arrow.png) no-repeat right center;
+  background: url(/resources/images/grey_arrow.png) no-repeat right center;
   display: inline-block;
   color: #9e9e9e;
   font-size: 14px;
