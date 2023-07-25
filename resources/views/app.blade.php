@@ -71,13 +71,14 @@
                 <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
                 <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
                 <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
-                @if (true)
-                <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">
-                    Switch to english
+
+                @if (App::currentLocale() === 'en')
+                <a href="/lang/sv" class="lang-switch sv">
+                    Byt till svenska
                 </a>
                 @else
-                <a href="{{ route('setLanguage', ['language' => 'sv']) }}" class="lang-switch sv">
-                    Byt till svenska
+                <a href="/lang/en" class="lang-switch en">
+                    Switch to english
                 </a>
                 @endif
             </div>
@@ -94,10 +95,14 @@
         <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
         <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
         <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
-        @if (true)
-        <a href="{{ route('setLanguage', ['language' => 'en']) }}" class="lang-switch en">Switch to english</a>
+        @if (App::currentLocale() === 'en')
+        <a href="/lang/sv" class="lang-switch sv">
+            Byt till svenska
+        </a>
         @else
-        <a href="{{ route('setLanguage', ['language' => 'sv']) }}" class="lang-switch sv">Byt till svenska</a>
+        <a href="/lang/en" class="lang-switch en">
+            Switch to english
+        </a>
         @endif
     </div>
     <div class="content">

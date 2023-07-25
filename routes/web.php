@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
+use App\Http\Controllers\ScheduleController;
+use ied3vil\LanguageSwitcher\LanguageSwitcherController;
 
 Route::get('/', function () {
     return view(App::getLocale() . '/home');
@@ -35,7 +37,4 @@ Route::get('/findUs', function () {
     return view(App::getLocale() . '/findUs');
 })->name('findUs');
 
-Route::get('/schedule', 'ScheduleController@show')->name('schedule');
-
-Route::get('/lang/{language}', '\\ied3vil\\LanguageSwitcher\\LanguageSwitcherController@setLanguage')
-    ->name('setLanguage');
+Route::get('/schedule', [ScheduleController::class, 'show'])->name('schedule');
