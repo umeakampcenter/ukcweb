@@ -157,6 +157,7 @@
   height: 60px;
   float: right;
   margin-top: 4px;
+  user-select: none;
 }
 
 body.lang-en .mobile-menu-btn {

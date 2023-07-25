@@ -28,10 +28,12 @@
     @vite(["resources/css/default.css", "resources/css/pages.css", "resources/css/schedule.css", "resources/css/768.css", "resources/css/480.css", "resources/css/320.css"])
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    @vite(["resources/js/app.js", "resources/js/schedule.js"])
-    <script type="text/javascript">
+    @vite("resources/js/schedule.js")
+    <script type="module">
         $(document).ready(function() {
-            umeakampcenter.menu.init($(".mobile-menu-btn"), $("#mobile-menu"));
+            $(".mobile-menu-btn").click(function() {
+                $("#mobile-menu").slideToggle();
+            });
         });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->

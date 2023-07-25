@@ -5,7 +5,6 @@ export default defineConfig({
   plugins: [
     laravel({
       input: [
-        "resources/js/app.js",
         "resources/js/schedule.js",
         "resources/css/default.css",
         "resources/css/pages.css",
