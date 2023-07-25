@@ -269,14 +269,6 @@ body.lang-en .mobile-menu-btn {
 }
 
 .section-text {
-  margin-bottom: 0;
-}
-
-.section-text-start {
-  align-items: flex-end;
-  display: flex;
-  flex-grow: 1;
-  margin-top: 20px;
   margin-bottom: 30px;
 }
 

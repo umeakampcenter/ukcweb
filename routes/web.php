@@ -3,11 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use App\Http\Controllers\ScheduleController;
-use ied3vil\LanguageSwitcher\LanguageSwitcherController;
 
 Route::get('/', function () {
-    return view(App::getLocale() . '/home');
-})->name('home');
+    return view(App::getLocale() . '/front');
+})->name('front');
 
 Route::get('/jujutsu', function () {
     return view(App::getLocale() . '/jujutsu');

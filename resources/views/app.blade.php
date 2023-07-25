@@ -52,12 +52,12 @@
     <div id="header">
         <div class="inner clearfix">
             <div id="logo">
-                <a href="{{ route('home') }}">
+                <a href="{{ route('front') }}">
                     <img src="{{ Vite::asset('resources/images/logo.png') }}" alt="Umeå Kampcenter">
                 </a>
             </div>
             <div class="menu">
-                <a href="{{ route('home') }}">@lang('main.start')</a>
+                <a href="{{ route('front') }}">@lang('main.start')</a>
                 <div class="menu-item">
                     <span class="menu-activator">@lang('main.train')</span>
                     <ul>
@@ -86,7 +86,7 @@
         </div>
     </div>
     <div id="mobile-menu">
-        <a href="{{ route('home') }}">@lang('main.start')</a>
+        <a href="{{ route('front') }}">@lang('main.start')</a>
         <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
         <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
         <a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a>
@@ -112,7 +112,7 @@
         <div class="inner">
             <div class="footer-item">
                 <a href="https://budofitness.se/" target="_blank">
-                    <img src="images/budo_fitness.png" alt="Budo fitness">
+                    <img src={{Vite::asset("resources/images/budo_fitness.png")}} alt="Budo fitness">
                 </a>
             </div>
             <div class="footer-item">
@@ -120,13 +120,13 @@
             </div>
             <div class="footer-item">
                 <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">
-                    <img src="images/map.png" alt="@lang('main.findUs')">
+                    <img src={{Vite::asset("resources/images/map.png")}} alt="@lang('main.findUs')">
                 </a>
                 <a href="http://www.facebook.com/umeakampcenter/" target="_blank">
-                    <img src="images/fb.png" alt="Facebook">
+                    <img src={{Vite::asset("resources/images/fb.png")}} alt="Facebook">
                 </a>
                 <a href="mailto:umeakampcenterif@gmail.com">
-                    <img src="images/email.png" alt="@lang('main.email')">
+                    <img src={{Vite::asset("resources/images/email.png")}} alt="@lang('main.email')">
                 </a>
             </div>
         </div>
