@@ -4,13 +4,13 @@ namespace App\Repositories;
 
 use A17\Twill\Repositories\Behaviors\HandleTranslations;
 use A17\Twill\Repositories\ModuleRepository;
-use App\Models\Schema;
+use App\Models\Schedule;
 
-class SchemaRepository extends ModuleRepository
+class ScheduleRepository extends ModuleRepository
 {
     use HandleTranslations;
 
-    public function __construct(Schema $model)
+    public function __construct(Schedule $model)
     {
         $this->model = $model;
     }

@@ -5,7 +5,7 @@ namespace App\Models;
 use A17\Twill\Models\Behaviors\HasTranslation;
 use A17\Twill\Models\Model;
 
-class Schema extends Model
+class Schedule extends Model
 {
     use HasTranslation;
 

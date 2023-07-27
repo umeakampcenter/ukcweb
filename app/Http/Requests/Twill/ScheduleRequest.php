@@ -13,7 +13,9 @@ enum TypeOfClass: string
     case MISC = 'misc';
 }
 
-class SchemaRequest extends Request
+// TODO: Validate start < end
+// TODO: Validate scheduling conflict
+class ScheduleRequest extends Request
 {
     public function rulesForCreate()
     {

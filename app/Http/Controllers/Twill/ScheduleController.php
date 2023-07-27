@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Twill;
 
-use A17\Twill\Models\Contracts\TwillModelContract;
 use A17\Twill\Services\Forms\Fields\Input;
 use A17\Twill\Services\Forms\Fields\Select;
 use A17\Twill\Services\Forms\Form;
@@ -10,9 +9,9 @@ use A17\Twill\Services\Forms\Options;
 use A17\Twill\Services\Forms\Option;
 use A17\Twill\Http\Controllers\Admin\ModuleController as BaseModuleController;
 
-class SchemaController extends BaseModuleController
+class ScheduleController extends BaseModuleController
 {
-    protected $moduleName = 'schemas';
+    protected $moduleName = 'schedules';
 
     /**
      * This method can be used to enable/disable defaults. See setUpController in the docs for available options.
