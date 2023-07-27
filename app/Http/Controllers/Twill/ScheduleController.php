@@ -25,6 +25,17 @@ class ScheduleController extends BaseModuleController
     {
         return Form::make([
             Input::make()->name('title')->label('Title')->translatable(),
+            Select::make()->name('day')->label('Day of the week')->options(
+                Options::make([
+                    Option::make('monday', 'Monday'),
+                    Option::make('tuesday', 'Tuesday'),
+                    Option::make('wednesday', 'Wednesday'),
+                    Option::make('thursday', 'Thursday'),
+                    Option::make('friday', 'Friday'),
+                    Option::make('saturday', 'Saturday'),
+                    Option::make('sunday', 'Sunday'),
+                ])
+            ),
             Input::make()->name('start')->label('Start of class'),
             Input::make()->name('end')->label('End of class'),
             Select::make()->name('typeOfClass')->label('Type of class')->options(

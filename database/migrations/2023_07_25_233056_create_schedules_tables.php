@@ -11,6 +11,7 @@ class CreateSchedulesTables extends Migration
         Schema::create('schedules', function (Blueprint $table) {
             createDefaultTableFields($table);
 
+            $table->enum('day', ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'])->nullable();
             $table->string('start', 5)->nullable();
             $table->string('end', 5)->nullable();
             $table->enum('typeOfClass', ['jujutsu', 'bjj', 'misc'])->nullable();
