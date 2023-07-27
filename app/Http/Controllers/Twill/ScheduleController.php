@@ -8,6 +8,7 @@ use A17\Twill\Services\Forms\Form;
 use A17\Twill\Services\Forms\Options;
 use A17\Twill\Services\Forms\Option;
 use A17\Twill\Http\Controllers\Admin\ModuleController as BaseModuleController;
+use A17\Twill\Models\Contracts\TwillModelContract;
 
 class ScheduleController extends BaseModuleController
 {
@@ -22,6 +23,33 @@ class ScheduleController extends BaseModuleController
     }
 
     public function getCreateForm(): Form
+    {
+        return Form::make([
+            Input::make()->name('title')->label('Title')->translatable(),
+            Select::make()->name('day')->label('Day of the week')->options(
+                Options::make([
+                    Option::make('monday', 'Monday'),
+                    Option::make('tuesday', 'Tuesday'),
+                    Option::make('wednesday', 'Wednesday'),
+                    Option::make('thursday', 'Thursday'),
+                    Option::make('friday', 'Friday'),
+                    Option::make('saturday', 'Saturday'),
+                    Option::make('sunday', 'Sunday'),
+                ])
+            ),
+            Input::make()->name('start')->label('Start of class'),
+            Input::make()->name('end')->label('End of class'),
+            Select::make()->name('typeOfClass')->label('Type of class')->options(
+                Options::make([
+                    Option::make('jujutsu', 'Jujutsu'),
+                    Option::make('bjj', 'BJJ'),
+                    Option::make('misc', 'Other'),
+                ])
+            )
+        ]);
+    }
+
+    public function getForm(TwillModelContract $model): Form
     {
         return Form::make([
             Input::make()->name('title')->label('Title')->translatable(),
