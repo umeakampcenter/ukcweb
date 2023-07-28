@@ -12,10 +12,14 @@ class FrontPage extends Model
 
     protected $fillable = [
         'intro',
+        'styles'
     ];
     
     public $translatedAttributes = [
         'intro',
     ];
     
+    protected $casts = [
+        'styles' => 'array'
+    ];
 }

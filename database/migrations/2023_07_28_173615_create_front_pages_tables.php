@@ -11,6 +11,7 @@ class CreateFrontPagesTables extends Migration
         Schema::create('front_pages', function (Blueprint $table) {
             // this will create an id, a "published" column, and soft delete and timestamps columns
             createDefaultTableFields($table);
+            $table->json('styles')->nullable();
         });
 
         Schema::create('front_page_translations', function (Blueprint $table) {
