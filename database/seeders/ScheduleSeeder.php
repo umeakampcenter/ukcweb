@@ -15,7 +15,7 @@ class ScheduleSeeder extends Seeder
         $this->add("Jujutsu nybörjare & avance", "Jujutsu beginners & advance", "monday", "20:15", "21:30", "jujutsu");
 
         $this->add("BJJ nybörjare", "BJJ beginners", "tuesday", "17:45", "19:15", "bjj");
-        $this->add("BJJ teknik", "BJJ technique", "tuesday", "19.15", "20:00", "bjj");
+        $this->add("BJJ teknik", "BJJ technique", "tuesday", "19:15", "20:00", "bjj");
         $this->add("Öppen matta", "Open mat", "tuesday", "20:00", "21:00", "misc");
 
         $this->add("Jujutsu nybörjare & avance", "Jujutsu beginners & advance", "wednesday", "18:00", "20:15", "jujutsu");

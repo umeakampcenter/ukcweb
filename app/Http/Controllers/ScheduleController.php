@@ -2,151 +2,47 @@
 
 namespace App\Http\Controllers;
 
-//use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Query\JoinClause;
 
 class ScheduleController extends Controller
 {
     public function show()
     {
-//        $laravel = app();
-//        $version = $laravel::VERSION;
-//        Log::error($version);
+        $scheduledClasses = DB::table('schedules')
+            ->join('schedule_translations', function (JoinClause $join) {
+                $join->on('schedules.id', '=', 'schedule_translations.schedule_id')
+                    ->where('schedule_translations.locale', '=', App::currentLocale());
+            })
+            ->select('schedule_translations.title as title', 'schedules.day as day', 'schedules.start as start', 'schedules.end as end', 'schedules.typeOfClass as typeOfClass')
+            ->orderBy('start')
+            ->get();
+
+        $events = [
+            'monday' => [],
+            'tuesday' => [],
+            'wednesday' => [],
+            'thursday' => [],
+            'friday' => [],
+            'saturday' => [],
+            'sunday' => []
+        ];
+
+        foreach ($scheduledClasses as $scheduledClass) {
+            $arr = json_decode(json_encode($scheduledClass), true);
+            $events[$arr['day']][] = $arr;
+        }
+
         return view('schedule', [
             "events" => [
-                __("schedule.monday") => [
-                    [
-                        "title" => __("schedule.open"),
-                        "start" => "17:45",
-                        "end" => "18:45",
-                        "class" => "misc"
-                    ],
-                    [
-                        "title" => __("schedule.bjjTech"),
-                        "start" => "18:45",
-                        "end" => "19:30",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.bjjDrill"),
-                        "start" => "19:30",
-                        "end" => "20:15",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.jujutsu"),
-                        "start" => "20:15",
-                        "end" => "21:30",
-                        "class" => "jujutsu"
-                    ],
-                ],
-                __("schedule.tuesday") => [
-                    [
-                        "title" => __("schedule.bjjBegin"),
-                        "start" => "17:45",
-                        "end" => "19:15",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.bjjTech"),
-                        "start" => "19:15",
-                        "end" => "20:00",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.open"),
-                        "start" => "20:00",
-                        "end" => "21:00",
-                        "class" => "misc"
-                    ]
-                ],
-                __("schedule.wednesday") => [
-                    [
-                        "title" => __("schedule.jujutsu"),
-                        "start" => "18:00",
-                        "end" => "20:15",
-                        "class" => "jujutsu"
-                    ],
-                    [
-                        "title" => __("schedule.bjjBegin"),
-                        "start" => "20:15",
-                        "end" => "21:45",
-                        "class" => "bjj"
-                    ]
-                ],
-                __("schedule.thursday") => [
-                    [
-                        "title" => __("schedule.bjjSparring"),
-                        "start" => "17:45",
-                        "end" => "18:45",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.bjjTech"),
-                        "start" => "18:45",
-                        "end" => "19:30",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.bjjDrill"),
-                        "start" => "19:30",
-                        "end" => "20:15",
-                        "class" => "misc"
-                    ]
-                ],
-                __("schedule.friday") => [
-                    [
-                        "title" => __("schedule.bjjNogi"),
-                        "start" => "17:45",
-                        "end" => "19:15",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.open"),
-                        "start" => "19:15",
-                        "end" => "20:15",
-                        "class" => "misc"
-                    ]
-                ],
-                __("schedule.saturday") => [
-                    [
-                        "title" => __("schedule.bjjComp"),
-                        "start" => "11:00",
-                        "end" => "13:00",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.open"),
-                        "start" => "13:00",
-                        "end" => "14:30",
-                        "class" => "misc"
-                    ]
-                ],
-                __("schedule.sunday") => [
-                    [
-                        "title" => __("schedule.bjjKids"),
-                        "start" => "13:00",
-                        "end" => "14:00",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.bjjYouth"),
-                        "start" => "14:30",
-                        "end" => "15:45",
-                        "class" => "bjj"
-                    ],
-                    [
-                        "title" => __("schedule.selfDefence"),
-                        "start" => "16:15",
-                        "end" => "17:45",
-                        "class" => "misc"
-                    ],
-                    [
-                        "title" => __("schedule.sw"),
-                        "start" => "18:15",
-                        "end" => "19:45",
-                        "class" => "misc"
-                    ],
-                ]
+                __("schedule.monday") => $events['monday'],
+                __("schedule.tuesday") => $events['tuesday'],
+                __("schedule.wednesday") => $events['wednesday'],
+                __("schedule.thursday") => $events['thursday'],
+                __("schedule.friday") => $events['friday'],
+                __("schedule.saturday") => $events['saturday'],
+                __("schedule.sunday") => $events['sunday']
             ]
         ]);
     }

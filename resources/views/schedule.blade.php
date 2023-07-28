@@ -38,7 +38,7 @@
                 <div class="top-info"><span>{{ $day }}</span></div>
                 <ul>
                     @foreach ($events[$day] as $event)
-                    <li class="single-event {{ $event['class'] }}" data-start="{{ $event['start'] }}" data-end="{{ $event['end'] }}" data-content="event-abs-circuit">
+                    <li class="single-event {{ $event['typeOfClass'] }}" data-start="{{ $event['start'] }}" data-end="{{ $event['end'] }}" data-content="event-abs-circuit">
                         <em class="event-name">{!! $event['title'] !!}</em>
                     </li>
                     @endforeach
