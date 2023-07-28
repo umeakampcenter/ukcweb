@@ -4,11 +4,16 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\Schedule;
 
 class ScheduleSeeder extends Seeder
 {
     public function run(): void
     {
+        if (Schedule::count() > 0) {
+            return;
+        }
+
         $this->add("Öppen matta", "Open mat", "monday", "17:45", "18:45", "misc");
         $this->add("BJJ teknik", "BJJ technique", "monday", "18:45", "19:30", "bjj");
         $this->add("BJJ drill", "BJJ drill", "monday", "19:30", "20:15", "bjj");

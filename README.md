@@ -40,6 +40,11 @@ Seed the database with essential data:
 php artisan db:seed
 ```
 
+Create a Twill CMS user:
+```
+php artisan twill:superadmin <email> <password>
+```
+
 Run the built-in PHP web server:
 ```
 php artisan serve --port=8080
