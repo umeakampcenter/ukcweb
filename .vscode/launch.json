@@ -13,7 +13,7 @@
       // xdebug.log="C:\xampp\tmp/xdebug.log" ; the logging - turn of once evrything works
       // xdebug.mode=develop,gcstats,coverage,profile,debug ; just give it the modes you need it can take all of them
       // xdebug.idekey=VSCODE ; can also be phpstorm
-      // xdebug.client_port=9003 ; the port xdebig will be working on
+      // xdebug.client_port=9003 ; the port xdebug will be working on
       "name": "Listen for Xdebug",
       "type": "php",
       "request": "launch",
