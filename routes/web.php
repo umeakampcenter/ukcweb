@@ -2,11 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
+use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\ScheduleController;
 
-Route::get('/', function () {
-    return view(App::getLocale() . '/front');
-})->name('front');
+Route::get('/', [FrontPageController::class, 'show'])->name('front');
 
 Route::get('/jujutsu', function () {
     return view(App::getLocale() . '/jujutsu');

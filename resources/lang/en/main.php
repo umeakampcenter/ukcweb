@@ -33,5 +33,6 @@ return [
     'findUs' => 'Find us',
     'email' => 'Send an email to us',
 
-    'membershipFee' => 'The membership fee is 1100 SEK per semester. Members have access to all our styles!'
+    'membershipFee' => 'The membership fee is 1100 SEK per semester. Members have access to all our styles!',
+    'trainingTimes' => 'Look at our training sessions'
 ];

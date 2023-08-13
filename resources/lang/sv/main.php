@@ -33,5 +33,6 @@ return [
     'findUs' => 'Hitta oss',
     'email' => 'Skicka e-post till oss',
 
-    'membershipFee' => 'Medlemsavgiften är 1100kr/termin. Som medlem får du träna alla våra stilar!'
+    'membershipFee' => 'Medlemsavgiften är 1100kr/termin. Som medlem får du träna alla våra stilar!',
+    'trainingTimes' => 'Se våra träningstider'
 ];

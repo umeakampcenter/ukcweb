@@ -11,12 +11,14 @@ class FrontPage extends Model
     use HasBlocks, HasTranslation;
 
     protected $fillable = [
+        'title',
         'intro',
         'styles'
     ];
     
     public $translatedAttributes = [
-        'intro',
+        'title',
+        'intro'
     ];
     
     protected $casts = [
