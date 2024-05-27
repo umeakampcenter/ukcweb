@@ -43,7 +43,7 @@ class StylePageController extends BaseModuleController
             Input::make()
                 ->name('linkPath')
                     ->required()
-                    ->label('Page url suffix')
+                    ->label('Page path')
                     ->note('Should begin with a "/" and contain only lowercase letters and hyphens')
                     ->placeholder('/jujutsu')
         ]);
@@ -107,7 +107,7 @@ class StylePageController extends BaseModuleController
         $table = parent::additionalIndexTableColumns();
 
         $table->add(
-            Text::make()->field('linkPath')->title('Page url suffix')
+            Text::make()->field('linkPath')->title('Page path')
         );
 
         return $table;

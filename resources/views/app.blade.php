@@ -64,7 +64,7 @@
                     <span class="menu-activator">@lang('main.train')</span>
                     <ul>
                         <li><a href="{{ route('bjj') }}">@lang('main.bjj')</a></li>
-                        <li><a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a></li>
+                        <li><a href="/jujutsu">@lang('main.jujutsu')</a></li>
                         <li><a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a></li>
                         <li><a href="{{ route('bjjChildren') }}">@lang('main.bjjChildren')</a></li>
                     </ul>
@@ -89,7 +89,7 @@
     </div>
     <div id="mobile-menu">
         <a href="{{ route('front') }}">@lang('main.start')</a>
-        <a href="{{ route('jujutsu') }}">@lang('main.jujutsu')</a>
+        <a href="/jujutsu">@lang('main.jujutsu')</a>
         <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
         <a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a>
         <a href="{{ route('bjjChildren') }}">@lang('main.bjjChildren')</a>

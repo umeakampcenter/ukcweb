@@ -4,12 +4,20 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\ScheduleController;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\StylePageController;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
 
-Route::get('/jujutsu', function () {
-    return view(App::getLocale() . '/jujutsu');
-})->name('jujutsu');
+// Dynamic style routes like /jujutsu
+$stylePages = DB::table('style_pages')
+    ->whereNull('deleted_at')
+    ->where('published', '=', 1)
+    ->pluck('linkPath');
+
+foreach ($stylePages as $linkPath) {
+    Route::get($linkPath, StylePageController::class);
+}
 
 Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');
