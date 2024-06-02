@@ -13,6 +13,7 @@ use A17\Twill\Services\Forms\Option;
 use A17\Twill\Services\Forms\Form;
 use A17\Twill\Http\Controllers\Admin\ModuleController as BaseModuleController;
 use A17\Twill\Services\Forms\InlineRepeater;
+use App\Models\Section;
 
 class StylePageController extends BaseModuleController
 {
@@ -56,8 +57,9 @@ class StylePageController extends BaseModuleController
     {
         return Form::make([
             InlineRepeater::make()
-                ->name('block')
-                ->label('Block') 
+                ->name('sections')
+                ->label('Sections')
+                ->relation(Section::class) 
                 ->fields([
                     Input::make()->name('title')->translatable()->required(),
                     Wysiwyg::make()

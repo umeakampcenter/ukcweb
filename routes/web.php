@@ -9,15 +9,16 @@ use App\Http\Controllers\StylePageController;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
 
+// TODO: Can't do this since it will be included when running migrations
 // Dynamic style routes like /jujutsu
-$stylePages = DB::table('style_pages')
-    ->whereNull('deleted_at')
-    ->where('published', '=', 1)
-    ->pluck('linkPath');
+// $stylePages = DB::table('style_pages')
+//     ->whereNull('deleted_at')
+//     ->where('published', '=', 1)
+//     ->pluck('linkPath');
 
-foreach ($stylePages as $linkPath) {
-    Route::get($linkPath, StylePageController::class);
-}
+// foreach ($stylePages as $linkPath) {
+//     Route::get($linkPath, StylePageController::class);
+// }
 
 Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');

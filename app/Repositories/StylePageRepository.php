@@ -14,4 +14,23 @@ class StylePageRepository extends ModuleRepository
     {
         $this->model = $model;
     }
+
+    public function afterSave($model, $fields): void
+    {
+        $this->updateRepeater($model, $fields, 'sections');
+        parent::afterSave($model, $fields);
+    }
+
+    public function getFormFields($object): array
+    {
+        $fields = parent::getFormFields($object);
+
+        return $this->getFormFieldsForRepeater(
+            $object,
+            $fields,
+            'sections',
+            'Section',
+            'sections'
+        );
+    }
 }
