@@ -1,5 +1,8 @@
 @extends('app')
-@section('title', 'Start')
+@section('title', $stylePage->title)
 @section('content')
-    <h1>{{ $title }}</h1>
+@foreach ($stylePage->sections as $section)
+    <h1>{{ $section->title }}</h1>
+    {!! $section->text !!}
+@endforeach
 @endsection

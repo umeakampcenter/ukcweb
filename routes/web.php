@@ -6,19 +6,21 @@ use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\ScheduleController;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\StylePageController;
+use Illuminate\Support\Facades\Schema;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
 
-// TODO: Can't do this since it will be included when running migrations
 // Dynamic style routes like /jujutsu
-// $stylePages = DB::table('style_pages')
-//     ->whereNull('deleted_at')
-//     ->where('published', '=', 1)
-//     ->pluck('linkPath');
+if (Schema::hasTable('style_pages')) {
+    $stylePages = DB::table('style_pages')
+        ->whereNull('deleted_at')
+        ->where('published', '=', 1)
+        ->pluck('linkPath');
 
-// foreach ($stylePages as $linkPath) {
-//     Route::get($linkPath, StylePageController::class);
-// }
+    foreach ($stylePages as $linkPath) {
+        Route::get($linkPath, StylePageController::class);
+    }
+}
 
 Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');
