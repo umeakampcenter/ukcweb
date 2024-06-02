@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\StylePage;
 use Illuminate\Http\Request;
+use A17\Twill\Services\MediaLibrary\ImageService;
 
 class StylePageController extends Controller
 {
@@ -16,7 +17,7 @@ class StylePageController extends Controller
         }
 
         return view('stylePage', [
-            "stylePage" => $stylePage
+            "stylePage" => $stylePage,
         ]);
     }
 }

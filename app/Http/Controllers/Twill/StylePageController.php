@@ -8,6 +8,7 @@ use A17\Twill\Services\Listings\TableColumns;
 use A17\Twill\Services\Forms\Fields\Input;
 use A17\Twill\Services\Forms\Fields\Wysiwyg;
 use A17\Twill\Services\Forms\Fields\Select;
+use A17\Twill\Services\Forms\Fields\Medias;
 use A17\Twill\Services\Forms\Options;
 use A17\Twill\Services\Forms\Option;
 use A17\Twill\Services\Forms\Form;
@@ -67,7 +68,11 @@ class StylePageController extends BaseModuleController
                         ->label('Text')
                         ->toolbarOptions(['clean', 'bullet', 'link'])
                         ->translatable()
-                        ->required()
+                        ->required(),
+                    Medias::make()
+                        ->name('image')
+                        ->label('Image')
+                        ->max(1)
                 ]),
             InlineRepeater::make()
                 ->name('instructors')
