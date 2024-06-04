@@ -18,7 +18,7 @@ class Section extends Model implements Sortable
         'text',
         'position',
         'style_page_id',
-        'image'
+        'sectionImage'
     ];
     
     public $translatedAttributes = [
@@ -27,7 +27,7 @@ class Section extends Model implements Sortable
     ];
 
     public $mediasParams = [
-        'image' => [
+        'sectionImage' => [
             'default' => [
                 [
                     'name' => 'default',

@@ -70,7 +70,7 @@ class StylePageController extends BaseModuleController
                         ->translatable()
                         ->required(),
                     Medias::make()
-                        ->name('image')
+                        ->name('sectionImage')
                         ->label('Image')
                         ->max(1)
                 ]),
