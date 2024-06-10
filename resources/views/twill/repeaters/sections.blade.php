@@ -2,6 +2,8 @@
 @twillRepeaterTrigger('Add section')
 @twillRepeaterGroup('app')
 
+<x-twill::wysiwyg name="text" label="Text" :toolbarOptions="['clean', 'bullet', 'link']" :translatable="true" :required="true" />
+
 <x-twill::radios name="mediaType" label="Media type" :inline="true" :options="[
     [
         'value' => 'image',
