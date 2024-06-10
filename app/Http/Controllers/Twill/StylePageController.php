@@ -14,6 +14,7 @@ use A17\Twill\Services\Forms\Option;
 use A17\Twill\Services\Forms\Form;
 use A17\Twill\Http\Controllers\Admin\ModuleController as BaseModuleController;
 use A17\Twill\Services\Forms\InlineRepeater;
+use A17\Twill\Services\Forms\BladePartial;
 use App\Models\Section;
 
 class StylePageController extends BaseModuleController
@@ -51,60 +52,57 @@ class StylePageController extends BaseModuleController
         ]);
     }
 
-    /**
-     * Form for the page content
-     */
-    public function getForm(TwillModelContract $model): Form
-    {
-        return Form::make([
-            InlineRepeater::make()
-                ->name('sections')
-                ->label('Sections')
-                ->relation(Section::class) 
-                ->fields([
-                    Input::make()->name('title')->translatable()->required(),
-                    Wysiwyg::make()
-                        ->name('text')
-                        ->label('Text')
-                        ->toolbarOptions(['clean', 'bullet', 'link'])
-                        ->translatable()
-                        ->required(),
-                    Medias::make()
-                        ->name('sectionImage')
-                        ->label('Image')
-                        ->max(1)
-                ]),
-            InlineRepeater::make()
-                ->name('instructors')
-                ->label('Instructors')
-                ->fields([
-                    Input::make()
-                        ->name('imagePath')
-                        ->label('Image path')
-                        ->placeholder('/images/instructors/someone.jpg'),
-                    Input::make()->name('name')->label('Name')->required(),
-                    Input::make()->name('phone')->label('Phone'),
-                    Select::make()->name('belt')->label('Belt')->options(
-                        Options::make([
-                            Option::make('5 kyu', '5 kyu'),
-                            Option::make('4 kyu', '4 kyu'),
-                            Option::make('3 kyu', '3 kyu'),
-                            Option::make('2 kyu', '2 kyu'),
-                            Option::make('1 kyu', '1 kyu'),
-                            Option::make('1 dan', '1 dan'),
-                            Option::make('2 dan', '2 dan'),
-                            Option::make('3 dan', '3 dan'),
-                            Option::make('4 dan', '4 dan'),
-                            Option::make('5 dan', '5 dan'),
-                            Option::make('blue', 'Blue'),
-                            Option::make('purple', 'Purple'),
-                            Option::make('brown', 'Brown'),
-                            Option::make('black', 'Black')
-                        ])
-                    )
-                ])
-        ]);
-    }
+    // /**
+    //  * Form for the page content
+    //  */
+    // public function getForm(TwillModelContract $model): Form
+    // {
+    //     return Form::make([
+    //         // InlineRepeater::make()
+    //         //     ->name('sections')
+    //         //     ->label('Sections')
+    //         //     ->relation(Section::class)
+    //         //     ->fields([
+    //         //         Input::make()->name('title')->translatable()->required(),
+    //         //         Wysiwyg::make()
+    //         //             ->name('text')
+    //         //             ->label('Text')
+    //         //             ->toolbarOptions(['clean', 'bullet', 'link'])
+    //         //             ->translatable()
+    //         //             ->required(),
+    //                 BladePartial::make()->view('admin.section'),
+    //             // ]),
+    //         InlineRepeater::make()
+    //             ->name('instructors')
+    //             ->label('Instructors')
+    //             ->fields([
+    //                 Input::make()
+    //                     ->name('imagePath')
+    //                     ->label('Image path')
+    //                     ->placeholder('/images/instructors/someone.jpg'),
+    //                 Input::make()->name('name')->label('Name')->required(),
+    //                 Input::make()->name('phone')->label('Phone'),
+    //                 Select::make()->name('belt')->label('Belt')->options(
+    //                     Options::make([
+    //                         Option::make('5 kyu', '5 kyu'),
+    //                         Option::make('4 kyu', '4 kyu'),
+    //                         Option::make('3 kyu', '3 kyu'),
+    //                         Option::make('2 kyu', '2 kyu'),
+    //                         Option::make('1 kyu', '1 kyu'),
+    //                         Option::make('1 dan', '1 dan'),
+    //                         Option::make('2 dan', '2 dan'),
+    //                         Option::make('3 dan', '3 dan'),
+    //                         Option::make('4 dan', '4 dan'),
+    //                         Option::make('5 dan', '5 dan'),
+    //                         Option::make('blue', 'Blue'),
+    //                         Option::make('purple', 'Purple'),
+    //                         Option::make('brown', 'Brown'),
+    //                         Option::make('black', 'Black')
+    //                     ])
+    //                 )
+    //             ])
+    //     ]);
+    // }
 
     /**
      * How style pages are listed in the CMS ("table" is the list of pages)

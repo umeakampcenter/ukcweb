@@ -13,6 +13,7 @@ class CreateSectionsTables extends Migration
             createDefaultTableFields($table);
             
             $table->integer('position')->unsigned()->nullable();
+            $table->string('sectionVideo', 200)->nullable();
 
             // Note that this must be constrained() to actually add a FK
             $table->foreignIdFor(StylePage::class)->nullable()->constrained();

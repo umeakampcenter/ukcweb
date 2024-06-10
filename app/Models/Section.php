@@ -18,7 +18,8 @@ class Section extends Model implements Sortable
         'text',
         'position',
         'style_page_id',
-        'sectionImage'
+        'sectionImage',
+        'sectionVideo'
     ];
     
     public $translatedAttributes = [
