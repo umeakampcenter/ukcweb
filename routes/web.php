@@ -11,16 +11,16 @@ use Illuminate\Support\Facades\Schema;
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
 
 // Dynamic style routes like /jujutsu
-if (Schema::hasTable('style_pages')) {
-    $stylePages = DB::table('style_pages')
-        ->whereNull('deleted_at')
-        ->where('published', '=', 1)
-        ->pluck('linkPath');
+// if (Schema::hasTable('style_pages')) {
+//     $stylePages = DB::table('style_pages')
+//         ->whereNull('deleted_at')
+//         ->where('published', '=', 1)
+//         ->pluck('linkPath');
 
-    foreach ($stylePages as $linkPath) {
-        Route::get($linkPath, StylePageController::class);
-    }
-}
+//     foreach ($stylePages as $linkPath) {
+//         Route::get($linkPath, StylePageController::class);
+//     }
+// }
 
 Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');
