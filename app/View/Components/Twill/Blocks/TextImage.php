@@ -29,6 +29,7 @@ class TextImage extends TwillBlockComponent
     public function getForm(): Form
     {
         return Form::make([
+            Input::make()->name('title')->translatable()->required(),
             Wysiwyg::make()
                 ->name('text')
                 ->label('Text')

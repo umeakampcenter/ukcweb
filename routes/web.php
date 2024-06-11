@@ -5,22 +5,22 @@ use Illuminate\Support\Facades\App;
 use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\ScheduleController;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\StylePageController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Schema;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
 
-// Dynamic style routes like /jujutsu
-// if (Schema::hasTable('style_pages')) {
-//     $stylePages = DB::table('style_pages')
-//         ->whereNull('deleted_at')
-//         ->where('published', '=', 1)
-//         ->pluck('linkPath');
+// Dynamic page routes like /jujutsu
+if (Schema::hasTable('pages')) {
+    $pagePathList = DB::table('pages')
+        ->whereNull('deleted_at')
+        ->where('published', '=', 1)
+        ->pluck('linkPath');
 
-//     foreach ($stylePages as $linkPath) {
-//         Route::get($linkPath, StylePageController::class);
-//     }
-// }
+    foreach ($pagePathList as $linkPath) {
+        Route::get($linkPath, PageController::class);
+    }
+}
 
 Route::get('/bjj', function () {
     return view(App::getLocale() . '/bjj');
