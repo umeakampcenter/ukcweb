@@ -13,7 +13,7 @@ class TextImage extends TwillBlockComponent
 {
     public static function getBlockTitle(): string 
     {
-        return 'Text + bild';
+        return 'Text + image';
     }
 
     public static function getBlockIcon(): string
@@ -29,7 +29,6 @@ class TextImage extends TwillBlockComponent
     public function getForm(): Form
     {
         return Form::make([
-            Input::make()->name('title')->translatable()->required(),
             Wysiwyg::make()
                 ->name('text')
                 ->label('Text')

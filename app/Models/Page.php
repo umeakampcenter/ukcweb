@@ -14,12 +14,11 @@ class Page extends Model
     protected $fillable = [
         'published',
         'title',
-        'description',
+        'linkPath',
     ];
     
     public $translatedAttributes = [
         'title',
-        'description',
         'active',
     ];
     

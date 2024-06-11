@@ -9,7 +9,6 @@ use A17\Twill\Services\Forms\Fields\Input;
 use A17\Twill\Services\Forms\Fields\BlockEditor;
 use A17\Twill\Services\Forms\Form;
 use A17\Twill\Http\Controllers\Admin\ModuleController as BaseModuleController;
-use App\View\Components\Twill\Blocks\TextImage;
 
 class PageController extends BaseModuleController
 {
@@ -20,13 +19,29 @@ class PageController extends BaseModuleController
         $this->disablePermalink();
     }
 
+    public function getCreateForm(): Form
+    {
+        return Form::make([
+            Input::make()
+                ->name('title')
+                    ->required()
+                    ->label('Page title')
+                    ->note('As it will appear in the main menu')
+                    ->placeholder('Jujutsu')
+                    ->translatable(),
+            
+            Input::make()
+                ->name('linkPath')
+                    ->required()
+                    ->label('Page path')
+                    ->note('Should begin with a "/" and contain only lowercase letters and hyphens')
+                    ->placeholder('/jujutsu')
+        ]);
+    }
+
     public function getForm(TwillModelContract $model): Form
     {
         $form = parent::getForm($model);
-
-        $form->add(
-            Input::make()->name('description')->label('Description')->translatable()
-        );
 
         $form->add(
             BlockEditor::make()
@@ -41,7 +56,7 @@ class PageController extends BaseModuleController
         $table = parent::additionalIndexTableColumns();
 
         $table->add(
-            Text::make()->field('description')->title('Description')
+            Text::make()->field('linkPath')->title('Page path')
         );
 
         return $table;
