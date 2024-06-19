@@ -45,7 +45,7 @@ class PageController extends BaseModuleController
 
         $form->add(
             BlockEditor::make()
-                ->blocks(['app-textimage'])
+                ->blocks(['app-textimage', 'app-textyoutube'])
         );
 
         return $form;
