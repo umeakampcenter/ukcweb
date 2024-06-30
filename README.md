@@ -102,3 +102,13 @@ Use the following command to create a new page type/Twill module:
 ```
 php artisan twill:make:module moduleName -T
 ```
+
+### Blocks
+
+1. php artisan twill:make:componentBlock \SomeClass
+2. Remove the \ from the class name.
+3. Remove the double dot (..) from the render method.
+4. Pick an icon using php artisan twill:list:icons
+5. Set the name, icon and form fields in the block class.
+6. Add the end-user facing markup to the blade file.
+7. Add the block to a page module block editor. If the block class is SomeClass then the block name will be app-someclass.
