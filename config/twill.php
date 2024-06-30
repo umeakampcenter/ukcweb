@@ -11,6 +11,14 @@ return [
                         'ratio' => null
                     ],
                 ],
+            ],
+            'instructorImage' => [
+                'default' => [
+                    [
+                        'name' => 'default',
+                        'ratio' => null
+                    ],
+                ],
             ]
         ]
     ]
