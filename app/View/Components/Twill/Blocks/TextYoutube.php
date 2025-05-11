@@ -39,6 +39,7 @@ class TextYoutube extends TwillBlockComponent
                 ->name('sectionVideo')
                 ->label('Youtube URL')
                 ->type(Input::TYPE_URL)
+                ->placeholder('https://www.youtube.com/embed/...')
         ]);
     }
 }

@@ -16,19 +16,23 @@
     <meta name="theme-color" content="#bc2e2e">
 
     <link rel="image_src" href="http://umeakampcenter.se/images/front_long2.jpg">
-    <meta name="description" content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
-    <meta property="description" content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
-    <meta property="og:description" content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
+    <meta name="description"
+        content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
+    <meta property="description"
+        content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
+    <meta property="og:description"
+        content="Umeå Kampcenter samlar Kagami Ryu Jujutsu och Gracie Barra BJJ under ett tak! Centralt i Umeå vid Bågenhuset." />
     <meta property="og:image" content="http://umeakampcenter.se/images/front_long2.jpg" />
     <meta property="og:title" content="Umeå Kampcenter" />
 
     <title>Umeå Kampcenter - @yield('title', '')</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-    @vite(["resources/css/default.css", "resources/css/pages.css", "resources/css/schedule.css", "resources/css/768.css", "resources/css/480.css", "resources/css/320.css"])
+    @vite(['resources/css/default.css', 'resources/css/pages.css', 'resources/css/schedule.css', 'resources/css/768.css', 'resources/css/480.css', 'resources/css/320.css'])
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    @vite("resources/js/schedule.js")
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    @vite('resources/js/schedule.js')
     <script type="module">
         $(document).ready(function() {
             $(".mobile-menu-btn").click(function() {
@@ -51,6 +55,9 @@
 </head>
 
 <body>
+    @isset($migrated)
+        <div style="height: 30px; background: #f0f; color: #fff">OMIGRERAD, STATISK VERSION</div>
+    @endisset
     <div id="header">
         <div class="inner clearfix">
             <div id="logo">
@@ -75,13 +82,13 @@
                 <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
 
                 @if (App::currentLocale() === 'en')
-                <a href="/lang/sv" class="lang-switch sv">
-                    Byt till svenska
-                </a>
+                    <a href="/lang/sv" class="lang-switch sv">
+                        Byt till svenska
+                    </a>
                 @else
-                <a href="/lang/en" class="lang-switch en">
-                    Switch to english
-                </a>
+                    <a href="/lang/en" class="lang-switch en">
+                        Switch to english
+                    </a>
                 @endif
             </div>
             <div class="mobile-menu-btn"></div>
@@ -98,13 +105,13 @@
         <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
         <a href="{{ route('findUs') }}">@lang('main.findUs')</a>
         @if (App::currentLocale() === 'en')
-        <a href="/lang/sv" class="lang-switch sv">
-            Byt till svenska
-        </a>
+            <a href="/lang/sv" class="lang-switch sv">
+                Byt till svenska
+            </a>
         @else
-        <a href="/lang/en" class="lang-switch en">
-            Switch to english
-        </a>
+            <a href="/lang/en" class="lang-switch en">
+                Switch to english
+            </a>
         @endif
     </div>
     <div class="content">
@@ -114,7 +121,7 @@
         <div class="inner">
             <div class="footer-item">
                 <a href="https://budofitness.se/" target="_blank">
-                    <img src={{Vite::asset("resources/images/budo_fitness.png")}} alt="Budo fitness">
+                    <img src={{ Vite::asset('resources/images/budo_fitness.png') }} alt="Budo fitness">
                 </a>
             </div>
             <div class="footer-item">
@@ -122,13 +129,13 @@
             </div>
             <div class="footer-item">
                 <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">
-                    <img src={{Vite::asset("resources/images/map.png")}} alt="@lang('main.findUs')">
+                    <img src={{ Vite::asset('resources/images/map.png') }} alt="@lang('main.findUs')">
                 </a>
                 <a href="http://www.facebook.com/umeakampcenter/" target="_blank">
-                    <img src={{Vite::asset("resources/images/fb.png")}} alt="Facebook">
+                    <img src={{ Vite::asset('resources/images/fb.png') }} alt="Facebook">
                 </a>
                 <a href="mailto:umeakampcenterif@gmail.com">
-                    <img src={{Vite::asset("resources/images/email.png")}} alt="@lang('main.email')">
+                    <img src={{ Vite::asset('resources/images/email.png') }} alt="@lang('main.email')">
                 </a>
             </div>
         </div>

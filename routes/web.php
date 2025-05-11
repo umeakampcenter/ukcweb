@@ -23,27 +23,27 @@ if (Schema::hasTable('pages')) {
 }
 
 Route::get('/bjj', function () {
-    return view(App::getLocale() . '/bjj');
+    return view(App::getLocale() . '/bjj', ['migrated' => false]);
 })->name('bjj');
 
 Route::get('/bjjChildren', function () {
-    return view(App::getLocale() . '/bjjChildren');
+    return view(App::getLocale() . '/bjjChildren', ['migrated' => false]);
 })->name('bjjChildren');
 
 Route::get('/self-defence', function () {
-    return view(App::getLocale() . '/selfDefence');
+    return view(App::getLocale() . '/selfDefence', ['migrated' => false]);
 })->name('selfDefence');
 
 Route::get('/board', function () {
-    return view(App::getLocale() . '/board');
+    return view(App::getLocale() . '/board', ['migrated' => false]);
 })->name('board');
 
 Route::get('/pricing', function () {
-    return view(App::getLocale() . '/pricing');
+    return view(App::getLocale() . '/pricing', ['migrated' => false]);
 })->name('pricing');
 
 Route::get('/findUs', function () {
-    return view(App::getLocale() . '/findUs');
+    return view(App::getLocale() . '/findUs', ['migrated' => false]);
 })->name('findUs');
 
 Route::get('/schedule', [ScheduleController::class, 'show'])->name('schedule');

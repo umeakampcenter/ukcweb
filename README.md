@@ -11,6 +11,10 @@ Download and install [Git](https://git-scm.com/download/win). Add the PATH to Gi
 
 Download the [Composer installer](https://getcomposer.org/download/) (Composer-Setup.exe). Make sure you add the PATH to Composer (usually C:\ProgramData\ComposerSetup\bin).
 
+### Quick start
+
+If everything is already set up, then you can just run `start.bat`
+
 ### Installation
 Clone the repository to a folder on your drive using Git. If you are using PHPStorm this can be done by creating a project from Github.
 
