@@ -55,9 +55,11 @@
 </head>
 
 <body>
+    @env('local')
     @isset($migrated)
         <div style="height: 30px; background: #f0f; color: #fff">OMIGRERAD, STATISK VERSION</div>
     @endisset
+    @endenv
     <div id="header">
         <div class="inner clearfix">
             <div id="logo">
