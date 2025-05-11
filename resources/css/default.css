@@ -40,11 +40,6 @@ a:focus {
     text-decoration: none;
 }
 
-p a:link {
-    color: #1f5994;
-    text-decoration: underline;
-}
-
 img {
     vertical-align: bottom;
     max-width: 100%;

@@ -30,5 +30,8 @@ class AppServiceProvider extends ServiceProvider
         TwillNavigation::addLink(
             NavigationLink::make()->forModule('pages')->title('Style pages')
         );
+        TwillNavigation::addLink(
+            NavigationLink::make()->forSingleton('board')->title('Board')
+        );
     }
 }

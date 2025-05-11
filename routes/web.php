@@ -6,6 +6,7 @@ use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\ScheduleController;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\BoardController;
 use Illuminate\Support\Facades\Schema;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
@@ -34,9 +35,7 @@ Route::get('/self-defence', function () {
     return view(App::getLocale() . '/selfDefence', ['migrated' => false]);
 })->name('selfDefence');
 
-Route::get('/board', function () {
-    return view(App::getLocale() . '/board', ['migrated' => false]);
-})->name('board');
+Route::get('/board', [BoardController::class, 'show'])->name('board');
 
 Route::get('/pricing', function () {
     return view(App::getLocale() . '/pricing', ['migrated' => false]);

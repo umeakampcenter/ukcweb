@@ -70,7 +70,9 @@ http://127.0.0.1:8080/admin
 
 ### CMS forms
 
-The navigation in the CMS can be changed here: `routes\twill.php`
+The routes in the CMS can be changed here: `routes\twill.php`
+
+The CMS navbar/menu can be changed here: `app\Providers\AppServiceProvider.php`
 
 The forms for editing a page type are defined in the Twill controllers here: `app\Http\Controllers\Twill`
 
@@ -102,10 +104,34 @@ php artisan migrate:rollback
 
 ## Workflow
 
-Use the following command to create a new page type/Twill module:
+### New page template
+
+A page template is represented in Twill CMS as a [Module](https://twillcms.com/docs/modules/index.html).
+
+Use the following command to create a new page type that will be used for multiple pages:
 ```
 php artisan twill:make:module moduleName -T
 ```
+
+If there should only be one page of this kind then run this instead:
+```
+php artisan twill:make:singleton moduleName -T
+```
+
+Update the CMS menu here (looks different for modules and singletons): `app\Providers\AppServiceProvider.php`
+
+Update the Twill controller, the migration and the model with the fields you want. Note that the the title is not part of the form, but it's "fillable".
+
+Refresh the CMS and add some information.
+
+Create a user facing controller:
+```
+php artisan make:controller
+```
+
+Copy the old blade template to `resources\views\` and replace the static content with view data from the DB. Make sure the controller points to the new blade file.
+
+Update `routes\web.php` to load the page from the Twill instead of the old static pages.
 
 ### Blocks
 
