@@ -10,7 +10,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ScheduleSeeder::class,
-            FrontPageSeeder::class
+            FrontPageSeeder::class,
+            BoardSeeder::class
         ]);
     }
 }
