@@ -6,9 +6,11 @@
     @slot('imageBox')
         @php
             $image = $block->imageObject('sectionImage');
-            $imageUrl = ImageService::getUrl($image->uuid);
         @endphp
         @if ($image)
+            @php
+                $imageUrl = ImageService::getUrl($image->uuid);
+            @endphp
             <img src="{{ $imageUrl }}">
         @endif
     @endslot
