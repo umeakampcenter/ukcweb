@@ -28,10 +28,13 @@ class AppServiceProvider extends ServiceProvider
             NavigationLink::make()->forModule('schedules')->title('Training schedule')
         );
         TwillNavigation::addLink(
-            NavigationLink::make()->forModule('pages')->title('Style pages')
+            NavigationLink::make()->forModule('pages')->title('Train with us')
         );
         TwillNavigation::addLink(
             NavigationLink::make()->forSingleton('board')->title('Board')
+        );
+        TwillNavigation::addLink(
+            NavigationLink::make()->forSingleton('pricing')->title('Pricing')
         );
     }
 }

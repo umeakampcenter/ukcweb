@@ -133,6 +133,17 @@ Copy the old blade template to `resources\views\` and replace the static content
 
 Update `routes\web.php` to load the page from the Twill instead of the old static pages.
 
+### Using block editor in a page template
+
+A block editor allows you to have a dynamic number of segements within a page. It can be used in both a module (multiple pages) or a singleton (one of a kind page).
+
+If you add a block editor after the fact you have to modify both the model and the repository as well as the Twill controller to enable block editor.
+- The Twill controller needs a `BlockEditor` in its `Form` to add the UI.
+- The model needs traits to handle saving of block content.
+- The repository needs traits to handle loading block content.
+
+Note that the database part is handled implicitly (no extra fields needed in the migration etc.)
+
 ### Blocks
 
 1. php artisan twill:make:componentBlock \SomeClass
