@@ -10,7 +10,7 @@ class BoardController extends Controller
 {
     public function show()
     {
-        $frontPage = DB::table('boards')
+        $page = DB::table('boards')
             ->join('board_translations', function (JoinClause $join) {
                 $join->on('boards.id', '=', 'board_translations.board_id')
                     ->where('board_translations.locale', '=', App::currentLocale());
@@ -19,8 +19,8 @@ class BoardController extends Controller
             ->first();
 
         return view('board', [
-            "title" => $frontPage->title,
-            "text" => $frontPage->text
+            "title" => $page->title,
+            "text" => $page->text
         ]);
     }
 }
