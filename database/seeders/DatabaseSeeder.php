@@ -13,7 +13,8 @@ class DatabaseSeeder extends Seeder
             FrontPageSeeder::class,
             BoardSeeder::class,
             PricingSeeder::class,
-            PageSeeder::class
+            PageSeeder::class,
+            FindusSeeder::class
         ]);
     }
 }
