@@ -24,17 +24,7 @@ if (Schema::hasTable('pages')) {
     }
 }
 
-Route::get('/bjj', function () {
-    return view(App::getLocale() . '/bjj', ['migrated' => false]);
-})->name('bjj');
-
-Route::get('/bjjChildren', function () {
-    return view(App::getLocale() . '/bjjChildren', ['migrated' => false]);
-})->name('bjjChildren');
-
-Route::get('/self-defence', function () {
-    return view(App::getLocale() . '/selfDefence', ['migrated' => false]);
-})->name('selfDefence');
+Route::permanentRedirect('/bjjChildren', '/bjj-children');
 
 Route::get('/board', [BoardController::class, 'show'])->name('board');
 

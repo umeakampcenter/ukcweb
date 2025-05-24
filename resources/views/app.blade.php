@@ -72,10 +72,10 @@
                 <div class="menu-item">
                     <span class="menu-activator">@lang('main.train')</span>
                     <ul>
-                        <li><a href="{{ route('bjj') }}">@lang('main.bjj')</a></li>
+                        <li><a href="/bjj">@lang('main.bjj')</a></li>
                         <li><a href="/jujutsu">@lang('main.jujutsu')</a></li>
-                        <li><a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a></li>
-                        <li><a href="{{ route('bjjChildren') }}">@lang('main.bjjChildren')</a></li>
+                        <li><a href="/self-defence">@lang('main.selfDefence')</a></li>
+                        <li><a href="/bjj-children">@lang('main.bjjChildren')</a></li>
                     </ul>
                 </div>
                 <a href="{{ route('board') }}">@lang('main.board')</a>
@@ -99,9 +99,9 @@
     <div id="mobile-menu">
         <a href="{{ route('front') }}">@lang('main.start')</a>
         <a href="/jujutsu">@lang('main.jujutsu')</a>
-        <a href="{{ route('bjj') }}">@lang('main.bjj')</a>
-        <a href="{{ route('selfDefence') }}">@lang('main.selfDefence')</a>
-        <a href="{{ route('bjjChildren') }}">@lang('main.bjjChildren')</a>
+        <a href="/bjj">@lang('main.bjj')</a>
+        <a href="/self-defence">@lang('main.selfDefence')</a>
+        <a href="/bjj-children">@lang('main.bjjChildren')</a>
         <a href="{{ route('board') }}">@lang('main.board')</a>
         <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
         <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
