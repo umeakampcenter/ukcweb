@@ -32,7 +32,7 @@ class TextYoutube extends TwillBlockComponent
             Wysiwyg::make()
                 ->name('text')
                 ->label('Text')
-                ->toolbarOptions(['clean', 'bullet', 'link'])
+                ->toolbarOptions(['clean', 'bullet', 'link', 'bold'])
                 ->translatable()
                 ->required(),
             Input::make()
