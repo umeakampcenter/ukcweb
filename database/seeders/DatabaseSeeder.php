@@ -12,7 +12,8 @@ class DatabaseSeeder extends Seeder
             ScheduleSeeder::class,
             FrontPageSeeder::class,
             BoardSeeder::class,
-            PricingSeeder::class
+            PricingSeeder::class,
+            PageSeeder::class
         ]);
     }
 }
