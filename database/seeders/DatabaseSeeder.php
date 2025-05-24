@@ -11,7 +11,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ScheduleSeeder::class,
             FrontPageSeeder::class,
-            BoardSeeder::class
+            BoardSeeder::class,
+            PricingSeeder::class
         ]);
     }
 }
