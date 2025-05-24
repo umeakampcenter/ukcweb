@@ -122,7 +122,7 @@ Update the CMS menu here (looks different for modules and singletons): `app\Prov
 
 Update the Twill controller, the migration and the model with the fields you want. Note that the the title is not part of the form, but it's "fillable".
 
-Refresh the CMS and add some information.
+Run the migration. Refresh the CMS and add some information.
 
 Create a user facing controller:
 ```

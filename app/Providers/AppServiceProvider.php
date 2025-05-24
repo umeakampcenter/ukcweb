@@ -36,5 +36,8 @@ class AppServiceProvider extends ServiceProvider
         TwillNavigation::addLink(
             NavigationLink::make()->forSingleton('pricing')->title('Pricing')
         );
+        TwillNavigation::addLink(
+            NavigationLink::make()->forSingleton('findUs')->title('Find us')
+        );
     }
 }

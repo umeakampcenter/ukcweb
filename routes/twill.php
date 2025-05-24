@@ -8,3 +8,4 @@ TwillRoutes::module('schedules');
 TwillRoutes::module('pages');
 TwillRoutes::singleton('board');
 TwillRoutes::singleton('pricing');
+TwillRoutes::singleton('findUs');

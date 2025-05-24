@@ -1,13 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\App;
 use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\ScheduleController;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\BoardController;
 use App\Http\Controllers\PricingController;
+use App\Http\Controllers\FindusController;
 use Illuminate\Support\Facades\Schema;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
@@ -30,8 +30,8 @@ Route::get('/board', [BoardController::class, 'show'])->name('board');
 
 Route::get('/pricing', PricingController::class)->name('pricing');
 
-Route::get('/findUs', function () {
-    return view(App::getLocale() . '/findUs', ['migrated' => false]);
-})->name('findUs');
+Route::get('/find-us', [FindusController::class, 'show'])->name('findUs');
+
+Route::permanentRedirect('/findUs', '/find-us');
 
 Route::get('/schedule', [ScheduleController::class, 'show'])->name('schedule');
