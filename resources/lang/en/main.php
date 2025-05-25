@@ -15,5 +15,12 @@ return [
     'findUs' => 'Find us',
     'email' => 'Send an email to us',
     'membershipFee' => 'The membership fee is 1100 SEK per semester. Members have access to all our styles!',
-    'trainingTimes' => 'Look at our training sessions'
+    'trainingTimes' => 'Look at our training sessions',
+    "monday" => "monday",
+    "tuesday" => "tuesday",
+    "wednesday" => "wednesday",
+    "thursday" => "thursday",
+    "friday" => "friday",
+    "saturday" => "saturday",
+    "sunday" => "sunday"
 ];

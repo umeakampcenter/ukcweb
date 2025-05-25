@@ -39,13 +39,13 @@ class ScheduleController extends Controller
         return view('schedule', [
             "title" => App::currentLocale() === 'sv' ? 'Schema' : 'Schedule',
             "events" => [
-                __("schedule.monday") => $events['monday'],
-                __("schedule.tuesday") => $events['tuesday'],
-                __("schedule.wednesday") => $events['wednesday'],
-                __("schedule.thursday") => $events['thursday'],
-                __("schedule.friday") => $events['friday'],
-                __("schedule.saturday") => $events['saturday'],
-                __("schedule.sunday") => $events['sunday']
+                __("main.monday") => $events['monday'],
+                __("main.tuesday") => $events['tuesday'],
+                __("main.wednesday") => $events['wednesday'],
+                __("main.thursday") => $events['thursday'],
+                __("main.friday") => $events['friday'],
+                __("main.saturday") => $events['saturday'],
+                __("main.sunday") => $events['sunday']
             ]
         ]);
     }
