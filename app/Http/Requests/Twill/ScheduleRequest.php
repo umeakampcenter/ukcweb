@@ -26,7 +26,6 @@ enum TypeOfClass: string
     case MISC = 'misc';
 }
 
-// TODO: Validate start < end
 class ScheduleRequest extends Request
 {
     public function rulesForCreate()
@@ -55,6 +54,13 @@ class ScheduleRequest extends Request
                 // Require that a title has been set for all languages
                 $languages = $this->request->all('languages');
                 $titles = $this->request->all('title');
+
+                if ($this->request->get('end') <= $this->request->get('start')) {
+                    $validator->errors()->add(
+                        "end",
+                        "The class must end after its start"
+                    );
+                }
 
                 // php artisan route:list
                 $scheduleId = $this->route('schedule');
