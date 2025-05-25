@@ -28,7 +28,7 @@ enum TypeOfClass: string
 
 class ScheduleRequest extends Request
 {
-    public function rulesForCreate()
+    public function rules()
     {
         return $this->rulesForTranslatedFields([
             // regular rules
@@ -40,11 +40,6 @@ class ScheduleRequest extends Request
             // translated fields rules with just the field name like regular rules
             'title' => ['required', 'between:3,200'],
         ]);
-    }
-
-    public function rulesForUpdate()
-    {
-        return [];
     }
 
     public function after(): array
@@ -70,13 +65,18 @@ class ScheduleRequest extends Request
                     ->where(function (Builder $q1) {
                         $q1->where(function (Builder $q2) {
                             // Overlaps the end of an existing class.
-                            $q2->where('start', '>=', $this->request->get('start'))
-                                ->where('start', '<=', $this->request->get('end'));
+                            $q2->where('start', '>', $this->request->get('start'))
+                                ->where('start', '<', $this->request->get('end'));
                         })
                         ->orWhere(function (Builder $q2) {
                             // Overlaps the start of an existing class.
-                            $q2->where('end', '>=', $this->request->get('start'))
-                                ->where('end', '<=', $this->request->get('end'));
+                            $q2->where('end', '>', $this->request->get('start'))
+                                ->where('end', '<', $this->request->get('end'));
+                        })
+                        ->orWhere(function (Builder $q2) {
+                            // During existing class.
+                            $q2->where('start', '<', $this->request->get('start'))
+                                ->where('end', '>', $this->request->get('end'));
                         });
                     })
                     ->when($scheduleId, function (Builder $query, string $id) {

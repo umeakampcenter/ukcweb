@@ -39,8 +39,8 @@ class ScheduleController extends BaseModuleController
                     Option::make('sunday', 'Sunday'),
                 ])
             ),
-            Input::make()->name('start')->label('Start of class'),
-            Input::make()->name('end')->label('End of class'),
+            Input::make()->name('start')->label('Start of class')->placeholder('HH:MM'),
+            Input::make()->name('end')->label('End of class')->placeholder('HH:MM'),
             Select::make()->name('typeOfClass')->label('Type of class')->options(
                 Options::make([
                     Option::make('jujutsu', 'Jujutsu'),
@@ -66,8 +66,8 @@ class ScheduleController extends BaseModuleController
                     Option::make('sunday', 'Sunday'),
                 ])
             ),
-            Input::make()->name('start')->label('Start of class'),
-            Input::make()->name('end')->label('End of class'),
+            Input::make()->name('start')->label('Start of class')->placeholder('HH:MM'),
+            Input::make()->name('end')->label('End of class')->placeholder('HH:MM'),
             Select::make()->name('typeOfClass')->label('Type of class')->options(
                 Options::make([
                     Option::make('jujutsu', 'Jujutsu'),
