@@ -7,6 +7,8 @@ use A17\Twill\Services\Forms\Fields\Select;
 use A17\Twill\Services\Forms\Form;
 use A17\Twill\Services\Forms\Options;
 use A17\Twill\Services\Forms\Option;
+use A17\Twill\Services\Listings\TableColumns;
+use A17\Twill\Services\Listings\Columns\Text;
 use A17\Twill\Http\Controllers\Admin\ModuleController as BaseModuleController;
 use A17\Twill\Models\Contracts\TwillModelContract;
 
@@ -74,5 +76,28 @@ class ScheduleController extends BaseModuleController
                 ])
             )
         ]);
+    }
+
+    public function additionalIndexTableColumns(): TableColumns
+    {
+        $columns = TableColumns::make();
+
+        $columns->add(
+            Text::make()
+                ->field('day')
+                ->sortable()
+        );
+        $columns->add(
+            Text::make()
+                ->field('start')
+                ->sortable()
+        );
+        $columns->add(
+            Text::make()
+                ->field('end')
+                ->sortable()
+        );
+
+        return $columns;
     }
 }
