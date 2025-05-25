@@ -4,6 +4,8 @@
     <div class="cd-schedule loading">
         <div class="timeline">
             <ul>
+                <li><span>10:00</span></li>
+                <li><span>10:30</span></li>
                 <li><span>11:00</span></li>
                 <li><span>11:30</span></li>
                 <li><span>12:00</span></li>

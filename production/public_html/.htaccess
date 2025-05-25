@@ -1,8 +1,5 @@
 AddType application/x-httpd-php82 .php
 
-php_flag log_errors on
-php_value error_log /var/www/umeakampcenter.se/phperrors.log
-
 # Default indexes (Surftown)
 DirectoryIndex index.html index.htm index.php index.php3 index.shtml index.wml index.pl index.cgi index.php4 index.phtml index.swf default.html default.htm default.php default.php3 default.shtml default.wml default.pl default.cgi default.php4 default.phtml default.swf hostedby.php
 
@@ -26,5 +23,7 @@ DirectoryIndex index.html index.htm index.php index.php3 index.shtml index.wml i
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+	
+
 </IfModule>
 
