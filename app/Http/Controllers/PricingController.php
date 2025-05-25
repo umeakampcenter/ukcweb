@@ -15,8 +15,8 @@ class PricingController extends Controller
             abort(404);
         }
 
-        return view('page', [
-            "page" => $pricing,
+        return view('pricing', [
+            "page" => $pricing
         ]);
     }
 }

@@ -9,7 +9,7 @@
         @endphp
         @if ($image)
             @php
-                $imageUrl = ImageService::getUrl($image->uuid);
+                $imageUrl = ImageService::getUrl($image->uuid, ['fm' => 'png']);
             @endphp
             <img src="{{ $imageUrl }}">
         @endif

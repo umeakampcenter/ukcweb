@@ -75,7 +75,7 @@
         <div class="inner clearfix">
             <div id="logo">
                 <a href="{{ route('front') }}">
-                    <img src="{{ Vite::asset('resources/images/logo.png') }}" alt="Umeå Kampcenter">
+                    <img src="/assets/logo.png" alt="Umeå Kampcenter">
                 </a>
             </div>
             <div class="menu">
@@ -132,7 +132,7 @@
         <div class="inner">
             <div class="footer-item">
                 <a href="https://budofitness.se/" target="_blank">
-                    <img src={{ Vite::asset('resources/images/budo_fitness.png') }} alt="Budo fitness">
+                    <img src="/assets/budo_fitness.png" alt="Budo fitness">
                 </a>
             </div>
             <div class="footer-item">
@@ -140,13 +140,13 @@
             </div>
             <div class="footer-item">
                 <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">
-                    <img src={{ Vite::asset('resources/images/map.png') }} alt="@lang('main.findUs')">
+                    <img src="/assets/map.png" alt="@lang('main.findUs')">
                 </a>
                 <a href="http://www.facebook.com/umeakampcenter/" target="_blank">
-                    <img src={{ Vite::asset('resources/images/fb.png') }} alt="Facebook">
+                    <img src="/assets/fb.png" alt="Facebook">
                 </a>
                 <a href="mailto:umeakampcenterif@gmail.com">
-                    <img src={{ Vite::asset('resources/images/email.png') }} alt="@lang('main.email')">
+                    <img src="/assets/email.png" alt="@lang('main.email')">
                 </a>
             </div>
         </div>
