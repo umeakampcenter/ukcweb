@@ -15,6 +15,8 @@ class ScheduleController extends Controller
                 $join->on('schedules.id', '=', 'schedule_translations.schedule_id')
                     ->where('schedule_translations.locale', '=', App::currentLocale());
             })
+            ->whereNull('schedules.deleted_at')
+            ->where('schedules.published', 1)
             ->select('schedule_translations.title as title', 'schedules.day as day', 'schedules.start as start', 'schedules.end as end', 'schedules.typeOfClass as typeOfClass')
             ->orderBy('start')
             ->get();
