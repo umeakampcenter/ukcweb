@@ -6,7 +6,7 @@
                 <div class="person-img">
                     @php
                         $image = $instructor->renderData->block->imageObject('instructorImage');
-                        $imageUrl = ImageService::getUrl($image->uuid);
+                        $imageUrl = $image === null ? '/assets/person.png' : ImageService::getUrl($image->uuid);
                     @endphp
                     <img src="{{ $imageUrl }}">
                 </div>
