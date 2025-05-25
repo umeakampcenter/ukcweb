@@ -54,12 +54,23 @@
     </script>
 </head>
 
+@php
+    use Illuminate\Support\Facades\DB;
+    use Illuminate\Database\Query\JoinClause;
+
+    $pageMenuOptions = DB::table('pages')
+        ->join('page_translations', function (JoinClause $join) {
+            $join
+                ->on('pages.id', '=', 'page_translations.page_id')
+                ->where('page_translations.locale', '=', App::currentLocale());
+        })
+        ->whereNull('pages.deleted_at')
+        ->where('pages.published', '=', 1)
+        ->pluck('page_translations.title as title', 'pages.linkPath as linkPath');
+
+@endphp
+
 <body>
-    @env('local')
-    @isset($migrated)
-        <div style="height: 30px; background: #f0f; color: #fff">OMIGRERAD, STATISK VERSION</div>
-    @endisset
-    @endenv
     <div id="header">
         <div class="inner clearfix">
             <div id="logo">
@@ -72,10 +83,9 @@
                 <div class="menu-item">
                     <span class="menu-activator">@lang('main.train')</span>
                     <ul>
-                        <li><a href="/bjj">@lang('main.bjj')</a></li>
-                        <li><a href="/jujutsu">@lang('main.jujutsu')</a></li>
-                        <li><a href="/self-defence">@lang('main.selfDefence')</a></li>
-                        <li><a href="/bjj-children">@lang('main.bjjChildren')</a></li>
+                        @foreach ($pageMenuOptions as $linkPath => $title)
+                            <li><a href="{!! $linkPath !!}">{{ $title }}</a></li>
+                        @endforeach
                     </ul>
                 </div>
                 <a href="{{ route('board') }}">@lang('main.board')</a>
@@ -98,10 +108,9 @@
     </div>
     <div id="mobile-menu">
         <a href="{{ route('front') }}">@lang('main.start')</a>
-        <a href="/jujutsu">@lang('main.jujutsu')</a>
-        <a href="/bjj">@lang('main.bjj')</a>
-        <a href="/self-defence">@lang('main.selfDefence')</a>
-        <a href="/bjj-children">@lang('main.bjjChildren')</a>
+        @foreach ($pageMenuOptions as $linkPath => $title)
+            <a href="{!! $linkPath !!}">{{ $title }}</a>
+        @endforeach
         <a href="{{ route('board') }}">@lang('main.board')</a>
         <a href="{{ route('schedule') }}">@lang('main.schedule')</a>
         <a href="{{ route('pricing') }}">@lang('main.pricing')</a>
