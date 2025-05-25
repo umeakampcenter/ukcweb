@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Styrelse')
+@section('title', $title)
 @section('content')
     @component('contentBox')
         @slot('textBox')

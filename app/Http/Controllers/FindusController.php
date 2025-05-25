@@ -19,6 +19,7 @@ class FindusController extends Controller
             ->first();
 
         return view('findUs', [
+            'title' => $page->title,
             'text' => $page->text,
             'googleMaps' => $page->googleMaps,
             'streetView' => $page->streetView
