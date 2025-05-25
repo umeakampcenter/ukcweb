@@ -4,6 +4,8 @@ namespace App\Http\Requests\Twill;
 
 use Illuminate\Validation\Validator;
 use A17\Twill\Http\Requests\Admin\Request;
+use App\Models\Schedule;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Validation\Rules\Enum;
 
 enum Day: string
@@ -25,7 +27,6 @@ enum TypeOfClass: string
 }
 
 // TODO: Validate start < end
-// TODO: Validate scheduling conflict
 class ScheduleRequest extends Request
 {
     public function rulesForCreate()
@@ -44,7 +45,6 @@ class ScheduleRequest extends Request
 
     public function rulesForUpdate()
     {
-        // TODO: Add update rules if necessary
         return [];
     }
 
@@ -55,6 +55,35 @@ class ScheduleRequest extends Request
                 // Require that a title has been set for all languages
                 $languages = $this->request->all('languages');
                 $titles = $this->request->all('title');
+
+                // php artisan route:list
+                $scheduleId = $this->route('schedule');
+
+                $conflict = Schedule::query()
+                    ->where('day', $this->request->get('day'))
+                    ->where(function (Builder $q1) {
+                        $q1->where(function (Builder $q2) {
+                            // Overlaps the end of an existing class.
+                            $q2->where('start', '>=', $this->request->get('start'))
+                                ->where('start', '<=', $this->request->get('end'));
+                        })
+                        ->orWhere(function (Builder $q2) {
+                            // Overlaps the start of an existing class.
+                            $q2->where('end', '>=', $this->request->get('start'))
+                                ->where('end', '<=', $this->request->get('end'));
+                        });
+                    })
+                    ->when($scheduleId, function (Builder $query, string $id) {
+                        $query->where('id', '<>', $id); // Don't compare with self on update.
+                    })
+                    ->first();
+
+                if ($conflict !== null) {
+                    $validator->errors()->add(
+                        "start",
+                        "Overlaps with an existing class ({$conflict->title}, {$conflict->start}-{$conflict->end})"
+                    );
+                }
 
                 foreach ($languages as $key => $language) {
                     $languageCode = $language['value'];
