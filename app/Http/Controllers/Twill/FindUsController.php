@@ -10,7 +10,7 @@ use A17\Twill\Http\Controllers\Admin\SingletonModuleController as BaseModuleCont
 
 class FindUsController extends BaseModuleController
 {
-    protected $moduleName = 'finduses';
+    protected $moduleName = 'findUs';
 
     protected function setUpController(): void
     {
