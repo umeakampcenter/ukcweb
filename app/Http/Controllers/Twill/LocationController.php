@@ -8,9 +8,9 @@ use A17\Twill\Services\Forms\Fields\Wysiwyg;
 use A17\Twill\Services\Forms\Form;
 use A17\Twill\Http\Controllers\Admin\SingletonModuleController as BaseModuleController;
 
-class FindUsController extends BaseModuleController
+class LocationController extends BaseModuleController
 {
-    protected $moduleName = 'findUs';
+    protected $moduleName = 'locations';
 
     protected function setUpController(): void
     {

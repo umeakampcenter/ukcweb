@@ -5,11 +5,11 @@ namespace App\Models;
 use A17\Twill\Models\Behaviors\HasTranslation;
 use A17\Twill\Models\Model;
 
-class FindUs extends Model 
+class Location extends Model 
 {
     use HasTranslation;
 
-    protected $fillable = [
+   protected $fillable = [
         'title',
         'text',
         'googleMaps',
@@ -20,5 +20,4 @@ class FindUs extends Model
         'title',
         'text'
     ];
-    
 }

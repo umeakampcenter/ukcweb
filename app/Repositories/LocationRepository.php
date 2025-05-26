@@ -4,13 +4,13 @@ namespace App\Repositories;
 
 use A17\Twill\Repositories\Behaviors\HandleTranslations;
 use A17\Twill\Repositories\ModuleRepository;
-use App\Models\FindUs;
+use App\Models\Location;
 
-class FindUsRepository extends ModuleRepository
+class LocationRepository extends ModuleRepository
 {
     use HandleTranslations;
 
-    public function __construct(FindUs $model)
+    public function __construct(Location $model)
     {
         $this->model = $model;
     }
