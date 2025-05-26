@@ -3,18 +3,18 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Repositories\FindusRepository;
-use App\Models\Findus;
+use App\Repositories\FindUsRepository;
+use App\Models\FindUs;
 
-class FindusSeeder extends Seeder
+class FindUsSeeder extends Seeder
 {
     public function run()
     {
-        if (Findus::count() > 0) {
+        if (FindUs::count() > 0) {
             return;
         }
 
-        app(FindusRepository::class)->create([
+        app(FindUsRepository::class)->create([
             'title' => [
                 'sv' => 'Hitta oss',
                 'en' => 'Find us'

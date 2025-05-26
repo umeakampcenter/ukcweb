@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\BoardController;
 use App\Http\Controllers\PricingController;
-use App\Http\Controllers\FindusController;
+use App\Http\Controllers\FindUsController;
 use Illuminate\Support\Facades\Schema;
 
 Route::get('/', [FrontPageController::class, 'show'])->name('front');
@@ -30,7 +30,7 @@ Route::get('/board', [BoardController::class, 'show'])->name('board');
 
 Route::get('/pricing', PricingController::class)->name('pricing');
 
-Route::get('/find-us', [FindusController::class, 'show'])->name('findUs');
+Route::get('/find-us', [FindUsController::class, 'show'])->name('findUs');
 
 Route::permanentRedirect('/findUs', '/find-us');
 

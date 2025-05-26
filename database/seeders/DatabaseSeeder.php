@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
             BoardSeeder::class,
             PricingSeeder::class,
             PageSeeder::class,
-            FindusSeeder::class
+            FindUsSeeder::class
         ]);
     }
 }

@@ -4,7 +4,7 @@ namespace App\Http\Requests\Twill;
 
 use A17\Twill\Http\Requests\Admin\Request;
 
-class FindusRequest extends Request
+class FindUsRequest extends Request
 {
     public function rulesForCreate()
     {
