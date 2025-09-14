@@ -3,6 +3,7 @@
 @section('content')
 <div class="slider">
     <div class="slider-img"></div>
+    <div class="slider-logo"></div>
     <div class="slide-text">
         <h1>{{ $title }}</h1>
         {!! $intro !!}

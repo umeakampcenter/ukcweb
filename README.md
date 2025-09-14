@@ -16,7 +16,9 @@ Download the [Composer installer](https://getcomposer.org/download/) (Composer-S
 If everything is already set up, then you can just run `start.bat`
 
 ### Installation
-Clone the repository to a folder on your drive using Git. If you are using PHPStorm this can be done by creating a project from Github.
+Clone the repository to a folder on your drive using Git. If you are using PHPStorm or VSCode this can be done by creating a project from Github.
+Make sure the MySQL server is running in XAMPP by pressing the start-button in XAMPP. 
+And that you have a local MySQL set up in MySQL workbench. With a new schema added called: laravel 
 
 Open up a Git bash console in your project folder and install the project dependencies:
 ```
@@ -39,7 +41,9 @@ Run the migrations and set up the Twill CMS:
 php artisan twill:update --migrate
 ```
 
-Seed the database with essential data:
+If you want a copy of the current site. Take a db dump, where you exclude `users` and `twill-users` and import it after you have created a twill cms-user.
+
+If you want a clean install seed the database with essential data:
 ```
 php artisan db:seed
 ```

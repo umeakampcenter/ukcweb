@@ -18,7 +18,7 @@
     /* front */
 
     .slider-img {
-        background-position: left 36% center;
+        background-position: left 15% center;
     }
 
     .slide-text {
@@ -26,7 +26,8 @@
         position: relative;
         width: 100%;
         right: 0;
-        background: #282828;
+        background: #b5e0f7;
+        color: #192238;
     }
 
     .section-item {
@@ -41,11 +42,16 @@
         background-size: cover;
     }
 
+    .time-box .inner {
+        background-size: 190px auto;
+        background-position: 102% 17px;
+    }
+
     a.time-link {
-        background-size: 20px auto;
-        line-height: 1.2em;
-        padding: 60px 50px 60px 0;
+        background-size: 16px auto;
+        background-position: right 38px;
         font-size: 24px;
+        padding: 40px 34px 40px 0;
     }
 
     .fb-item {
@@ -149,11 +155,28 @@
 
     /* front */
 
-    .slider-img {
-        height: 300px;
+    .slider-logo {
+        top: 26px;
+        width: 250px;
+        height: 250px;
     }
 
+    .slider-img {
+        height: 300px;
+        background-position: left 28% center;
+    }
 
+    .time-box .inner {
+        background: none;
+        text-align: center;
+    }
+
+    a.time-link {
+        background-size: 16px auto;
+        background-position: right 38px;
+        font-size: 24px;
+        padding: 40px 34px 40px 0;
+    }
 
     /* sektionssida */
 

@@ -1,6 +1,7 @@
 @extends('app')
 @section('title', $title)
 @section('content')
+<div>
     <div class="cd-schedule loading">
         <div class="timeline">
             <ul>
@@ -51,4 +52,5 @@
             </ul>
         </div>
     </div>
+</div>
 @endsection

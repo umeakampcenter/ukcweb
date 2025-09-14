@@ -10,7 +10,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.4em;
-    background: #101010;
+    background: #192238;
 }
 
 *:focus {
@@ -31,7 +31,7 @@ pre {
 
 a:link, a:visited {
     text-decoration: none;
-    color: #f15151;
+    color: #3cbbff;
 }
 a:hover {
     text-decoration: underline;

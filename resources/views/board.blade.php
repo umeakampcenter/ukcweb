@@ -6,7 +6,7 @@
             {!! $text !!}
         @endslot
         @slot('imageBox')
-            <img class="board-image" src="/assets/umeakampcenterlogo.png" alt="Umeå Kampcenter">
+            <img class="board-image" src="/assets/ukc_logo.svg" alt="Umeå Kampcenter">
         @endslot
     @endcomponent
 @endsection

@@ -31,14 +31,14 @@
                                 break;
                             case '2 kyu':
                             case 'blue':
-                                $beltColor = 'blue';
+                                $beltColor = '#294bc7';
                                 break;
                             case '1 kyu':
                             case 'brown':
-                                $beltColor = 'brown';
+                                $beltColor = '#6d4626';
                                 break;
                             case 'purple':
-                                $beltColor = 'purple';
+                                $beltColor = '#672d67';
                                 break;
                             default:
                                 $beltColor = 'black';

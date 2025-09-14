@@ -75,7 +75,7 @@
         <div class="inner clearfix">
             <div id="logo">
                 <a href="{{ route('front') }}">
-                    <img src="/assets/logo.png" alt="Umeå Kampcenter">
+                    <img src="/assets/ukc_text_logo.svg" alt="Umeå Kampcenter">
                 </a>
             </div>
             <div class="menu">
@@ -131,12 +131,7 @@
     <div id="footer">
         <div class="inner">
             <div class="footer-item">
-                <a href="https://budofitness.se/" target="_blank">
-                    <img src="/assets/budo_fitness.png" alt="Budo fitness">
-                </a>
-            </div>
-            <div class="footer-item">
-                <p>&copy; 2023 Umeå Kampcenter. @lang('main.allRightsReserved').</p>
+                <p>&copy; {{ date('Y') }} Umeå Kampcenter. @lang('main.allRightsReserved').</p>
             </div>
             <div class="footer-item">
                 <a href="https://goo.gl/maps/dXY9BpeeMns" target="_blank">

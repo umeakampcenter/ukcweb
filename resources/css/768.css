@@ -2,6 +2,14 @@
     .slider-img {
         height: 580px;
     }
+
+    .slider-logo {
+        top: 60px;
+    }
+
+    .slide-text {
+        top: 140px;
+    }
 }
 
 @media all and (max-width: 1270px) {
@@ -18,7 +26,7 @@
     }
 
     #logo {
-        width: 236px;
+        width: 140px;
     }
 
     .menu {
@@ -40,14 +48,21 @@
 
     /* front */
 
+    .slider-logo {
+        top: 30px;
+        width: 360px;
+        margin-right: 10%;
+    }
+
     .slider-img {
         height: 500px;
     }
 
     .slide-text {
         margin-right: 0;
-        right: 2.5%;
-        top: 60px;
+        right: 5%;
+        top: 100px;
+        width: 50%;
     }
 
     .sections {
@@ -64,10 +79,11 @@
     }
     .time-box .inner{
         width: 90%;
+        background-position: right -10px;
     }
 
     a.time-link {
-        margin-right: 58px;
+        margin: 70px 10%;
     }
 
     /*schedule */
@@ -95,7 +111,16 @@
     }
 
     #logo {
-        width: 206px;
+        width: 110px;
+    }
+
+
+    .slider-logo {
+        top: 40px;
+        width: 300px;
+        margin-right: 10%;
+        height: 300px;
+        left: 20px;
     }
 
     .menu  {
@@ -119,7 +144,8 @@
 
     .slide-text {
         padding: 30px;
-        width: 488px;
+        width: 50%;
+        top: 70px;
     }
 
     .slide-text h1 {
@@ -136,8 +162,15 @@
         margin: 0 auto;
     }
 
+    .time-box .inner {    
+        background-size: 230px auto;
+        background-position: 102% -5px;
+        width: 100%;
+    }
+
     a.time-link {
         font-size: 30px;
+        margin: 60px 10%;
     }
 
     .fb-text {

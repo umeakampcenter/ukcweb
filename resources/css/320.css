@@ -3,8 +3,7 @@
     /* basic page */
 
     #logo {
-        width: 154px;
-        margin-top: 13px;
+        margin-top: 12px;
     }
 
     .mobile-menu-btn {
@@ -23,12 +22,15 @@
 
     /* front */
 
-    .slider-img {
-        height: 230px;
+    .slider-logo {
+        top: 15px;
+        width: 200px;
+        height: 200px;
     }
 
-    .time-box {
-        background: transparent;
+    .slider-img {
+        height: 230px;
+        background-position: left 6% center;
     }
 
     a.time-link {
@@ -38,6 +40,7 @@
         background-size: 15px auto;
         max-width: 320px;
         margin: 0 auto 0;
+        background: none;
     }
 
     .fb-feed {

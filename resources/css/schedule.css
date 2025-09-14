@@ -20,7 +20,7 @@ Main Components
 
 -------------------------------- */
 .cd-schedule {
-  background: #282828;
+  background: #192238;
   color: #fff;
   font-size: 12px;
   line-height: 1.4em;
@@ -84,7 +84,7 @@ Main Components
     left: 60px;
     width: calc(100% - 60px);
     height: 1px;
-    background: #525252;
+    background: #6e98af;
   }
 
   .cd-schedule .timeline li:last-of-type::after {
@@ -187,7 +187,7 @@ Main Components
   .cd-schedule .events .events-group {
     width: 14.28571428571429%;
     float: left;
-    border: 1px solid #525252;
+    border: 1px solid #6e98af;
     /* reset style */
     margin-bottom: 0;
   }
@@ -198,7 +198,7 @@ Main Components
     /* vertically center its content */
     display: table;
     height: 56px;
-    border-bottom: 1px solid #525252;
+    border-bottom: 1px solid #6e98af;
     /* reset style */
     padding: 0;
   }
@@ -300,11 +300,11 @@ Main Components
 }
 
 .single-event.bjj {
-  background: #526371;
+  background: #3d6b91;
 }
 
 .single-event.misc {
-  background: #776b6b;
+  background: #756565;
 }
 
 .single-event.bjjAndJujutsu {
